@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/users/show.json?screen_name=turingschool
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1264'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 25 May 2018 19:07:34 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 25 May 2018 19:07:34 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_b
+      Set-Cookie:
+      - guest_id=v1%3A152727525425572251; Expires=Sun, 24 May 2020 19:07:34 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_gQbj8/lf/78TG1wF8YJnHw=="; Expires=Sun, 24 May 2020
+        19:07:34 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - b9a99f141116f135235ee59d40c7db66
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '895'
+      X-Rate-Limit-Reset:
+      - '1527275820'
+      X-Response-Time:
+      - '91'
+      X-Transaction:
+      - 00cf56460004f6c2
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
+        CO","profile_location":null,"description":"We unlock human potential by training
+        a diverse, inclusive student body to succeed in high-fulfillment technical
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2746,"friends_count":588,"listed_count":140,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3889,"lang":"en","status":{"created_at":"Fri
+        May 25 19:06:18 +0000 2018","id":1000090700460019713,"id_str":"1000090700460019713","text":"RT
+        @jwanliu: If you''re interested in learning more about @turingschool, let
+        me know! I''d love to speak with you! https:\/\/t.co\/3JlxsbVgb9","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"jwanliu","name":"Joanne
+        Liu","id":1634819053,"id_str":"1634819053","indices":[3,11]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[57,70]}],"urls":[{"url":"https:\/\/t.co\/3JlxsbVgb9","expanded_url":"https:\/\/twitter.com\/j3\/status\/1000022017117061120","display_url":"twitter.com\/j3\/status\/1000\u2026","indices":[113,136]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        May 25 16:15:32 +0000 2018","id":1000047724987928576,"id_str":"1000047724987928576","text":"If
+        you''re interested in learning more about @turingschool, let me know! I''d
+        love to speak with you! https:\/\/t.co\/3JlxsbVgb9","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[44,57]}],"urls":[{"url":"https:\/\/t.co\/3JlxsbVgb9","expanded_url":"https:\/\/twitter.com\/j3\/status\/1000022017117061120","display_url":"twitter.com\/j3\/status\/1000\u2026","indices":[100,123]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1000022017117061120,"quoted_status_id_str":"1000022017117061120","retweet_count":1,"favorite_count":3,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1000022017117061120,"quoted_status_id_str":"1000022017117061120","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Fri, 25 May 2018 19:07:34 GMT
+recorded_with: VCR 4.0.0
