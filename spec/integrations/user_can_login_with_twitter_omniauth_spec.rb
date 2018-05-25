@@ -8,6 +8,6 @@ context 'User' do
 
     expect(page.status_code).to eq(200)
 
-    expect(current_path).to eq("/#{User.last.username}")
+    expect(current_path).to eq("/dashboard")
   end
 end
