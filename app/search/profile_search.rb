@@ -4,18 +4,22 @@ class ProfileSearch
   end
 
   def profile
-    connection = Faraday.new("https://api.twitter.com/1.1/users/show.json")
-
-    response = connection.get do | req |
-      req.headers["Authorization"] = "Bearer #{ENV["twitter_bearer_token"]}"
-      req.params["screen_name"] = username
-    end
-
-    profile_info = JSON.parse(response.body, symbolize_names: true)
-
+    profile_info = twitter_service(profile_endpoint, profile_params).call_info
     Profile.new(profile_info)
   end
 
   private
     attr_reader :username
+
+    def profile_endpoint
+      "/users/show.json"
+    end
+
+    def profile_params
+      { screen_name: username }
+    end
+
+    def twitter_service(endpoint, params)
+      TwitterService.new(endpoint, params)
+    end
 end
