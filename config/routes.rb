@@ -13,4 +13,6 @@ Rails.application.routes.draw do
   get '/search', to: 'search#show'
 
   get '/:username', to: 'profiles#show'
+
+  get '/:username/personality-profile', to: 'personality_profile#show'
 end

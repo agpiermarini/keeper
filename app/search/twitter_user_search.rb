@@ -4,7 +4,7 @@ class TwitterUserSearch
   end
 
   def profile
-    profile_info = twitter_service(profile_endpoint, profile_params).call_info
+    profile_info = twitter_service(profile_endpoint, profile_params).response
     Profile.new(profile_info)
   end
 
