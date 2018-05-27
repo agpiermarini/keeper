@@ -1,5 +1,10 @@
 class User < ApplicationRecord
   before_save :generate_slug
+  validates :uid,          presence: true, uniqueness: true
+  validates :username,     presence: true
+  validates :avatar_url,   presence: true
+  validates :oauth_token,  presence: true
+  validates :oauth_secret, presence: true
 
   def self.from_omniauth(auth_info)
     find_or_create_by(uid: auth_info[:uid]) do | new_user |
