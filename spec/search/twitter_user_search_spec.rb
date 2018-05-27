@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-describe ProfileSearch do
-  subject { ProfileSearch.new('turingschool') }
+describe TwitterUserSearch do
+  subject { TwitterUserSearch.new('turingschool') }
   it 'initializes when passed a username' do
-    expect(subject).to be_a ProfileSearch
+    expect(subject).to be_a TwitterUserSearch
   end
 
   describe 'instance methods' do
