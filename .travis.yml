@@ -2,6 +2,9 @@ language: ruby
 rvm:
  - 2.4.1
 
+ script:
+   bundle exec rails db:{create,migrate}
+
 env:
   global:
     secure: "soGiIxljMn+FBeP/PTmJSah3Bw2ICjTyHzltT6+8YgQa2NhOi5U7eGMvCP3LJQY+PQNlMyXSyE2893BnvltkiyC6+HjFLL+T1bKPWdwB9RmbUZlfPugLlTmLWmt2SRG5KjzYxL4lcF9sGLhMkLoBsVgbkDv7HOII52slVc+JseIyKJElw1v34X5doRj/XuLQSaHYGwl3BD2vnEQngb5YPZxGNEsdvELANuOFwAJmK8tzXjJJ6iEEn/W5+l8tMAwUfdOY6iV7cT48vPZuT8QTdwuF2iSin0ddhltZy1/jyDvWig97Gz8wUqcEuQwqhChLX/zHYBtN93xLPPygkMgUOnnOgsHTu+XXVYgYK1t+tgFKNkaB0GhCiYnziyr3fuoGDOvbE9I+V3tvVekl/jRJe0KKvxCZs7us7GVR6RxfzEP88yDoQcV02lV2U1Y0aMguZehZ1dXCshkjju9d9qwU7Te4Nx89qyVSiPaA0UBQLqNS0aiwdeNmzz0E2fY99bWRZEkgzhxNBULXgC4MupQNajbyVMH51I7+ve6gl+n9Yz9Gz2wthLHefMxO3NZq+ne89MAIhlJzbGfPGtv28Ci0WHO85FCIhTVyUmKbr94lO5DeFmU/iTgrgqDza15BbNm3e/V1t1siqKCZ3kOxslBBTSCrJNjVCg+zdJ/mfjWftfo="
