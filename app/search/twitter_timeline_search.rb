@@ -7,11 +7,7 @@ class TwitterTimelineSearch
     statuses = twitter_service(timeline_endpoint, params).response
     return tweets if statuses.empty?
     params[:max_id] = statuses.last[:id] - 1
-
-    new_tweets = statuses.map do | status |
-      {date: status[:created_at], text: status[:text]}
-    end
-
+    new_tweets = generate_hash(statuses)
     user_timeline(tweets.append(new_tweets).flatten, params)
   end
 
@@ -34,6 +30,13 @@ class TwitterTimelineSearch
        count: 200
       }
     end
+
+    def generate_hash(statuses)
+      statuses.map do | status |
+        {date: status[:created_at], text: status[:text]}
+      end
+    end
+
 
     def twitter_service(endpoint, params)
       TwitterService.new(endpoint, params)
