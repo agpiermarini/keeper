@@ -11,15 +11,15 @@ describe TwitterService do
   it 'can make an api call to a valid twitter user show endpoint' do
     VCR.use_cassette("twitter-service-user-show") do
       subject = TwitterService.new(profile_endpoint, profile_params)
-      expect(subject.call_info).to have_key(:screen_name)
-      expect(subject.call_info).to have_key(:name)
-      expect(subject.call_info).to have_key(:location)
-      expect(subject.call_info).to have_key(:description)
-      expect(subject.call_info).to have_key(:followers_count)
-      expect(subject.call_info).to have_key(:friends_count)
-      expect(subject.call_info).to have_key(:statuses_count)
-      expect(subject.call_info).to have_key(:status)
-      expect(subject.call_info).to have_key(:profile_image_url)
+      expect(subject.response).to have_key(:screen_name)
+      expect(subject.response).to have_key(:name)
+      expect(subject.response).to have_key(:location)
+      expect(subject.response).to have_key(:description)
+      expect(subject.response).to have_key(:followers_count)
+      expect(subject.response).to have_key(:friends_count)
+      expect(subject.response).to have_key(:statuses_count)
+      expect(subject.response).to have_key(:status)
+      expect(subject.response).to have_key(:profile_image_url)
     end
   end
 end
