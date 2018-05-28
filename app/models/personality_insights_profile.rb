@@ -8,9 +8,8 @@ class PersonalityInsightsProfile
   end
 
   def personality
-    require 'pry'; binding.pry
-    personality_data.map do | characterstic |
-      Dimension.new(characteristic)
+    personality_data.map do | dimension |
+      Dimension.new(dimension)
     end
   end
 
