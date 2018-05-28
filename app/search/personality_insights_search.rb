@@ -1,4 +1,4 @@
-class PersonalityProfileSearch
+class PersonalityInsightsSearch
   def initialize(username, data)
     @username = username
     @data = data
@@ -20,7 +20,8 @@ class PersonalityProfileSearch
     end
 
     info = JSON.parse(response.body, symbolize_names: true)
-    PersonalityProfile.new(info)
+    require 'pry'; binding.pry
+    PersonalityInsightsProfile.new(info)
   end
 
   private

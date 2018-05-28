@@ -1,11 +1,11 @@
 require 'rails_helper'
 
-describe PersonalityProfileSearch do
+describe PersonalityInsightsSearch do
   let(:username) { 'turingschool' }
   let(:data) { "this is a test string " * 25 }
-  subject { PersonalityProfileSearch.new(username, data) }
+  subject { PersonalityInsightsSearch.new(username, data) }
   it 'initializes with username' do
-    expect(subject).to be_a PersonalityProfileSearch
+    expect(subject).to be_a PersonalityInsightsSearch
   end
 
   describe 'instance methods' do
@@ -14,7 +14,7 @@ describe PersonalityProfileSearch do
         it 'returns a personality profile' do
           VCR.turned_off do
             WebMock.allow_net_connect!
-            expect(subject.profile).to be_a PersonalityProfile
+            expect(subject.profile).to be_a PersonalityInsightsProfile
             WebMock.disable_net_connect!
           end
       end
