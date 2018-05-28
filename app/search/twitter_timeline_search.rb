@@ -15,6 +15,10 @@ class TwitterTimelineSearch
     user_timeline(tweets.append(new_tweets).flatten, params)
   end
 
+  def to_string
+    user_timeline.map { | tweet | tweet[:text] }.join(" ")
+  end
+
   private
     attr_reader :username
 
@@ -33,14 +37,5 @@ class TwitterTimelineSearch
 
     def twitter_service(endpoint, params)
       TwitterService.new(endpoint, params)
-    end
-
-    def write_file(text)
-      File.open("db/data/#{generate_file_name}.txt", 'w') { |file| file.write(text) }
-      require 'pry'; binding.pry
-    end
-
-    def generate_file_name
-      @filename ||= "#{username}#{Time.now}"
     end
   end
