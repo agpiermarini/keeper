@@ -27,3 +27,7 @@
 
 # Ignore application configuration
 /config/application.yml
+
+
+#Ignore text data files
+/db/data/*

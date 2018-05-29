@@ -1,0 +1,85 @@
+<main>
+  <section class="user-info section" fill-color="#8F8F8F">
+    <ul class="user">
+      <li class="avatar"> <%= image_tag(@profile.avatar_url, class: "avatar") %> </li>
+      <li class="name">  <%= @profile.name %> </li>
+      <li class="login"> @<%= @profile.username %> </li>
+      <li class="description lightweight-small"> <%= @profile.description %> </li>
+      <% if @profile.location %>
+        <div class="additional-user-info top-border">
+          <% if @profile.location %>
+            <li class="location lightweight-small"> <i class="fas fa-map-marker-alt"></i> </i><%= @profile.location %> </li>
+          <% end %>
+        </div>
+      <% end %>
+    </ul>
+  </section>
+  <section class="profile-right">
+    <div class="user-stats">
+      <div class="counts">
+        <div class="user-stat">
+          <div class="icon">
+            <i class="far fa-comments"></i> Total Tweets Analyzed
+          </div>
+          <div class="stat analysis">
+            <%= number_with_delimiter(@timeline.user_timeline.count, :delimiter => ',') %>
+          </div>
+        </div>
+        <div class="user-stat">
+          <div class="icon">
+            <i class="far fa-calendar-alt"></i> Date of Newest Tweet
+          </div>
+          <div class="stat analysis">
+            <%= @timeline.newest_tweet %>
+          </div>
+        </div>
+        <div class="user-stat">
+          <div class="icon">
+            <i class="far fa-calendar-alt"></i> Date of Oldest Tweet
+          </div>
+          <div class="stat analysis">
+            <%= @timeline.oldest_tweet %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="personality-profile">
+      <div class="profile-header">
+        Personality
+      </div>
+      <% @personality_insights.personality.each do | dimension | %>
+        <div class="trait">
+          <div class="trait-name">
+            <%= dimension.name %>
+          </div>
+          <div class="trait-percentile" percentile="#">
+            <%= dimension.percentile %>
+          </div>
+          <% dimension.facets.each do | facet | %>
+            <div class="facet">
+              <div class="facet-name">
+                <%= facet.name %>
+              </div>
+              <div class="facet-percentile">
+                <%= facet.percentile %>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+      <div class="profile-header">
+        Values
+      </div>
+      <% @personality_insights.values.each do | value | %>
+        <div class="trait">
+          <div class="trait-name">
+            <%= value.name %>
+          </div>
+          <div class="trait-percentile">
+            <%= value.percentile %>
+          </div>
+        </div>
+      <% end %>
+    </section>
+  </section>
+<main>

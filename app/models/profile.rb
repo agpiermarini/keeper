@@ -11,7 +11,7 @@ class Profile
     @following_count   = profile_info[:friends_count]
     @tweet_count       = profile_info[:statuses_count]
     @status            = profile_info[:status]
-    @small_avatar_url = profile_info[:profile_image_url]
+    @small_avatar_url  = profile_info[:profile_image_url]
   end
 
   def last_tweet
