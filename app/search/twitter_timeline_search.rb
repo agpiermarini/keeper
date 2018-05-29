@@ -7,11 +7,11 @@ class TwitterTimelineSearch
     @user_timeline ||= generate_user_timeline
   end
 
-  def newest_tweet_analyzed
+  def newest_tweet
     DateTime.parse(user_timeline.first[:date]).strftime('%B %e, %Y')
   end
 
-  def oldest_tweet_analyzed
+  def oldest_tweet
     DateTime.parse(user_timeline.last[:date]).strftime('%B %e, %Y')
   end
 
