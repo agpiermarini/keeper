@@ -17,7 +17,7 @@ padding-top: 75px;
   &.scrolled {}
 
   a.navbar-brand {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 85px;
     color: white;
 
     img {
@@ -37,7 +37,7 @@ padding-top: 75px;
     justify-content: space-around;
     align-items: center;
     flex-flow: row nowrap;
-    margin-right: 100px;
+    margin-right: 50px;
     width: 250px;
 
     .nav-link {
@@ -87,7 +87,7 @@ main {
   display: flex;
   justify-content: flex-start;
   flex-flow: row nowrap;
-  margin: 100px 100px 0 100px;
+  margin: 100px 25px 0 100px;
 
   .bottom-border {
     border-top: 0px;
@@ -155,53 +155,100 @@ main {
     }
   }
 
-  .user-stats {
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: column nowrap;
-    margin-left: 75px;
-    width: 100%;
+  .profile-right {
+    width: auto;
 
-    .counts {
+    .user-stats {
       display: flex;
-      justify-content: space-around;
-      flex-flow: row nowrap;
-
-      .user-stat {
-        display: flex;
-        justify-content: space-between;
-        flex-flow: column nowrap;
-        border: solid 1px;
-        height: 200px;
-        width: 33%;
-        padding-left: 15px;
-
-        .icon {
-          margin: 25px 0 0 10px;
-          font-size: 25px;
-        }
-        .stat {
-          margin: 0 0 20px 10px;
-          font-size: 75px;
-        }
-      }
-
-    }
-    .last-tweet {
-      border: solid 1px;
-      margin: 20px 0px 0 0px;
-      padding: 10px 0px 20px 20px;
+      justify-content: flex-start;
+      flex-flow: column nowrap;
+      margin-left: 75px;
       width: 100%;
 
-      .icon {
-        margin: 5px 0 10px 10px;
+      .counts {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+
+        .user-stat {
+          display: flex;
+          justify-content: space-between;
+          flex-flow: column nowrap;
+          border: solid 1px;
+          min-height: 150px;
+          width: 33%;
+          padding-left: 15px;
+          margin: 0 0 0 0;
+
+          .icon {
+            margin: 25px 0 0 10px;
+            font-size: 20px;
+          }
+          .stat {
+            margin: 0 0 20px 10px;
+            font-size: 65px;
+          }
+          .analysis {
+            margin: 0 0 20px 10px;
+            font-size: 40px;
+          }
+        }
+      }
+      .last-tweet {
+        border: solid 1px;
+        margin: 20px 1px 0 2px;
+        padding: 10px 0 20px 20px;
+
+        .icon {
+          margin: 5px 0 10px 10px;
+          font-size: 25px;
+        }
+
+        .tweet-text {
+          margin: 0 0 0 0px;
+          padding: 0 0 0 10px;
+          font-size: 25px;
+        }
+      }
+    }
+    .personality-profile {
+      display: flex;
+      flex-flow: column nowrap;
+      margin: 0 0 0 75px;
+      padding: 10px 0 20px 0;
+      width: 100%;
+
+      .profile-header {
+        margin-top: 20px;
         font-size: 25px;
+        font-weight: bold;
       }
 
-      .tweet-text {
-        margin: 0 0 0 0px;
-        padding: 0 0 0 10px;
-        font-size: 25px;
+      .trait {
+        border: solid 1px;
+        margin: 10px 0 0 0;
+
+        .trait-name {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 0 0 5px;
+        }
+        .trait-percentile {
+        font-size: 20px;
+        padding: 0 0 0 5px;
+        }
+
+        .facet {
+          .facet-name {
+            font-size: 20px;
+            margin: 5px 0 0 0;
+            padding: 0 0 0 10px;
+          }
+          .facet-percentile {
+            font-size: 20px;
+            padding: 0 0 0 10px;
+          }
+        }
       }
     }
   }

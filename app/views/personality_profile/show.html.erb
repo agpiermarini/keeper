@@ -15,30 +15,71 @@
     </ul>
   </section>
   <section class="profile-right">
-  <section class="personality-profile">
-    <div class="user-stat">
-      <div class="icon">
-        <i class="far fa-comments"></i> Total Tweets Analyzed
-      </div>
-      <div class="stat">
-        <%= number_with_delimiter(@timeline.user_timeline.count, :delimiter => ',') %>
+    <div class="user-stats">
+      <div class="counts">
+        <div class="user-stat">
+          <div class="icon">
+            <i class="far fa-comments"></i> Total Tweets Analyzed
+          </div>
+          <div class="stat analysis">
+            <%= number_with_delimiter(@timeline.user_timeline.count, :delimiter => ',') %>
+          </div>
+        </div>
+        <div class="user-stat">
+          <div class="icon">
+            <i class="far fa-calendar-alt"></i> Date of Newest Tweet
+          </div>
+          <div class="stat analysis">
+            <%= @timeline.newest_tweet %>
+          </div>
+        </div>
+        <div class="user-stat">
+          <div class="icon">
+            <i class="far fa-calendar-alt"></i> Date of Oldest Tweet
+          </div>
+          <div class="stat analysis">
+            <%= @timeline.oldest_tweet %>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="user-stat">
-      <div class="icon">
-        <i class="far fa-comments"></i> Date of Newest
+    <section class="personality-profile">
+      <div class="profile-header">
+        Personality
       </div>
-      <div class="stat">
-        <%= @timeline.newest_tweet %>
+      <% @personality_insights.personality.each do | dimension | %>
+        <div class="trait">
+          <div class="trait-name">
+            <%= dimension.name %>
+          </div>
+          <div class="trait-percentile" percentile="#">
+            <%= dimension.percentile %>
+          </div>
+          <% dimension.facets.each do | facet | %>
+            <div class="facet">
+              <div class="facet-name">
+                <%= facet.name %>
+              </div>
+              <div class="facet-percentile">
+                <%= facet.percentile %>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+      <div class="profile-header">
+        Values
       </div>
-    </div>
-    <div class="user-stat">
-      <div class="icon">
-        <i class="far fa-comments"></i> Date of Oldest
-      </div>
-      <div class="stat">
-        <%= @timeline.oldest_tweet %>
-      </div>
-    </div>
+      <% @personality_insights.values.each do | value | %>
+        <div class="trait">
+          <div class="trait-name">
+            <%= value.name %>
+          </div>
+          <div class="trait-percentile">
+            <%= value.percentile %>
+          </div>
+        </div>
+      <% end %>
+    </section>
   </section>
 <main>
