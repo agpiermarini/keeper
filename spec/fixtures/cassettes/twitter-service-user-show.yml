@@ -25,24 +25,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1617'
+      - '1618'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 27 May 2018 21:27:50 GMT
+      - Mon, 28 May 2018 04:48:09 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 27 May 2018 21:27:50 GMT
+      - Mon, 28 May 2018 04:48:09 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152745647041037777; Expires=Tue, 26 May 2020 21:27:50 GMT; Path=/;
+      - guest_id=v1%3A152748288899313413; Expires=Wed, 27 May 2020 04:48:09 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_xkyhorSDlPkk01Jh819TQQ=="; Expires=Tue, 26 May 2020
-        21:27:50 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_ROQy+G2l2HtCGXhuFhBAVA=="; Expires=Wed, 27 May 2020
+        04:48:09 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -50,7 +50,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 5e7479c3b87c6bf3deb3e9d6ce506967
+      - 9261bdf22a2f80feca70f64a61483884
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -58,13 +58,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '863'
+      - '889'
       X-Rate-Limit-Reset:
-      - '1527457229'
+      - '1527483786'
       X-Response-Time:
-      - '32'
+      - '30'
       X-Transaction:
-      - 006b8f2e00c4a75e
+      - '009a7b3300124b4a'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -74,7 +74,7 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2747,"friends_count":587,"listed_count":140,"created_at":"Sat
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2748,"friends_count":587,"listed_count":140,"created_at":"Sat
         Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
         May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
         @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
@@ -90,7 +90,7 @@ http_interactions:
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 21:27:50 GMT
+  recorded_at: Mon, 28 May 2018 04:48:09 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
@@ -116,24 +116,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1617'
+      - '1618'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 27 May 2018 21:27:50 GMT
+      - Mon, 28 May 2018 04:48:09 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 27 May 2018 21:27:50 GMT
+      - Mon, 28 May 2018 04:48:09 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152745647062977000; Expires=Tue, 26 May 2020 21:27:50 GMT; Path=/;
+      - guest_id=v1%3A152748288921005959; Expires=Wed, 27 May 2020 04:48:09 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_TLIijNx5ZOzzXTU5wQfiSw=="; Expires=Tue, 26 May 2020
-        21:27:50 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_HIEv/zZuNnt01Lz5pFq2gg=="; Expires=Wed, 27 May 2020
+        04:48:09 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -141,7 +141,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - b4c8b5d8f23643a431c6c1b5185949ce
+      - 4cd50c5f2ba42eb711df46e553901f7d
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -149,286 +149,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '862'
+      - '888'
       X-Rate-Limit-Reset:
-      - '1527457229'
-      X-Response-Time:
-      - '28'
-      X-Transaction:
-      - '0028b57f00f70e87'
-      X-Twitter-Response-Tags:
-      - BouncerCompliant
-      X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
-        CO","profile_location":null,"description":"We unlock human potential by training
-        a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2747,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
-        May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
-        @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
-        and #backend apps? https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[73,82]},{"text":"backend","indices":[87,95]}],"symbols":[],"user_mentions":[{"screen_name":"jwanliu","name":"Joanne
-        Liu","id":1634819053,"id_str":"1634819053","indices":[3,11]},{"screen_name":"turingschool","name":"Turing
-        School","id":1973042528,"id_str":"1973042528","indices":[13,26]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
-        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
-        May 25 19:38:48 +0000 2018","id":1000098879302455297,"id_str":"1000098879302455297","text":"@turingschool
-        Code Fair is well under way! Who has the best #frontend and #backend apps?
-        https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[60,69]},{"text":"backend","indices":[74,82]}],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
-        School","id":1973042528,"id_str":"1973042528","indices":[0,13]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}}},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
-        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
-    http_version: 
-  recorded_at: Sun, 27 May 2018 21:27:50 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      Authorization:
-      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Disposition:
-      - attachment; filename=json.json
-      Content-Length:
-      - '1617'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Sun, 27 May 2018 21:27:50 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Sun, 27 May 2018 21:27:50 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - tsa_a
-      Set-Cookie:
-      - guest_id=v1%3A152745647083305250; Expires=Tue, 26 May 2020 21:27:50 GMT; Path=/;
-        Domain=.twitter.com
-      - personalization_id="v1_iSw4uevUgYlbnm7Ur/5zyA=="; Expires=Tue, 26 May 2020
-        21:27:50 GMT; Path=/; Domain=.twitter.com
-      Status:
-      - 200 OK
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Access-Level:
-      - read
-      X-Connection-Hash:
-      - e6c6d47b48b9020a7b078a635c1b67f5
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Rate-Limit-Limit:
-      - '900'
-      X-Rate-Limit-Remaining:
-      - '861'
-      X-Rate-Limit-Reset:
-      - '1527457229'
-      X-Response-Time:
-      - '27'
-      X-Transaction:
-      - 00bf954c005bdcfa
-      X-Twitter-Response-Tags:
-      - BouncerCompliant
-      X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
-        CO","profile_location":null,"description":"We unlock human potential by training
-        a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2747,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
-        May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
-        @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
-        and #backend apps? https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[73,82]},{"text":"backend","indices":[87,95]}],"symbols":[],"user_mentions":[{"screen_name":"jwanliu","name":"Joanne
-        Liu","id":1634819053,"id_str":"1634819053","indices":[3,11]},{"screen_name":"turingschool","name":"Turing
-        School","id":1973042528,"id_str":"1973042528","indices":[13,26]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
-        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
-        May 25 19:38:48 +0000 2018","id":1000098879302455297,"id_str":"1000098879302455297","text":"@turingschool
-        Code Fair is well under way! Who has the best #frontend and #backend apps?
-        https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[60,69]},{"text":"backend","indices":[74,82]}],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
-        School","id":1973042528,"id_str":"1973042528","indices":[0,13]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}}},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
-        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
-    http_version: 
-  recorded_at: Sun, 27 May 2018 21:27:50 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      Authorization:
-      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Disposition:
-      - attachment; filename=json.json
-      Content-Length:
-      - '1617'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Sun, 27 May 2018 21:27:51 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Sun, 27 May 2018 21:27:51 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - tsa_a
-      Set-Cookie:
-      - guest_id=v1%3A152745647105237683; Expires=Tue, 26 May 2020 21:27:51 GMT; Path=/;
-        Domain=.twitter.com
-      - personalization_id="v1_GGS2zrUR+/NoJRDKksOk8w=="; Expires=Tue, 26 May 2020
-        21:27:51 GMT; Path=/; Domain=.twitter.com
-      Status:
-      - 200 OK
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Access-Level:
-      - read
-      X-Connection-Hash:
-      - 8908a2ae1db828b889e43cc0a3d08e14
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Rate-Limit-Limit:
-      - '900'
-      X-Rate-Limit-Remaining:
-      - '860'
-      X-Rate-Limit-Reset:
-      - '1527457229'
-      X-Response-Time:
-      - '31'
-      X-Transaction:
-      - '0086546f00a3283c'
-      X-Twitter-Response-Tags:
-      - BouncerCompliant
-      X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
-        CO","profile_location":null,"description":"We unlock human potential by training
-        a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2747,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
-        May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
-        @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
-        and #backend apps? https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[73,82]},{"text":"backend","indices":[87,95]}],"symbols":[],"user_mentions":[{"screen_name":"jwanliu","name":"Joanne
-        Liu","id":1634819053,"id_str":"1634819053","indices":[3,11]},{"screen_name":"turingschool","name":"Turing
-        School","id":1973042528,"id_str":"1973042528","indices":[13,26]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
-        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
-        May 25 19:38:48 +0000 2018","id":1000098879302455297,"id_str":"1000098879302455297","text":"@turingschool
-        Code Fair is well under way! Who has the best #frontend and #backend apps?
-        https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[60,69]},{"text":"backend","indices":[74,82]}],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
-        School","id":1973042528,"id_str":"1973042528","indices":[0,13]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}}},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
-        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
-    http_version: 
-  recorded_at: Sun, 27 May 2018 21:27:51 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      Authorization:
-      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Disposition:
-      - attachment; filename=json.json
-      Content-Length:
-      - '1617'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Sun, 27 May 2018 21:27:51 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Sun, 27 May 2018 21:27:51 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - tsa_a
-      Set-Cookie:
-      - guest_id=v1%3A152745647126485558; Expires=Tue, 26 May 2020 21:27:51 GMT; Path=/;
-        Domain=.twitter.com
-      - personalization_id="v1_vn1k0DTSIMZ5diS+lkeduA=="; Expires=Tue, 26 May 2020
-        21:27:51 GMT; Path=/; Domain=.twitter.com
-      Status:
-      - 200 OK
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Access-Level:
-      - read
-      X-Connection-Hash:
-      - 243cde2b0a3d6b405b5417ecb271f854
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Rate-Limit-Limit:
-      - '900'
-      X-Rate-Limit-Remaining:
-      - '859'
-      X-Rate-Limit-Reset:
-      - '1527457229'
+      - '1527483786'
       X-Response-Time:
       - '26'
       X-Transaction:
-      - '00907a9000ba9919'
+      - 0051e266008c4c6e
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -438,7 +165,7 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2747,"friends_count":587,"listed_count":140,"created_at":"Sat
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2748,"friends_count":587,"listed_count":140,"created_at":"Sat
         Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
         May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
         @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
@@ -454,7 +181,7 @@ http_interactions:
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 21:27:51 GMT
+  recorded_at: Mon, 28 May 2018 04:48:09 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
@@ -480,24 +207,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1617'
+      - '1618'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 27 May 2018 21:27:51 GMT
+      - Mon, 28 May 2018 04:48:09 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 27 May 2018 21:27:51 GMT
+      - Mon, 28 May 2018 04:48:09 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152745647147471720; Expires=Tue, 26 May 2020 21:27:51 GMT; Path=/;
+      - guest_id=v1%3A152748288942237901; Expires=Wed, 27 May 2020 04:48:09 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_n4mFQQpEj4Zu+Fmf52EROw=="; Expires=Tue, 26 May 2020
-        21:27:51 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_c1pO5Kj++7IiFsBm6uE8pg=="; Expires=Wed, 27 May 2020
+        04:48:09 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -505,7 +232,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - c53228a4ce47e814f18d921f1a72f474
+      - 55a9a2de3fecb3cba3bd0f2276e24009
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -513,13 +240,286 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '858'
+      - '887'
       X-Rate-Limit-Reset:
-      - '1527457229'
+      - '1527483786'
+      X-Response-Time:
+      - '35'
+      X-Transaction:
+      - 00a0bf0c00152e91
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
+        CO","profile_location":null,"description":"We unlock human potential by training
+        a diverse, inclusive student body to succeed in high-fulfillment technical
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2748,"friends_count":587,"listed_count":140,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
+        May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
+        @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
+        and #backend apps? https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[73,82]},{"text":"backend","indices":[87,95]}],"symbols":[],"user_mentions":[{"screen_name":"jwanliu","name":"Joanne
+        Liu","id":1634819053,"id_str":"1634819053","indices":[3,11]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[13,26]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        May 25 19:38:48 +0000 2018","id":1000098879302455297,"id_str":"1000098879302455297","text":"@turingschool
+        Code Fair is well under way! Who has the best #frontend and #backend apps?
+        https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[60,69]},{"text":"backend","indices":[74,82]}],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[0,13]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}}},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Mon, 28 May 2018 04:48:09 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1618'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 28 May 2018 04:48:09 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Mon, 28 May 2018 04:48:09 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152748288964215705; Expires=Wed, 27 May 2020 04:48:09 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_ZO035dRKu18abc8uW3PGDQ=="; Expires=Wed, 27 May 2020
+        04:48:09 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 50291c12433aeab802ff95d484e2a363
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '886'
+      X-Rate-Limit-Reset:
+      - '1527483786'
+      X-Response-Time:
+      - '30'
+      X-Transaction:
+      - 00e714b300a3e18a
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
+        CO","profile_location":null,"description":"We unlock human potential by training
+        a diverse, inclusive student body to succeed in high-fulfillment technical
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2748,"friends_count":587,"listed_count":140,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
+        May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
+        @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
+        and #backend apps? https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[73,82]},{"text":"backend","indices":[87,95]}],"symbols":[],"user_mentions":[{"screen_name":"jwanliu","name":"Joanne
+        Liu","id":1634819053,"id_str":"1634819053","indices":[3,11]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[13,26]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        May 25 19:38:48 +0000 2018","id":1000098879302455297,"id_str":"1000098879302455297","text":"@turingschool
+        Code Fair is well under way! Who has the best #frontend and #backend apps?
+        https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[60,69]},{"text":"backend","indices":[74,82]}],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[0,13]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}}},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Mon, 28 May 2018 04:48:09 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1618'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 28 May 2018 04:48:09 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Mon, 28 May 2018 04:48:09 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152748288985680818; Expires=Wed, 27 May 2020 04:48:09 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_Tr9cvxfCJGwQICVxwnLwtg=="; Expires=Wed, 27 May 2020
+        04:48:09 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - '09466c54bbe4ce14ec6f2e706a0bfc56'
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '885'
+      X-Rate-Limit-Reset:
+      - '1527483786'
+      X-Response-Time:
+      - '27'
+      X-Transaction:
+      - 00cc78dd007fc9a9
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
+        CO","profile_location":null,"description":"We unlock human potential by training
+        a diverse, inclusive student body to succeed in high-fulfillment technical
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2748,"friends_count":587,"listed_count":140,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
+        May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
+        @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
+        and #backend apps? https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[73,82]},{"text":"backend","indices":[87,95]}],"symbols":[],"user_mentions":[{"screen_name":"jwanliu","name":"Joanne
+        Liu","id":1634819053,"id_str":"1634819053","indices":[3,11]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[13,26]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[102,125],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}},"source_status_id":1000098879302455297,"source_status_id_str":"1000098879302455297","source_user_id":1634819053,"source_user_id_str":"1634819053"}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        May 25 19:38:48 +0000 2018","id":1000098879302455297,"id_str":"1000098879302455297","text":"@turingschool
+        Code Fair is well under way! Who has the best #frontend and #backend apps?
+        https:\/\/t.co\/5hojUQcuFS","truncated":false,"entities":{"hashtags":[{"text":"frontend","indices":[60,69]},{"text":"backend","indices":[74,82]}],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[0,13]}],"urls":[],"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":1000098868598423553,"id_str":"1000098868598423553","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sUQAEIY1d.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"large":{"w":2048,"h":1536,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}},{"id":1000098868602650624,"id_str":"1000098868602650624","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0tUwAAutGS.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"medium":{"w":1200,"h":900,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":510,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}}},{"id":1000098868598460416,"id_str":"1000098868598460416","indices":[89,112],"media_url":"http:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DeEQn0sU0AAErga.jpg","url":"https:\/\/t.co\/5hojUQcuFS","display_url":"pic.twitter.com\/5hojUQcuFS","expanded_url":"https:\/\/twitter.com\/jwanliu\/status\/1000098879302455297\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"}}}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Mon, 28 May 2018 04:48:09 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1618'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 28 May 2018 04:48:10 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Mon, 28 May 2018 04:48:10 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152748289006588955; Expires=Wed, 27 May 2020 04:48:10 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_qtohMZAS2KdblgtRl1HnzQ=="; Expires=Wed, 27 May 2020
+        04:48:10 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 66c45f82870acd6408138fb16591e28c
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '884'
+      X-Rate-Limit-Reset:
+      - '1527483786'
       X-Response-Time:
       - '31'
       X-Transaction:
-      - 0035dfc100dbb207
+      - 00d6aec300a981de
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -529,7 +529,7 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2747,"friends_count":587,"listed_count":140,"created_at":"Sat
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2748,"friends_count":587,"listed_count":140,"created_at":"Sat
         Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
         May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
         @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
@@ -545,7 +545,7 @@ http_interactions:
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 21:27:51 GMT
+  recorded_at: Mon, 28 May 2018 04:48:10 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
@@ -571,24 +571,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1617'
+      - '1618'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 27 May 2018 21:27:51 GMT
+      - Mon, 28 May 2018 04:48:10 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 27 May 2018 21:27:51 GMT
+      - Mon, 28 May 2018 04:48:10 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152745647168525726; Expires=Tue, 26 May 2020 21:27:51 GMT; Path=/;
+      - guest_id=v1%3A152748289027976059; Expires=Wed, 27 May 2020 04:48:10 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_doLwKiEWUJi9en+Q+cnvtA=="; Expires=Tue, 26 May 2020
-        21:27:51 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_8QUEOwY15azRBK0D/xgcsA=="; Expires=Wed, 27 May 2020
+        04:48:10 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -596,7 +596,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 548ff00a917c18eaf50c799f0776b03f
+      - 3076890d439d9f73519ddf4e783b4442
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -604,13 +604,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '857'
+      - '883'
       X-Rate-Limit-Reset:
-      - '1527457229'
+      - '1527483786'
       X-Response-Time:
-      - '24'
+      - '27'
       X-Transaction:
-      - 00b0ac9a00aed089
+      - 00c0a23b00ecb547
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -620,7 +620,7 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2747,"friends_count":587,"listed_count":140,"created_at":"Sat
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2748,"friends_count":587,"listed_count":140,"created_at":"Sat
         Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
         May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
         @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
@@ -636,7 +636,7 @@ http_interactions:
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 21:27:51 GMT
+  recorded_at: Mon, 28 May 2018 04:48:10 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
@@ -662,24 +662,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1617'
+      - '1618'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 27 May 2018 21:27:51 GMT
+      - Mon, 28 May 2018 04:48:10 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 27 May 2018 21:27:51 GMT
+      - Mon, 28 May 2018 04:48:10 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152745647189003986; Expires=Tue, 26 May 2020 21:27:51 GMT; Path=/;
+      - guest_id=v1%3A152748289051196822; Expires=Wed, 27 May 2020 04:48:10 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_hBFo9C3R5nhD8V+yNnCFIw=="; Expires=Tue, 26 May 2020
-        21:27:51 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_NbuB6ZN9BNhaZKuZM17beg=="; Expires=Wed, 27 May 2020
+        04:48:10 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -687,7 +687,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 7b2779567314ab05d028c933e0a29599
+      - f042369eba28c6aabaa2c1ec9ee78eb5
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -695,13 +695,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '856'
+      - '882'
       X-Rate-Limit-Reset:
-      - '1527457229'
+      - '1527483786'
       X-Response-Time:
-      - '22'
+      - '29'
       X-Transaction:
-      - 00aefb6300233eaf
+      - '0069a35d005b989d'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -711,7 +711,7 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2747,"friends_count":587,"listed_count":140,"created_at":"Sat
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2748,"friends_count":587,"listed_count":140,"created_at":"Sat
         Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
         May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
         @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
@@ -727,7 +727,7 @@ http_interactions:
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 21:27:51 GMT
+  recorded_at: Mon, 28 May 2018 04:48:10 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
@@ -753,24 +753,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1617'
+      - '1618'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sun, 27 May 2018 21:27:52 GMT
+      - Mon, 28 May 2018 04:48:10 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sun, 27 May 2018 21:27:52 GMT
+      - Mon, 28 May 2018 04:48:10 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152745647209541615; Expires=Tue, 26 May 2020 21:27:52 GMT; Path=/;
+      - guest_id=v1%3A152748289072395083; Expires=Wed, 27 May 2020 04:48:10 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_PI63EcMgr0l1/+XW9bsetA=="; Expires=Tue, 26 May 2020
-        21:27:52 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_kJ4I9uZtf38vzfXtvE/rHw=="; Expires=Wed, 27 May 2020
+        04:48:10 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -778,7 +778,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - d23e2695191ba50effb4902db7cda7ea
+      - e0cd244135e07b93e1737b318b135342
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -786,13 +786,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '855'
+      - '881'
       X-Rate-Limit-Reset:
-      - '1527457229'
+      - '1527483786'
       X-Response-Time:
       - '31'
       X-Transaction:
-      - '008f4c1700686867'
+      - '0087240c00cb165b'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -802,7 +802,7 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2747,"friends_count":587,"listed_count":140,"created_at":"Sat
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2748,"friends_count":587,"listed_count":140,"created_at":"Sat
         Oct 19 22:33:01 +0000 2013","favourites_count":2640,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3891,"lang":"en","status":{"created_at":"Fri
         May 25 20:56:39 +0000 2018","id":1000118470254657537,"id_str":"1000118470254657537","text":"RT
         @jwanliu: @turingschool Code Fair is well under way! Who has the best #frontend
@@ -818,5 +818,5 @@ http_interactions:
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1973042528,"in_reply_to_user_id_str":"1973042528","in_reply_to_screen_name":"turingschool","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":4,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 21:27:52 GMT
+  recorded_at: Mon, 28 May 2018 04:48:10 GMT
 recorded_with: VCR 4.0.0

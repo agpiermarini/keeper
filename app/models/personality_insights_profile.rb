@@ -13,6 +13,12 @@ class PersonalityInsightsProfile
     end
   end
 
+  def values
+    values_data.map do | value |
+      Value.new(value)
+    end
+  end
+
   private
     attr_reader :personality_data, :values_data
 end

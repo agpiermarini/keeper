@@ -17,6 +17,7 @@ describe TwitterTimelineSearch do
         end
       end
     end
+    
     describe '#to_string' do
       it 'returns an single string of tweets from user timeline' do
         VCR.use_cassette("twitter-timeline-search-to-string") do

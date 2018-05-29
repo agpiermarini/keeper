@@ -16,10 +16,12 @@ class PersonalityInsightsSearch
       req.headers["Authorization"]
       req.headers["Content-Type"]  = "text/plain;charset=utf-8"
       req.headers["Accept"]        = "application/json"
-      req.body                     = Faraday::UploadIO.new("./db/data/#{generate_file}.txt", 'plain/text')
+      req.body                     = data
+      # req.body                     = Faraday::UploadIO.new("./db/data/#{generate_file}.txt", 'plain/text')
     end
 
     info = JSON.parse(response.body, symbolize_names: true)
+
     PersonalityInsightsProfile.new(info)
   end
 

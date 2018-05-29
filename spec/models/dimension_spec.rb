@@ -13,7 +13,15 @@ describe Dimension do
     describe '#facets' do
       it 'returns an array of facets of the dimension' do
         expect(subject.facets).to be_an Array
+        expect(subject.facets.count).to eq(6)
+
         expect(subject.facets.first).to be_a Facet
+        expect(subject.facets.first.name).to eq("Adventurousness")
+        expect(subject.facets.first.percentile).to eq(0.364916201669199)
+
+        expect(subject.facets.last).to be_a Facet
+        expect(subject.facets.last.name).to eq("Authority-challenging")
+        expect(subject.facets.last.percentile).to eq(0.832943674792473)
       end
     end
   end

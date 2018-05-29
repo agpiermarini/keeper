@@ -10,13 +10,12 @@ describe PersonalityInsightsSearch do
 
   describe 'instance methods' do
     describe '#profile' do
-      # VCR.use_cassette("watson-personality-profile") do
-        it 'returns a personality profile' do
-          VCR.turned_off do
-            WebMock.allow_net_connect!
-            expect(subject.profile).to be_a PersonalityInsightsProfile
-            WebMock.disable_net_connect!
-          end
+      it 'returns a personality profile' do
+        VCR.use_cassette("watson-personality-profile") do
+          expect(subject.profile).to be_a PersonalityInsightsProfile
+          expect(subject.profile.word_count).to eq(125)
+          expect(subject.profile.word_count_message).to include("We need a minimum of 600")
+        end
       end
     end
   end
