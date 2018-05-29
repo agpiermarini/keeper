@@ -58,23 +58,23 @@ http_interactions:
       Server:
       - "-"
       X-Dp-Transit-Id:
-      - gateway01-1159412881
+      - gateway01-1666894805
       X-Global-Transaction-Id:
-      - 7ecac92c5b0b8a73451b3c91
+      - 7ecac92c5b0cdae1635acbd5
       Strict-Transport-Security:
       - max-age=31536000;
       X-Dp-Watson-Tran-Id:
-      - gateway01-1159412881
+      - gateway01-1666894805
       Vary:
       - Accept-Encoding
       Date:
-      - Mon, 28 May 2018 04:49:56 GMT
+      - Tue, 29 May 2018 04:45:22 GMT
       Content-Length:
       - '7222'
       Connection:
       - keep-alive
       Set-Cookie:
-      - Watson-DPAT=KsEhJT56LGbFvZz8mH97pzFGeq5uPGWsO1hG0fLS4UAlxqhGrjfjJLM84jdGKtlQqQTlJ1S017PbaotRCk4uiV9%2BclWQuOOO1r672W7zO%2Fbo7RQzUAqWDqgF7DzLTGjZYiRJJKON5F1VexMCUiP%2F3zZ7IorWQM8U064%2BWaVOO%2BsCCXQovuJtbO%2F%2BUQsfqbsx8tHBYxXh4uJWo8ckou4uMLXPMg42ybyL37yYsNIEKwYGkEE3shgcZuhLwLihbvErdXJ6xqu4mQLJmU9FIPyEZvaR2FYdV1Sg%2BXIF%2BXPF0wRJL8pXxpyoHZh4MIJzLSW3ABAMifTxgd1vmyvr74lINRu3ob3u%2BiZtrfze8aKS4KJJpYzXqrBzbTuHklrtTUYDzJ2GRSXNx9VNWs0a7grELa6BruSmjIPuntKuzjDGbgJoFPzCZCTd5ZaMEFgzalwYWj3DPdibGKDV0WR8S3rREG6pXqwrceB5NHYUNlcqFy4u3h13tlD9W198I4Rh4b9Y8k4h1ImwvyC9Z3DnSYRmwI845UDpTaMYcFAbLAZM5HXtO56251GgK5ZJ61YKJ6DEqpt%2BWnK7ChCnfmFDwpcK6T9%2Bmcy9eWD2moRmxZnkTlbkB2cvwb2FaIIg1PPohoW6NkInFJvULLvA9b8MGG%2Fk8Pd8lNaJkSoczZznHMqH2mokYQnyJymDs9IKfw0QZj2lKS4T0vuTXrPcgtAg%2B3Tll68kjMDw7dCjZmJDOadsq7YhH3ihyE%2BSrvUYx8oOfLfBt7CPv9DOqz2wIG1hXgIXamQN%2Fl5%2F5qGumlld7zHX6jAUqpcLGjYFiTQ%2F9dwY6HvHjrMocHEDQ9qKQHyqHtqIKX6%2BGNnXpecqt6V%2BuXm8Gv2NBPgPQBUh00xGJTPNDO%2Fy6ffjx4C74%2FFCQUEwdNg7P4qBb4WKwGd4OFLKosQEOEto0sHzE0NHcynrztObzL%2FRbP0j4dqSRxR%2BiPwAkIf%2Bpw%3D%3D;
+      - Watson-DPAT=3acZOqquMSo%2BCuGflDdhleq4f6G9CAQYDoWYZeSyS3MHUMzAQRoqGC1pBNLEzhPI7dY5iYsMZ3h9j5X88rL3SZcea%2FaInTXc1gVGZs744z6UHNRG4NBnOmT%2B2tLnthRYJImcl5Ysr1ckEVIbwH%2F0mL6iddjxQ2IATWxunHcQFnBvrHF%2FvoKwMZTBOUidXVK2vYqTFNsZsVaxL0YqfGTkaoQBA73SPgexDQbYMN%2BppH82aErAf6oMepOMywebOXXFCA7LmUVwJGjlmNkfjPnQQ2EL2wItLQcha%2FypjWbpEhJjuvoWRgx%2FWffL2rYiasuwrML86Gth01YcG4mGJKKqGuzwoDQjF5d%2Balh%2FsStl9idfpnqJaM1sUmvXtN7jnO4EbziAirDgWuQRLHecVHCwcTjOKgTXGavbptb33YHW8buiToMhZcRknmOPgsIa5JmMKO42pbFzRjhOLZdFktGsgYCug1Y%2BJd8mUrt9Dalh6LCIwxCZD32Bjj%2FWQ9BXfNZ0roBOsZkHbVLv%2F8r%2BQ9Ggm7Ze9SahWp1191cbTDlBEvXD13l22ROASKM61%2Bz9ZIoJESIIHwP2HC%2Fw%2FGpaihRgCoJ%2FIdiA7HyuSbyzaP%2FtWoxFuJi3IkA9cEuwdbP3mgHw1eCtoUMfF7wkcTzwqWNptpwym6MXWa34N1rALqyqL%2Fc87b%2FG%2Ftz3xQPba%2FcM074Dbo2xXS2URQ6aQdB0BVwmgilwiT5Ib31PLySCqtmGVjW746nDyTfp%2FjVOUVrwybaz0uFXLIRvjL4HKOKXOzI7AgJ8xzFG%2B3laZ72bqvGFsOH%2FV3mmrQJwRZzZpJm7yJlbflORjXwDXCS8CEPOsoQPNuR%2FM0B2wPZ%2B5yJaJShStyG4RsQ77ioBG78xctkKVHdIlnMJWd7TRkYCesDrIQ1sc7FUk%2FF5D9tdu7c8DCJRnrcyc5XNUMUlRbGzYuCJo1S2PMxxFxdHlBW35ZXNTWh1Og%3D%3D;
         path=/personality-insights/api; secure; HttpOnly
     body:
       encoding: UTF-8
@@ -91,7 +91,7 @@ http_interactions:
         were 125 words in the input. We need a minimum of 600, preferably 1,200 or
         more, to compute statistically significant estimates"}]}'
     http_version: 
-  recorded_at: Mon, 28 May 2018 04:49:57 GMT
+  recorded_at: Tue, 29 May 2018 04:45:22 GMT
 - request:
     method: post
     uri: https://gateway.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13
@@ -150,23 +150,23 @@ http_interactions:
       Server:
       - "-"
       X-Dp-Transit-Id:
-      - gateway01-1544203893
+      - gateway01-844320279
       X-Global-Transaction-Id:
-      - 7ecac92c5b0b8a755c0aae75
+      - 7ecac92c5b0cdae232534e17
       Strict-Transport-Security:
       - max-age=31536000;
       X-Dp-Watson-Tran-Id:
-      - gateway01-1544203893
+      - gateway01-844320279
       Vary:
       - Accept-Encoding
       Date:
-      - Mon, 28 May 2018 04:49:57 GMT
+      - Tue, 29 May 2018 04:45:23 GMT
       Content-Length:
       - '7222'
       Connection:
       - keep-alive
       Set-Cookie:
-      - Watson-DPAT=q5XBKtDO0nVXkrvt1MNPwQpTb%2F9iENeNgitdG4zJUuKkTuOATwPbfHkeVa8vPM%2FR%2BrLfSGc1SIesKq7MN3vWbu5nzxVtgfHJk4FYeGFru2GrnJjWIDke4Zw7x0v0g6%2FWGkSI25ZvCblgZy8XwPuYqqDkP19s0vbKAtOvmDplokDOW9d%2BipbmmQErMYi%2BzbSVmF7mfrShbGB5xLSkZbcSYcTb1h32tG6%2BoCTwp2djwjc8Uaqbr941wM%2FWeeu6JeyMDI9nXzyXJf8GV3Kcr%2B%2BUYaYJYh3iWXLwONyjoZeqZe8OrDByya0ZMGPNtFI%2FTDo1g0qwezbERHqrV8je88yIF9TVPxRav4rjhEaRTrU8XRtK2qUXZe3LANtMlkvY3cv9BSXxqP0uXSBBiWRxlEyIW7F%2FYY0YdMb5uv0curNR5HiefXf5HUA8TC41lTz2kvhrwbI9o0uUKpvWWQEF60yhYlWAQa3I%2BMFzR7mtMWKCE3MF3%2FS4%2BLEJHr94%2Fa0PkO2FmZIaTrx6Vj3EDLN%2Bk8ZGWGRCxtFgNh14WyyktuCLfobMtHgbuXHkanXjarPIlCW3qIstlRATWlYF6G%2BBV9VGe4Oy4argfeFVaBSLK4%2BsJGpGRgYzTlO8Jonau2%2F5Au1tyDQT%2FlG%2B2%2FvCsbhVHmJ62lCVMbRw1%2FelzyrDGdOAgkWGwiYNi9C2GqXzss9Er3CSW4fGmOzE948JDVlOUB%2BYOXrnBeJVQU46rSqqfOdnorVShMkyOuyC0OzCSfQ3l7QiexJ65VDYAoNuqvV3iWVcAZ9vuUFXniXiANUBsdXs31Kr18mgUEqmyQsSPEKZvkqeTvZt%2FLX%2BzAC5tZssjgmjjP0g7uFk%2Ftt%2FUmaSlcxiXNwGAh6PWZv7Er9%2Bb03xY0YRnJsOxAagChpAKZxNhw1kMqzbSsRmRxyJKQ1GTPbwQYXWrp4bSwylx8sL%2FvOQ5nLvuRxwTRgxwl5zJ%2FLbTGrdxg%3D%3D;
+      - Watson-DPAT=NDOxztu9DaovRtB1ATqM%2BcpN4MoA6LyECYJ6ZMHCpIR38TgD4fILSPKxGbkgqOcN8OdDHrqg7mX1%2F0RJiwL5K1KWms%2B%2FwxK%2Be7tBI39M2HBIHDzEbrx%2BCZdSD7gr9nxs5mBf%2FDGqR4azitXK5RAPDmeVJhA5QJDv%2BKxzmFJUjy9QDU7Gx59nCsQSVKqFeNrXhofKFvXax0X7wIX9z9qAgBhyuiO5MuXU9SD%2BRuSJrQcjsfoGtaSDV1qSATJKRGmvCJF03cHvnMTxrnzzy4b%2BNptQCaNx7d9Q%2Fp5z7%2F3PEdsKwkSe1pWf93uAH6i2qQkyOcX29Z1iyhj8eDDtlBZANcXFQQgvHBnrIIQbnPTlDSuoPWdNCF65IUpQu%2BlXZtOpWBTdVUiGbOgqNfENYL6b9YiUNtFcqwfl3dmWp6CVaIm6r9dCiW6o0HsxoP0Y7lUzlG4%2BcItutDD0CmK7mvFISg%2BHrbrPn9f6fWDpTbOdw%2FihOWTYmxpEukgvZl8N7I2gs5sB0FGsSCSvWqrT%2F9ILQiW8f%2F4Hx6NAMSeXyRX%2BUwsFRFiwml2LMCgLIEAkbG5w5B28i2%2F0jU4XDqmmGOR30nKyafAXuUwbjKZoHyXNjUGYanco3oyZpWByCBHwMZ4r7Hb41Ai5nr8AOzOIPGOdjXwelrlBmG8i3LDunfygg84rCJWsL%2FszzYgodKxeHTfa%2BQtcZOG5fML%2FRotkSemcRSsDTcgMW5fhouEpHUzHuVxrlkmdKQMf%2BQLPO0lhU31TFyDa7xEP%2ByVZkVmLulcefd%2Ba6oY4CpCRcquZHfzKJmk75SmLX6bNGicjro7aJ8LqLCRnld9p90rGeuOc1O47w7Rg%2BSI7Fl%2F52BkQT70hMMzR8K05im6aJ20o1E13KkSnJQM5bAJEWZaoTsWvFarKtw2GgpiflVClztKivmw7uFKhF0WYKYCww4bjU%2B0G%2F5kTLO7iaO2%2FIPgmk0DuR1EmdA%3D%3D;
         path=/personality-insights/api; secure; HttpOnly
     body:
       encoding: UTF-8
@@ -183,7 +183,7 @@ http_interactions:
         were 125 words in the input. We need a minimum of 600, preferably 1,200 or
         more, to compute statistically significant estimates"}]}'
     http_version: 
-  recorded_at: Mon, 28 May 2018 04:49:57 GMT
+  recorded_at: Tue, 29 May 2018 04:45:23 GMT
 - request:
     method: post
     uri: https://gateway.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13
@@ -242,23 +242,23 @@ http_interactions:
       Server:
       - "-"
       X-Dp-Transit-Id:
-      - gateway01-1628125549
+      - gateway01-891376131
       X-Global-Transaction-Id:
-      - 7ecac92c5b0b8a76610b396d
+      - 7ecac92c5b0cdae335215203
       Strict-Transport-Security:
       - max-age=31536000;
       X-Dp-Watson-Tran-Id:
-      - gateway01-1628125549
+      - gateway01-891376131
       Vary:
       - Accept-Encoding
       Date:
-      - Mon, 28 May 2018 04:49:59 GMT
+      - Tue, 29 May 2018 04:45:24 GMT
       Content-Length:
       - '7222'
       Connection:
       - keep-alive
       Set-Cookie:
-      - Watson-DPAT=qAyewwfbTJMb4phJi6NK1ctvMShbp9%2F5fOJJtzLOp0Dxm7jkmaCw3p8HaeuBFgqQMH8r1yUKWxiN6UyQ02NjzRpis8AA%2BDWricChdGUMjEOXaggJ818mvRpBzH6MwYN7Szrk26sLzaEXfMYTIk7sXJiWT%2BciJ2b98y%2B5Hl4eSEL3RuIQjTUMNu2Ftur%2BU4tA0qUGEEkjIPngOyq%2F6S1g4seazhzlF%2BAOvucDNllyo%2BJsPqBgFIGyUTLi%2Fosis7YDYeGs70OKMqhlkuZ0vkKfWX%2BLMKcA0%2FcfTb5rtDSGKK162TIABsVaN1om%2B7v%2FJF87I02%2BHGwlzCg0yTdGX3kvcY1b88Ap7mqzc%2B8MWL50RtIFhj4dcmQZ8usms0DjiG4vGldsEiAIoCiyHxXp1%2BiBdVmxPwVdgZhOvE68UhU6%2F%2Fder3Dgfks%2BuP6%2FOYQtqlZRcijjRXt%2F4fFqCjnW0PpkdvyooRsGotZPg2I8kRW5OV4X6dyGgA7ZjUOv%2FyP3wdfLiQzZafe6v8fQCgqoXKwA3RJRCcdJWqx59YLaTrbKpSavxNA%2BRNpbGt6%2F9AVBpydOnBPLk1RO4M%2FkmI5NLwg8Ixt7DUdQeyzTExHn8hr8s1TbByeymJLjrrsnIyO8Xo5Vnbneo%2BDZI4KeT3yBSkw%2FyoqHpQEZJx0cLwI04sg8JAoWRLhvTev896dQ3MMtPC7KF%2BXGW9wbxXUFXj39PS0LVsP6cBoAucEy25teqETBxujx5b%2FZusZLVtT0MzV9%2Bd%2BlJUFD0cCkyG0OATrWIWA9SyHQkO1tmpALeAZu8aU0%2Ff83n%2BCuq56IedYMyVe3%2FSGXVQ3zM8sAm4uYaxXS9pP92VUvCFcyj3fhYf1LYlPjV8pX7jKJeIN68EiCYVdBc09fjApiIGFoaOR5glqOuc%2BUiR3QhPCc3NvvX8duDSWB4Ytr4zicVOny5pmTuffyVijsEz5OJ%2FfJt3cfATYiHy6%2BJA%3D%3D;
+      - Watson-DPAT=Fa8Ud%2Bopk%2B2V3SQ4cpqVugDCufLxCGzoynrjcvfc8TBq17y0EzlahtQ2tnNUP6I8FZFAosBf9cgR9CT%2FwuXoFl6qv%2FkYzOSGIOEeZMB%2BkuqO7YEOsVaBIs%2BJdEvuy8f33MYr5NhterOL3fadYSLs9Wp7fi1rmgZlVgA8J0Kw6VxqqiWQO7HJ0CpFBsc%2F05cefKBy%2BgDCur5LBgoOO46hba1T0mFItIYP0ekyjXyXKikU2G5AzlNVAxI8gvxbnTHjj%2F8W3W3SPxdmeOrGCZmPJeeO5Wqr7s6FNCNV4usJ32xZ7eKWmnU8IAiBomehuUUXE1xQ4JtghaTiB6gN0uLM1vtaNhxGfH9l6H7bHRQqW3TPJJeLw2c%2FMqM%2BqGHzthrVEw8%2FjDHM9oFrdxWFbhnhLToPUOdscpAVN%2FUSYDdc7Qep%2BFmWldWCcvPRsa1MSAFrlTxobGUa1Iwcd5obdI0CLsxvVHuHwp7bA5Eda2nG7lCConr1pEm%2FKYnxKuZeBCAChM%2FUDxmwssUhtR%2BLly6AekqTp95hO7cHVdU6gSQMuOHOL0mZ8PN7ASyRWiqXnT3BFu%2FOCmSLE2U%2BcKvrHtvjGc6%2FFNqE5Q0HBzpNMu3GgjgrqjXI19MhHSEEgsldApYaeRwIQLzwVZiWSCEScP90T4eok5mzpFNjXf2jjOvHXvyv4s9xPTTFkffD7RHUIKWC07%2BCBVBnoOMQ9%2B9YGNGWAFxjEC%2BNp94mA8JY8epQDsWawWO2SjYA8OkXin564znwHBb%2F1U4THQryICtvP%2Bi1uBwcu30WKcHr5%2BA1w4uMmQUUlCTYdVrPn29LleGigUPXA0laFB6b%2FbqTZU2dwD%2F0D80iGTEpK6cw%2BFObl8JtXn0n5wF0C3Uvq5%2Bb2kHRtuNNSK44AfYAbvu%2B5obZuZqsVvkY9Hf12oGb66ClkuahjP8BB1vQ3h1yFiRcA680DF7gKg2uzyzrtJryRc7EMyFgDA%3D%3D;
         path=/personality-insights/api; secure; HttpOnly
     body:
       encoding: UTF-8
@@ -275,5 +275,5 @@ http_interactions:
         were 125 words in the input. We need a minimum of 600, preferably 1,200 or
         more, to compute statistically significant estimates"}]}'
     http_version: 
-  recorded_at: Mon, 28 May 2018 04:49:59 GMT
+  recorded_at: Tue, 29 May 2018 04:45:24 GMT
 recorded_with: VCR 4.0.0

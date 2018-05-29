@@ -1,7 +1,8 @@
 class PersonalityProfileController < ApplicationController
   def show
-    timeline_query       = TwitterTimelineSearch.new(params[:username])
-    @status_timeline     = timeline_query.user_timeline
-    @personality_insights = PersonalityInsightsSearch.new(params[:username], timeline_query.to_string)
+    @profile              = TwitterUserSearch.new(params[:username]).profile
+    @timeline             = TwitterTimelineSearch.new(params[:username])
+    @personality_insights = PersonalityInsightsSearch.new(params[:username], @timeline.to_string)
+    require 'pry'; binding.pry
   end
 end

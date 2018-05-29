@@ -12,7 +12,6 @@ describe PersonalityInsightsProfile do
       it 'returns an array of personality characteristics' do
         expect(subject.personality).to be_a Array
         expect(subject.personality.count).to eq(5)
-        require 'pry'; binding.pry
 
         expect(subject.personality.first).to be_a Dimension
         expect(subject.personality.first.name).to eq("Openness")

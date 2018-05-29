@@ -1,0 +1,44 @@
+<main>
+  <section class="user-info section" fill-color="#8F8F8F">
+    <ul class="user">
+      <li class="avatar"> <%= image_tag(@profile.avatar_url, class: "avatar") %> </li>
+      <li class="name">  <%= @profile.name %> </li>
+      <li class="login"> @<%= @profile.username %> </li>
+      <li class="description lightweight-small"> <%= @profile.description %> </li>
+      <% if @profile.location %>
+        <div class="additional-user-info top-border">
+          <% if @profile.location %>
+            <li class="location lightweight-small"> <i class="fas fa-map-marker-alt"></i> </i><%= @profile.location %> </li>
+          <% end %>
+        </div>
+      <% end %>
+    </ul>
+  </section>
+  <section class="profile-right">
+  <section class="personality-profile">
+    <div class="user-stat">
+      <div class="icon">
+        <i class="far fa-comments"></i> Total Tweets Analyzed
+      </div>
+      <div class="stat">
+        <%= number_with_delimiter(@timeline.user_timeline.count, :delimiter => ',') %>
+      </div>
+    </div>
+    <div class="user-stat">
+      <div class="icon">
+        <i class="far fa-comments"></i> Date of Newest
+      </div>
+      <div class="stat">
+        <%= @timeline.newest_tweet_analyzed %>
+      </div>
+    </div>
+    <div class="user-stat">
+      <div class="icon">
+        <i class="far fa-comments"></i> Date of Oldest
+      </div>
+      <div class="stat">
+        <%= @timeline.oldest_tweet_analyzed %>
+      </div>
+    </div>
+  </section>
+<main>
