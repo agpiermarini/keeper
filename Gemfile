@@ -38,6 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'faraday'
 gem 'omniauth-twitter'
 gem 'sendgrid-ruby'
+gem 'twitter'
 
 
 group :development, :test do

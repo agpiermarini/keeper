@@ -1,7 +1,7 @@
 class SearchController < ApplicationController
   def show
     if params[:username_query]
-      # @results =
+      @results = TwitterUserSearch.new(current_user, params[:username_query])
     end
   end
 end

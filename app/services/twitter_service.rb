@@ -1,7 +1,8 @@
 class TwitterService
-  def initialize(endpoint, params)
+  def initialize(endpoint, params, headers = { Authorization: "Bearer #{ENV["twitter_bearer_token"]}" } )
     @endpoint = endpoint
     @params = params
+    @headers = headers
   end
 
   def response
@@ -9,7 +10,7 @@ class TwitterService
   end
 
   private
-    attr_reader :endpoint, :params
+    attr_reader :endpoint, :params, :headers
 
     def connection
       Faraday.new("https://api.twitter.com/1.1/#{endpoint}")
@@ -17,7 +18,7 @@ class TwitterService
 
     def json_response
       connection.get do | req |
-        req.headers["Authorization"] = "Bearer #{ENV["twitter_bearer_token"]}"
+        req.headers = headers
         req.params = params
       end
     end
