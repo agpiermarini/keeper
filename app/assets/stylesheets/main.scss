@@ -1,4 +1,4 @@
-body {
+ body {
     min-height: 150vh;
 }
 
@@ -34,17 +34,29 @@ padding-top: 75px;
 
   .navbar-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     flex-flow: row nowrap;
     margin-right: 50px;
-    width: 250px;
+    width: 100%;
 
-    .nav-link {
-      align-items: flex-end;
-      font-size: 20px;
-      font-weight: bold;
-      color: white;
+    .nav-item {
+      .nav-link {
+        align-items: flex-end;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+
+        .nav_image {
+          height: 35px;
+          width: 35px;
+          border-radius: 100%;
+        }
+      }
+      .dropdown-item {
+        font-size: 20px;
+      }
+
     }
   }
 }
