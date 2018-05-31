@@ -68,6 +68,19 @@
         </div>
       <% end %>
       <div class="profile-header">
+        Needs
+      </div>
+      <% @personality_insights.needs.each do | need | %>
+        <div class="trait">
+          <div class="trait-name">
+            <%= need.name %>
+          </div>
+          <div class="trait-percentile">
+            <%= need.percentile %>
+          </div>
+        </div>
+      <% end %>
+      <div class="profile-header">
         Values
       </div>
       <% @personality_insights.values.each do | value | %>
