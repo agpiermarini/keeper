@@ -42,6 +42,98 @@ http_interactions:
       Cache-Control:
       - no-store
       X-Service-Build-Number:
+      - 2018-05-14T05:03:49.758 UTC
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Disposition:
+      - attachment; filename="WatsonPersonalityInsightsAPI.json"
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Language:
+      - en-US
+      X-Powered-By:
+      - Servlet/3.1,Servlet/3.1
+      Content-Type:
+      - application/json
+      Server:
+      - "-"
+      X-Dp-Transit-Id:
+      - gateway01-1434158465
+      X-Global-Transaction-Id:
+      - 7ecac92c5b0f67e0557b8581
+      Strict-Transport-Security:
+      - max-age=31536000;
+      X-Dp-Watson-Tran-Id:
+      - gateway01-1434158465
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Thu, 31 May 2018 03:11:29 GMT
+      Content-Length:
+      - '7222'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - Watson-DPAT=IsDsdLrlt2jp2r9MKdawPC6P%2B6KPbyRvbhQOwXCRhOC8Sbe%2FlnlCLsZ5bQkPRXYKBIaZcNUmzufXcfY12AtfM74BgiAhPM6V4z6iqX9MsIc7RvfgdJULYIm9AGtbCSLE7Uci%2Fp9pVW2n16jgvXeV%2FHjnUJCx8mCEAAfCYAceLisHUVtNEM7ZDWEl1gMwSAVr1O0P%2FjavBKmhVI2Mp8IqBO31YmkJB30EPGSqrX%2Fn%2BXv%2BQUCjDSZcIzVsWY79ppMXn4AcmVJJtLc8mZxPbHq85GlifiTYSmzlG55ceKh7%2BaTimlhP2R7CWlHK8bBmr7sa21dBwRDxP9CuCIJ%2FhNzqOMWbK%2BTtgj404k2g2eGYCqz7Jv6y7UCLTUdpwxMwSh5up2onlr6Mg7xHUCYRzXwmgpQ4RjHVc1APRvTewXxN%2B%2FejjbZHfIkqgX7Z7U4MJ9umdFvA7T3O4iMns8G%2BdS86%2BAnP70Djv89mecX4oUDR0O94mAoh7Wx9nqmf7JQach%2BUSQ0lrCnNam2gLHx1xmEWAvMzhlJXnAiNfljc1t%2FUaFusqGTGe8BH%2BiVVLDcpwA3HLGElqf4uc8Hlav9dbMflLYJ6t929It1dtQTDBHzf%2FvHT8Ku1UNm8zGiOoTHh4LbbLqpSbO%2FtB22vHC30tRIE3SAYgNaM84MJCjocroC24e3B1erok1Ab1mrrLK7ystwchY%2FX1plLx1Ic7pJCR5PFHzIVk0fDsJ7pCl83N49tnitfOuPmsPgPlh0Th58dUR2EEb53HoIyoXAeLFRJHjNCbVjnYjFonKgaZnqAbzd9e2bAOHkwmw2bAOS7K42TdNQj1llM7I0NPUVXkjtfsKCQkgS%2BqwEbFcA3VpO09Jf4WZFVshPgr1vyT4AnYvMpqUd7C8HOw1zdukRNWEGfWhCmZON9OBZmTqshk4WyR6ZX2dMMvx5NK8Fhd7PViJhOUBVslZ2iADW00IbF8hSqSZ6nhQ%3D%3D;
+        path=/personality-insights/api; secure; HttpOnly
+    body:
+      encoding: UTF-8
+      string: '{"word_count":125,"word_count_message":"There were 125 words in the
+        input. We need a minimum of 600, preferably 1,200 or more, to compute statistically
+        significant estimates","processed_language":"en","personality":[{"trait_id":"big5_openness","name":"Openness","category":"personality","percentile":0.9300253602804942,"significant":true,"children":[{"trait_id":"facet_adventurousness","name":"Adventurousness","category":"personality","percentile":0.364916201669199,"significant":true},{"trait_id":"facet_artistic_interests","name":"Artistic
+        interests","category":"personality","percentile":0.45451734386200954,"significant":true},{"trait_id":"facet_emotionality","name":"Emotionality","category":"personality","percentile":0.3676717946590121,"significant":true},{"trait_id":"facet_imagination","name":"Imagination","category":"personality","percentile":0.6948294237345146,"significant":true},{"trait_id":"facet_intellect","name":"Intellect","category":"personality","percentile":0.7814164160026129,"significant":true},{"trait_id":"facet_liberalism","name":"Authority-challenging","category":"personality","percentile":0.832943674792473,"significant":true}]},{"trait_id":"big5_conscientiousness","name":"Conscientiousness","category":"personality","percentile":0.241413050948599,"significant":true,"children":[{"trait_id":"facet_achievement_striving","name":"Achievement
+        striving","category":"personality","percentile":0.2954874032819047,"significant":true},{"trait_id":"facet_cautiousness","name":"Cautiousness","category":"personality","percentile":0.3683668909419963,"significant":true},{"trait_id":"facet_dutifulness","name":"Dutifulness","category":"personality","percentile":0.3847559211326337,"significant":true},{"trait_id":"facet_orderliness","name":"Orderliness","category":"personality","percentile":0.1812164267042829,"significant":true},{"trait_id":"facet_self_discipline","name":"Self-discipline","category":"personality","percentile":0.22959680705471353,"significant":true},{"trait_id":"facet_self_efficacy","name":"Self-efficacy","category":"personality","percentile":0.5127189137320909,"significant":true}]},{"trait_id":"big5_extraversion","name":"Extraversion","category":"personality","percentile":0.31025302574682717,"significant":true,"children":[{"trait_id":"facet_activity_level","name":"Activity
+        level","category":"personality","percentile":0.40575736461856743,"significant":true},{"trait_id":"facet_assertiveness","name":"Assertiveness","category":"personality","percentile":0.48003820997009206,"significant":true},{"trait_id":"facet_cheerfulness","name":"Cheerfulness","category":"personality","percentile":0.17060718957547383,"significant":true},{"trait_id":"facet_excitement_seeking","name":"Excitement-seeking","category":"personality","percentile":0.8829449887140824,"significant":true},{"trait_id":"facet_friendliness","name":"Outgoing","category":"personality","percentile":0.3279529825535311,"significant":true},{"trait_id":"facet_gregariousness","name":"Gregariousness","category":"personality","percentile":0.36332664430412087,"significant":true}]},{"trait_id":"big5_agreeableness","name":"Agreeableness","category":"personality","percentile":0.19121199742270978,"significant":true,"children":[{"trait_id":"facet_altruism","name":"Altruism","category":"personality","percentile":0.39988211913516214,"significant":true},{"trait_id":"facet_cooperation","name":"Cooperation","category":"personality","percentile":0.3001573274083933,"significant":true},{"trait_id":"facet_modesty","name":"Modesty","category":"personality","percentile":0.5092621702155774,"significant":true},{"trait_id":"facet_morality","name":"Uncompromising","category":"personality","percentile":0.2513597131288982,"significant":true},{"trait_id":"facet_sympathy","name":"Sympathy","category":"personality","percentile":0.5853953775675302,"significant":true},{"trait_id":"facet_trust","name":"Trust","category":"personality","percentile":0.7661913227678416,"significant":true}]},{"trait_id":"big5_neuroticism","name":"Emotional
+        range","category":"personality","percentile":0.38240027823654515,"significant":true,"children":[{"trait_id":"facet_anger","name":"Fiery","category":"personality","percentile":0.7288860534901664,"significant":true},{"trait_id":"facet_anxiety","name":"Prone
+        to worry","category":"personality","percentile":0.7942980318804773,"significant":true},{"trait_id":"facet_depression","name":"Melancholy","category":"personality","percentile":0.8265042212388622,"significant":true},{"trait_id":"facet_immoderation","name":"Immoderation","category":"personality","percentile":0.6965785231822063,"significant":true},{"trait_id":"facet_self_consciousness","name":"Self-consciousness","category":"personality","percentile":0.8032011749196653,"significant":true},{"trait_id":"facet_vulnerability","name":"Susceptible
+        to stress","category":"personality","percentile":0.7723972022973018,"significant":true}]}],"needs":[{"trait_id":"need_challenge","name":"Challenge","category":"needs","percentile":0.4491220062003746,"significant":true},{"trait_id":"need_closeness","name":"Closeness","category":"needs","percentile":0.280611322067574,"significant":true},{"trait_id":"need_curiosity","name":"Curiosity","category":"needs","percentile":0.9271542628200309,"significant":true},{"trait_id":"need_excitement","name":"Excitement","category":"needs","percentile":0.4040733229243616,"significant":true},{"trait_id":"need_harmony","name":"Harmony","category":"needs","percentile":0.1839693319383649,"significant":true},{"trait_id":"need_ideal","name":"Ideal","category":"needs","percentile":0.33496475632411,"significant":true},{"trait_id":"need_liberty","name":"Liberty","category":"needs","percentile":0.44158625431651033,"significant":true},{"trait_id":"need_love","name":"Love","category":"needs","percentile":0.3629532757178502,"significant":true},{"trait_id":"need_practicality","name":"Practicality","category":"needs","percentile":0.9443430583748103,"significant":true},{"trait_id":"need_self_expression","name":"Self-expression","category":"needs","percentile":0.05281772983078087,"significant":true},{"trait_id":"need_stability","name":"Stability","category":"needs","percentile":0.17676861019015255,"significant":true},{"trait_id":"need_structure","name":"Structure","category":"needs","percentile":0.4835752076320925,"significant":true}],"values":[{"trait_id":"value_conservation","name":"Conservation","category":"values","percentile":0.1400296207252021,"significant":true},{"trait_id":"value_openness_to_change","name":"Openness
+        to change","category":"values","percentile":0.47687814597288886,"significant":true},{"trait_id":"value_hedonism","name":"Hedonism","category":"values","percentile":0.3113478520759223,"significant":true},{"trait_id":"value_self_enhancement","name":"Self-enhancement","category":"values","percentile":0.39547642900021895,"significant":true},{"trait_id":"value_self_transcendence","name":"Self-transcendence","category":"values","percentile":0.03310830781717733,"significant":true}],"warnings":[{"warning_id":"WORD_COUNT_MESSAGE","message":"There
+        were 125 words in the input. We need a minimum of 600, preferably 1,200 or
+        more, to compute statistically significant estimates"}]}'
+    http_version: 
+  recorded_at: Thu, 31 May 2018 03:11:29 GMT
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13
+    body:
+      encoding: UTF-8
+      string: 'this is a test string this is a test string this is a test string this
+        is a test string this is a test string this is a test string this is a test
+        string this is a test string this is a test string this is a test string this
+        is a test string this is a test string this is a test string this is a test
+        string this is a test string this is a test string this is a test string this
+        is a test string this is a test string this is a test string this is a test
+        string this is a test string this is a test string this is a test string this
+        is a test string '
+    headers:
+      Authorization:
+      - Basic MGVjMDRjYWMtZDFiOS00YjcxLTlmODgtNTkxNjc4MWNlYjJkOk5KZmwwV1E0TW5TSA==
+      User-Agent:
+      - Faraday v0.15.2
+      Content-Type:
+      - text/plain;charset=utf-8
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Access-Control-Allow-Origin:
+      - "*,*"
+      X-Content-Type-Options:
+      - nosniff
+      Pragma:
+      - no-cache
+      X-Service-Api-Version:
+      - 3.4.4
+      Cache-Control:
+      - no-store
+      X-Service-Build-Number:
       - 2018-05-21T05:06:00.565 UTC
       Content-Security-Policy:
       - default-src 'none'
@@ -58,23 +150,23 @@ http_interactions:
       Server:
       - "-"
       X-Dp-Transit-Id:
-      - gateway02-126466580
+      - gateway02-1294087141
       X-Global-Transaction-Id:
-      - ffea405d5b0f59f00789ba14
+      - ffea405d5b0f67e14d2233e5
       Strict-Transport-Security:
       - max-age=31536000;
       X-Dp-Watson-Tran-Id:
-      - gateway02-126466580
+      - gateway02-1294087141
       Vary:
       - Accept-Encoding
       Date:
-      - Thu, 31 May 2018 02:12:00 GMT
+      - Thu, 31 May 2018 03:11:30 GMT
       Content-Length:
       - '7222'
       Connection:
       - keep-alive
       Set-Cookie:
-      - Watson-DPAT=L%2BgEYfChVw%2FMJamho5xfGd3cCnSQQfYM8bUUP7wvfztr0BOCKBnUN11bgfIme0sgo2yPURE6dTPKnc4ToAGn%2Bdog6XARpQfN4KwHw%2FCNKGZj0aItVXKdPN0IG0%2FfXk4OuwaiolTIKu2a7lKoEyQQ4dx9aZe9DvLVDzJZRHaFn7rfKS8A79sg%2F5owr6Zbw2XCOIHgYUyS%2FI2OE3D09P6dVG0fYb1mWgG9MTx%2Bt4%2BcQhd1iQBDDGYHnh3RCdsju4D6nA0gaslBvP1KTKhF54O2hDMhf4guFGCeoiMRV5SBBGJBCdKW%2F4drbMcq9z7sRipizrgxk%2BRlR4L31xO%2FN1oFHdKigV1iTgOIGma0GPc3QvdRVYQtYehUPWENyqkNMLLe9VDoyknY07kTql9nmaaZZPd3ZspZHHTCOt8Bl5lZj%2B5%2FQkMXahjsVc9ufCYv29dXxfQEaLOHZgB7lSPcNesTeRHf2r7nuijEBDvZDchHUFYVErUVdmXrV5ZJws57Fiw8yMiCPEVZBMbAANNyuB2xf%2BeLMk22P7tGm%2BOXpS6V%2B0HKpdqZim9QOWUaseqDMmrCmGTOwnnvX2TxsQFOp5ztvcLNOVj8AgTDNBWB3UYrK56KZwvhWx2Puyldj%2FavTfzAoT4OB6OMkH3u47cIta1eLijhGQfm6o2lYq%2F6Av7nq7QZ3k0u7X8%2FBmqCmuv0w0sKvWkK9CB%2BEEManBH76pg8luT9cgRbhGiL8nqf617hSNW%2Fc411%2FYwquj%2F81PEn290wmB1W4puT0uvZMcHawHVeS6V8T%2BCRExkC3cqtDAcbqGIMwwD6cVxdGIbK%2FqSOEdnnGF7VqmtLd9kEEwrYca%2Fou9s5kr7jrZ3aSZyfqKloLroi%2BqIIhsXOEG%2BEGbkACtWJ3QWoz1hZmS8X1Kt4RNLTVJ52YB9d3UoB2DVPJJ17isThBT5VXfQ%2B88QDf1gBgBoImmQIR%2BlkF%2FLZJ8jOZ9AbHA%3D%3D;
+      - Watson-DPAT=crErbyd7MBSAXKel7jeibXl0C5lIrbWkhHDjcWI0UTDqu8%2FFxyy11plyBYtFwnx6N1irt%2FD8ThogCpxv2qFFTSG6l%2FxNt7YA7YH7NX%2BK9zXt7UWW%2BIuDav%2FtZ%2BCkN9b7rsAFoCTyvA2yXZtjA5R0cmeSpbYnDcTytH6QMbOYpeKo26h2hF08u4Xh1lwjHEfI2j31krF%2BXlLUq0cLjXcNMjrXXR1j%2B5GMrv3RgbINYP0fBdeTupgcj%2FMqF2Uzyh0XQx1wX3gCazGjlMPNS5jpEd0K6uWIDJl6L6RALiEkT%2FaIlPOgexfeYc5aZK5Xc9gRzQg8XIlSYlEJsnaJMMFJ0fbRhaCWsLplY2W0jDhQIqfIX07%2BmnpnBnlrEkJOWqV4dCSOjBxAHRUXWHQrwcs5BkCn%2FuDAEf0psxhNJbByXgj8zZsIQEYRsPUpVaQDn2Gdsm8qI32jGnpKjiF8%2FXLvBhYMafRktzyneONDtXN2zVQvle2h5tGTGjVFavI37owmjqbEoSUCztIFb0vxHRd0ojYvsBqTT5lUETBEFn%2BZqfZjmnqT2COVj%2B5%2FWLAj1Jj3zPLEyQ%2BcRQQOjMtaeII%2B%2Be%2BOqUBCp%2FME9HHdXo7q1mSw%2FMej7HKvVr4cGcT3O7cR6%2Fmr%2FHwO9x4hT103qH%2BFXY0j98mDhyhxZTYqOWDNBxSGj4ckzCap1bhoAE82zqnc3ISDHRGJL34lraTZ%2B7N7zXqrQHIPnMjyknb%2FGsvkgq2YuA871JM7bgTt6pdKFYSJ6t87vutMDFhiGVX7%2Fjx26DDz9VBOyfM%2Bp8QJhVz%2F0amKDctu5fMm58v6wZGNvkhiD9mxUH0fOCYfzJuYb%2FitoZCGv14FoErkyCS%2FwWQ%2Fjo%2Bjowc8kx6UBmqpMdMwYeScnWFzNX6Ibp4MwUO3ikHt0qs%2FFdkjQgqZV8sZpwVoVZzrADXpkt21lKR977JxHXi2kkmQ3KtUfwFPra9u%2FHpZPw%3D%3D;
         path=/personality-insights/api; secure; HttpOnly
     body:
       encoding: UTF-8
@@ -91,7 +183,7 @@ http_interactions:
         were 125 words in the input. We need a minimum of 600, preferably 1,200 or
         more, to compute statistically significant estimates"}]}'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:00 GMT
+  recorded_at: Thu, 31 May 2018 03:11:30 GMT
 - request:
     method: post
     uri: https://gateway.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13
@@ -134,7 +226,7 @@ http_interactions:
       Cache-Control:
       - no-store
       X-Service-Build-Number:
-      - 2018-05-14T05:03:49.758 UTC
+      - 2018-05-21T05:06:00.565 UTC
       Content-Security-Policy:
       - default-src 'none'
       Content-Disposition:
@@ -150,23 +242,23 @@ http_interactions:
       Server:
       - "-"
       X-Dp-Transit-Id:
-      - gateway01-876679647
+      - gateway02-715806679
       X-Global-Transaction-Id:
-      - 7ecac92c5b0f59f0344111df
+      - ffea405d5b0f67e22aaa57d7
       Strict-Transport-Security:
       - max-age=31536000;
       X-Dp-Watson-Tran-Id:
-      - gateway01-876679647
+      - gateway02-715806679
       Vary:
       - Accept-Encoding
       Date:
-      - Thu, 31 May 2018 02:12:01 GMT
+      - Thu, 31 May 2018 03:11:30 GMT
       Content-Length:
       - '7222'
       Connection:
       - keep-alive
       Set-Cookie:
-      - Watson-DPAT=ByFTFedMs9JU5b%2FzyNAR3VcW%2FgUO5S%2ByDnmmRSys%2BasaAX5RCmoFsHiSErSBTJ1%2Ft7pb20iyAonc1EmTbTQJ%2BPLhWgya51Y6GvfolFj6pA%2FRPVyPML5WOKzI19Ra8iO34csrVEa7TByTk%2Bsn3ScMP933iYcxU%2BkqpLbtb2%2BewSmmsc9YhnD7gZmHn%2FaTcROZ4CvpJAJnGPLhqfC%2FEjiDmgxRqy%2B9ehFvsB8me2ssWX9EbWstyuB%2Be57JklnmC%2BwkAPgqtjUy4sEHkkyb02OdDWzebOVIRsIshgpCDU8qpp0m2wu3SNRzABkDhyjRo3du8o40bNy8J3eyOplG2ilrImpBK2JvYau6Nn80%2FTc4SXRSWkqxhzVUHN0f2T%2FORz3Wfcx3P7dcYuT3a7REwFSM1SkC%2BZThjJDdESlBglSOy9PFILUokDrsP59HFAlu5Y%2FraUWUC93a7v%2FgyvTH%2BTTKnS1sOmbzB3vb%2Bkq6XXvS9CpnbXqcBPhGgfvAUesqXxCMeTezCbzd7kPyDWNzazMnqM5Bz6Qdpbp%2BczRC8qkyf5QDkLiUDjzhwAZ%2F1SPn985quRo9W5x1v9eh4ErGHXkbeT%2BI0K6Mls9HAPaP90EMPkf7ah2yFI5siPwuQihl5dEHxVPJt1fH7C%2Fk9EknT38qpjKsUzXGoAT8DjUCvBdjGNRH0qvN4es3E8uSe8ep5EuuMc2dFxBBLA0M2BN%2Bqh9gwUxWA0rl953G7CfH%2B783%2Bm5GqULLPd4CL4FGj%2BqFLCna8kVzJ34aIRHooK%2BOzn2PrYz7bZ8Pb1PbJuXGfj7WhFfkz4VC%2BkFCWQfjaUuTco%2FjWx1%2FRhox1jY%2BM0ofo6XgrB%2FGbrEP0QYy5p0WJ0erFaPPmaQMT%2Bi%2Bhh4ck1nq8cC7eZraV%2BEPrgtH090QNON%2Fgr0eja3YsP%2BOWfauKS03P1EtIY6IRntPx9NY8L1817dxOso8Ywbh1PMhh1yZzxetwg%3D%3D;
+      - Watson-DPAT=k%2Fe3iPE6W96Dw50CkUWWewoPtFcgEhqmI4HYXnqP5YRaP2TnyCJXBj600iroR07xsP9VmvWbY9Aie6ut2vFsGRilRI7UamwzM8gPaRkyBdgAG%2FW3IYeEjvL0lh55Gy40WMeu%2BtPZGVHAFk2eo4wscRWoP5zRYXj5T8B08xyy%2Fe%2FVwadltji%2BHbMKYetv3cHYnifYFQrekz48QqigmcUNekgFA7MFNC6NwhUL7piupLkL6AJWB1dt7fzfJEbVs2fleCsVtOEsFh3vMXwjCVS7r5eCooHpgOCIYzlDgDLMb1dPiOxmhQ9tBsDvUwcmP45zL%2FNVVO9ZFLG02ZOZ%2FALiompNplAsOs5dgre4HSI6kNWenwv0NTlAVtFFPeQccCVgRtTZhvznDwS9HdQot0MoUZ2yNg4F%2F6mmbt4JzXc3Y5edBmTgkx51mv9XIk3absR%2B9mSx%2FHqoVoKFrwdN%2Fm5bb1GaQacNDsvjZPYtBTLa4Rt4WkswIJNNDyYf9PGOwsfFwBURGFrgUV33VEpaw78sCxH5SHIRo%2BS3icUX9dgMZiMD5A%2FSKehxC%2ByGYnQBe5JD7K53iaX%2BnJdujnmGygQT12QG%2FLXKZJcbIQynF3Yn1Vw0ftD%2FwQg6hKaIyu6zMf0%2FxgYUqRa7iYwJZ3JeKr3sxshdcTvYeXxQwQuE1CvOq2rHmeEtoykqavQccvTBW%2FWOfPsu7ztVXGav0uWvnUsx3KBEqOPU18EyFHvA%2FOehnPlJu8DoMryOqfTIRr9dsWnqHCXNNtT%2FjeIfXDrucff2NwhSOJYnO6hGZMy80aiTMIiCHvEPX6J3Guq9yaQe29CET06JAw1r9pG1w0Lbhnaw1tA03KD3ew4waCdDTyKU%2BnVeAj7sipuR7tTG7kA7lMRzQKHtC66dr6bi%2B6DRDzvIERsa3BNi0zOGByORWyt23V0MpdvWWBlC6Gt2IMyBj7tyxIy6%2B9UavSywqg3ZYvXypw%3D%3D;
         path=/personality-insights/api; secure; HttpOnly
     body:
       encoding: UTF-8
@@ -183,97 +275,5 @@ http_interactions:
         were 125 words in the input. We need a minimum of 600, preferably 1,200 or
         more, to compute statistically significant estimates"}]}'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:01 GMT
-- request:
-    method: post
-    uri: https://gateway.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13
-    body:
-      encoding: UTF-8
-      string: 'this is a test string this is a test string this is a test string this
-        is a test string this is a test string this is a test string this is a test
-        string this is a test string this is a test string this is a test string this
-        is a test string this is a test string this is a test string this is a test
-        string this is a test string this is a test string this is a test string this
-        is a test string this is a test string this is a test string this is a test
-        string this is a test string this is a test string this is a test string this
-        is a test string '
-    headers:
-      Authorization:
-      - Basic MGVjMDRjYWMtZDFiOS00YjcxLTlmODgtNTkxNjc4MWNlYjJkOk5KZmwwV1E0TW5TSA==
-      User-Agent:
-      - Faraday v0.15.2
-      Content-Type:
-      - text/plain;charset=utf-8
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      X-Backside-Transport:
-      - OK OK
-      Access-Control-Allow-Origin:
-      - "*,*"
-      X-Content-Type-Options:
-      - nosniff
-      Pragma:
-      - no-cache
-      X-Service-Api-Version:
-      - 3.4.4
-      Cache-Control:
-      - no-store
-      X-Service-Build-Number:
-      - 2018-05-14T05:03:49.758 UTC
-      Content-Security-Policy:
-      - default-src 'none'
-      Content-Disposition:
-      - attachment; filename="WatsonPersonalityInsightsAPI.json"
-      X-Xss-Protection:
-      - 1; mode=block
-      Content-Language:
-      - en-US
-      X-Powered-By:
-      - Servlet/3.1,Servlet/3.1
-      Content-Type:
-      - application/json
-      Server:
-      - "-"
-      X-Dp-Transit-Id:
-      - gateway01-938529659
-      X-Global-Transaction-Id:
-      - 7ecac92c5b0f59f137f0d37b
-      Strict-Transport-Security:
-      - max-age=31536000;
-      X-Dp-Watson-Tran-Id:
-      - gateway01-938529659
-      Vary:
-      - Accept-Encoding
-      Date:
-      - Thu, 31 May 2018 02:12:02 GMT
-      Content-Length:
-      - '7222'
-      Connection:
-      - keep-alive
-      Set-Cookie:
-      - Watson-DPAT=wH8OPrXlEkHjyzWe5Cbd1IFe3z9rPiVmPwSn%2F4LohA3Za3wXtm6AQcyeQ5iHOePAtlQ0sz5t03AIizYwkKOC%2BFD3ka13%2Bd0aMiutBjzxb2NOpL%2F04uFKoTK2tre67%2B2dUGcT2A%2BvHzUHu6r6Wubyc4zSMJVtixshuvAy9ZtcUZnue%2Fzr%2FNbEScs%2BnpGq4y%2BFp5caJq%2BDifNAjeme0UiU7S%2FDkqXyY52e5xh2h2UWASh7MYhit46W4%2FbvRhwvPow7TCwt3l1ssBTjAxRn9Z%2BuGQgE73mF%2BOgB36JZQTGA%2FKTdP8CbYC5TTBfOm9we%2FGMASK%2ByXE%2B69H%2BUUhtjcpjehPwuZYoko1%2Bfi9dg7nyv%2FqsFBJew9kTLzJAqBdxuc52SdpCY1Ax1aJFrU%2FXeV56huvA0AaGO8VOlb88kEiDA5clsBv67qVueaN0mKPf8oo6o0OzUFSf6BRmuarafRzgnh7J9b2joMB77AaXvCE%2BUaSp07fzQqh9IZLqFgS1dMxnH%2FSTI6q6Y1xzvUPAgD7pKN444bYGW47mvzKjBXuEKH7aoHCzYvkJtnhEPsuTRqmB8i%2BgqmLhhCNJPgDHdnbb6%2Fn%2BLPfXf7DxQLqig4V22EFdwu%2Fw7ICbkqa8WcklrNtzbWcZSomr5vDTEG72W5vnUHn9NViGsW%2F9J%2FXx%2FzI8iAqZQ9WYHp1pVWhvq2P%2FS5G5l7E4bm7Qfsd%2BAGXnAqA4LLEh0jEDncXHedBW8ouequDU4XYSZKWQKIr530dckFJhH3ulAjsPDGNjpTt1ffmtXJQYRMspD7ZA8qd2dZWqV8BRe7OhfjZuddxP69JKt8zZSOeQjyOuK8gsH5%2BDRbH7%2BMoK835QimjsJYDXLVFqYyLCbmeDmy1t7cQcGXnw%2B4nMQnfyDhKNNk0ezskozI1siDSv8MfMHErmhSnbJiCZrZE%2FPM94E65b2KtUVRYXkC3aBave41bEJVP4CgxhgvWdAhg%3D%3D;
-        path=/personality-insights/api; secure; HttpOnly
-    body:
-      encoding: UTF-8
-      string: '{"word_count":125,"word_count_message":"There were 125 words in the
-        input. We need a minimum of 600, preferably 1,200 or more, to compute statistically
-        significant estimates","processed_language":"en","personality":[{"trait_id":"big5_openness","name":"Openness","category":"personality","percentile":0.9300253602804942,"significant":true,"children":[{"trait_id":"facet_adventurousness","name":"Adventurousness","category":"personality","percentile":0.364916201669199,"significant":true},{"trait_id":"facet_artistic_interests","name":"Artistic
-        interests","category":"personality","percentile":0.45451734386200954,"significant":true},{"trait_id":"facet_emotionality","name":"Emotionality","category":"personality","percentile":0.3676717946590121,"significant":true},{"trait_id":"facet_imagination","name":"Imagination","category":"personality","percentile":0.6948294237345146,"significant":true},{"trait_id":"facet_intellect","name":"Intellect","category":"personality","percentile":0.7814164160026129,"significant":true},{"trait_id":"facet_liberalism","name":"Authority-challenging","category":"personality","percentile":0.832943674792473,"significant":true}]},{"trait_id":"big5_conscientiousness","name":"Conscientiousness","category":"personality","percentile":0.241413050948599,"significant":true,"children":[{"trait_id":"facet_achievement_striving","name":"Achievement
-        striving","category":"personality","percentile":0.2954874032819047,"significant":true},{"trait_id":"facet_cautiousness","name":"Cautiousness","category":"personality","percentile":0.3683668909419963,"significant":true},{"trait_id":"facet_dutifulness","name":"Dutifulness","category":"personality","percentile":0.3847559211326337,"significant":true},{"trait_id":"facet_orderliness","name":"Orderliness","category":"personality","percentile":0.1812164267042829,"significant":true},{"trait_id":"facet_self_discipline","name":"Self-discipline","category":"personality","percentile":0.22959680705471353,"significant":true},{"trait_id":"facet_self_efficacy","name":"Self-efficacy","category":"personality","percentile":0.5127189137320909,"significant":true}]},{"trait_id":"big5_extraversion","name":"Extraversion","category":"personality","percentile":0.31025302574682717,"significant":true,"children":[{"trait_id":"facet_activity_level","name":"Activity
-        level","category":"personality","percentile":0.40575736461856743,"significant":true},{"trait_id":"facet_assertiveness","name":"Assertiveness","category":"personality","percentile":0.48003820997009206,"significant":true},{"trait_id":"facet_cheerfulness","name":"Cheerfulness","category":"personality","percentile":0.17060718957547383,"significant":true},{"trait_id":"facet_excitement_seeking","name":"Excitement-seeking","category":"personality","percentile":0.8829449887140824,"significant":true},{"trait_id":"facet_friendliness","name":"Outgoing","category":"personality","percentile":0.3279529825535311,"significant":true},{"trait_id":"facet_gregariousness","name":"Gregariousness","category":"personality","percentile":0.36332664430412087,"significant":true}]},{"trait_id":"big5_agreeableness","name":"Agreeableness","category":"personality","percentile":0.19121199742270978,"significant":true,"children":[{"trait_id":"facet_altruism","name":"Altruism","category":"personality","percentile":0.39988211913516214,"significant":true},{"trait_id":"facet_cooperation","name":"Cooperation","category":"personality","percentile":0.3001573274083933,"significant":true},{"trait_id":"facet_modesty","name":"Modesty","category":"personality","percentile":0.5092621702155774,"significant":true},{"trait_id":"facet_morality","name":"Uncompromising","category":"personality","percentile":0.2513597131288982,"significant":true},{"trait_id":"facet_sympathy","name":"Sympathy","category":"personality","percentile":0.5853953775675302,"significant":true},{"trait_id":"facet_trust","name":"Trust","category":"personality","percentile":0.7661913227678416,"significant":true}]},{"trait_id":"big5_neuroticism","name":"Emotional
-        range","category":"personality","percentile":0.38240027823654515,"significant":true,"children":[{"trait_id":"facet_anger","name":"Fiery","category":"personality","percentile":0.7288860534901664,"significant":true},{"trait_id":"facet_anxiety","name":"Prone
-        to worry","category":"personality","percentile":0.7942980318804773,"significant":true},{"trait_id":"facet_depression","name":"Melancholy","category":"personality","percentile":0.8265042212388622,"significant":true},{"trait_id":"facet_immoderation","name":"Immoderation","category":"personality","percentile":0.6965785231822063,"significant":true},{"trait_id":"facet_self_consciousness","name":"Self-consciousness","category":"personality","percentile":0.8032011749196653,"significant":true},{"trait_id":"facet_vulnerability","name":"Susceptible
-        to stress","category":"personality","percentile":0.7723972022973018,"significant":true}]}],"needs":[{"trait_id":"need_challenge","name":"Challenge","category":"needs","percentile":0.4491220062003746,"significant":true},{"trait_id":"need_closeness","name":"Closeness","category":"needs","percentile":0.280611322067574,"significant":true},{"trait_id":"need_curiosity","name":"Curiosity","category":"needs","percentile":0.9271542628200309,"significant":true},{"trait_id":"need_excitement","name":"Excitement","category":"needs","percentile":0.4040733229243616,"significant":true},{"trait_id":"need_harmony","name":"Harmony","category":"needs","percentile":0.1839693319383649,"significant":true},{"trait_id":"need_ideal","name":"Ideal","category":"needs","percentile":0.33496475632411,"significant":true},{"trait_id":"need_liberty","name":"Liberty","category":"needs","percentile":0.44158625431651033,"significant":true},{"trait_id":"need_love","name":"Love","category":"needs","percentile":0.3629532757178502,"significant":true},{"trait_id":"need_practicality","name":"Practicality","category":"needs","percentile":0.9443430583748103,"significant":true},{"trait_id":"need_self_expression","name":"Self-expression","category":"needs","percentile":0.05281772983078087,"significant":true},{"trait_id":"need_stability","name":"Stability","category":"needs","percentile":0.17676861019015255,"significant":true},{"trait_id":"need_structure","name":"Structure","category":"needs","percentile":0.4835752076320925,"significant":true}],"values":[{"trait_id":"value_conservation","name":"Conservation","category":"values","percentile":0.1400296207252021,"significant":true},{"trait_id":"value_openness_to_change","name":"Openness
-        to change","category":"values","percentile":0.47687814597288886,"significant":true},{"trait_id":"value_hedonism","name":"Hedonism","category":"values","percentile":0.3113478520759223,"significant":true},{"trait_id":"value_self_enhancement","name":"Self-enhancement","category":"values","percentile":0.39547642900021895,"significant":true},{"trait_id":"value_self_transcendence","name":"Self-transcendence","category":"values","percentile":0.03310830781717733,"significant":true}],"warnings":[{"warning_id":"WORD_COUNT_MESSAGE","message":"There
-        were 125 words in the input. We need a minimum of 600, preferably 1,200 or
-        more, to compute statistically significant estimates"}]}'
-    http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:02 GMT
+  recorded_at: Thu, 31 May 2018 03:11:30 GMT
 recorded_with: VCR 4.0.0

@@ -1,5 +1,5 @@
 class DashboardController < ApplicationController
   def show
-    @user = current_user
+    @profile = TwitterUserSearch.new(current_user.username).profile
   end
 end

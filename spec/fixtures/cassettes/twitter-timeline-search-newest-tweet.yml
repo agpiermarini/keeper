@@ -29,20 +29,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:13 GMT
+      - Thu, 31 May 2018 03:11:42 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:13 GMT
+      - Thu, 31 May 2018 03:11:42 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273388647713; Expires=Sat, 30 May 2020 02:12:13 GMT; Path=/;
+      - guest_id=v1%3A152773630200581964; Expires=Sat, 30 May 2020 03:11:42 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_bWa06R1eqa3nXVbL0k8LMQ=="; Expires=Sat, 30 May 2020
-        02:12:13 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_Gk7PpSDstEtgWG0SzkpMBQ=="; Expires=Sat, 30 May 2020
+        03:11:42 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -50,7 +50,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - c7814676f5d88d9aec90d7837490a0f7
+      - 0b8af1a394d466f8d446077ed1085690
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -58,13 +58,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1157'
+      - '995'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '60'
+      - '74'
       X-Transaction:
-      - '000639ab003ae30b'
+      - '0078ea800065122b'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -188,7 +188,7 @@ http_interactions:
         for Try Coding March 17-18.\u2026 https:\/\/t.co\/95alhar4fc","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/95alhar4fc","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/971800210426028032","display_url":"twitter.com\/i\/web\/status\/9\u2026","indices":[114,137]}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":2,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:13 GMT
+  recorded_at: Thu, 31 May 2018 03:11:42 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=971800210426028031&screen_name=turingschool&trim_user=true
@@ -218,20 +218,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:14 GMT
+      - Thu, 31 May 2018 03:11:42 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:14 GMT
+      - Thu, 31 May 2018 03:11:42 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273414171625; Expires=Sat, 30 May 2020 02:12:14 GMT; Path=/;
+      - guest_id=v1%3A152773630227317722; Expires=Sat, 30 May 2020 03:11:42 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_HpYM7AgrdXhBgUQ3shyVXA=="; Expires=Sat, 30 May 2020
-        02:12:14 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_/hlcZNCJ3XemqMINoJ4b8g=="; Expires=Sat, 30 May 2020
+        03:11:42 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -239,7 +239,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - ff7660623d9163d1389b3efcfe2b506e
+      - 4b6224c6a605b937c6034990283359d2
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -247,13 +247,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1156'
+      - '994'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '61'
+      - '67'
       X-Transaction:
-      - 00cb85e300dd6585
+      - 0012e3a0004bffb2
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -357,7 +357,7 @@ http_interactions:
         #parenturing #fizzbuzz https:\/\/t.co\/7mPi4eXfcD","truncated":false,"entities":{"hashtags":[{"text":"babycoding","indices":[55,66]},{"text":"CSforall","indices":[67,76]},{"text":"hourofcute","indices":[77,88]},{"text":"parenturing","indices":[89,101]},{"text":"fizzbuzz","indices":[102,111]}],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":941426132846510080,"id_str":"941426132846510080","indices":[112,135],"media_url":"http:\/\/pbs.twimg.com\/media\/DRCeFHaWAAAGDoH.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DRCeFHaWAAAGDoH.jpg","url":"https:\/\/t.co\/7mPi4eXfcD","display_url":"pic.twitter.com\/7mPi4eXfcD","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/941426368922910721\/photo\/1","type":"photo","sizes":{"small":{"w":680,"h":510,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":941426132846510080,"id_str":"941426132846510080","indices":[112,135],"media_url":"http:\/\/pbs.twimg.com\/media\/DRCeFHaWAAAGDoH.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DRCeFHaWAAAGDoH.jpg","url":"https:\/\/t.co\/7mPi4eXfcD","display_url":"pic.twitter.com\/7mPi4eXfcD","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/941426368922910721\/photo\/1","type":"photo","sizes":{"small":{"w":680,"h":510,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":900,"resize":"fit"},"large":{"w":2048,"h":1536,"resize":"fit"}}}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":8,"favorite_count":29,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:14 GMT
+  recorded_at: Thu, 31 May 2018 03:11:42 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=941426368922910720&screen_name=turingschool&trim_user=true
@@ -387,20 +387,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:14 GMT
+      - Thu, 31 May 2018 03:11:42 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:14 GMT
+      - Thu, 31 May 2018 03:11:42 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273438603554; Expires=Sat, 30 May 2020 02:12:14 GMT; Path=/;
+      - guest_id=v1%3A152773630252861370; Expires=Sat, 30 May 2020 03:11:42 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_e9wjPoHiLqcExm2eDgQUhw=="; Expires=Sat, 30 May 2020
-        02:12:14 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_cLktBCq9F1It7O1XZQ2Gzw=="; Expires=Sat, 30 May 2020
+        03:11:42 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -408,7 +408,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - c08e504cab32a9c2ab5880265f536ac0
+      - aad2d4cc0665179a575cebc27f68a8ca
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -416,13 +416,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1155'
+      - '993'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '58'
+      - '69'
       X-Transaction:
-      - 00462ed400ddf590
+      - 003d6ab10059f815
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -535,7 +535,7 @@ http_interactions:
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":3,"favorited":false,"retweeted":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:14 GMT
+  recorded_at: Thu, 31 May 2018 03:11:42 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=923247295180795904&screen_name=turingschool&trim_user=true
@@ -565,20 +565,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:14 GMT
+      - Thu, 31 May 2018 03:11:42 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:14 GMT
+      - Thu, 31 May 2018 03:11:42 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273463894448; Expires=Sat, 30 May 2020 02:12:14 GMT; Path=/;
+      - guest_id=v1%3A152773630279290934; Expires=Sat, 30 May 2020 03:11:42 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_e4vIiPqX6JniP7ihz7IBDQ=="; Expires=Sat, 30 May 2020
-        02:12:14 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_yRdJZjKFcd/gCWMUJTfW2w=="; Expires=Sat, 30 May 2020
+        03:11:42 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -586,7 +586,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - b6142d001a1fd4afcc4794d4c487b11d
+      - bef71c291bc7e00acb4c6ce979ced347
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -594,13 +594,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1154'
+      - '992'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '110'
+      - '79'
       X-Transaction:
-      - 002c5c8800ba41c2
+      - '00418a6c00bd6a60'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -755,7 +755,7 @@ http_interactions:
         not 0. #ProgrammersDay https:\/\/t.co\/SoHyp7sBoV","truncated":false,"entities":{"hashtags":[{"text":"ProgrammersDay","indices":[88,103]}],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":908042892022657024,"id_str":"908042892022657024","indices":[104,127],"media_url":"http:\/\/pbs.twimg.com\/media\/DJoEMwPUMAAkhxQ.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DJoEMwPUMAAkhxQ.jpg","url":"https:\/\/t.co\/SoHyp7sBoV","display_url":"pic.twitter.com\/SoHyp7sBoV","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/908043873120907264\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":800,"resize":"fit"},"small":{"w":680,"h":453,"resize":"fit"},"large":{"w":2048,"h":1365,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":908042892022657024,"id_str":"908042892022657024","indices":[104,127],"media_url":"http:\/\/pbs.twimg.com\/media\/DJoEMwPUMAAkhxQ.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DJoEMwPUMAAkhxQ.jpg","url":"https:\/\/t.co\/SoHyp7sBoV","display_url":"pic.twitter.com\/SoHyp7sBoV","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/908043873120907264\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":1200,"h":800,"resize":"fit"},"small":{"w":680,"h":453,"resize":"fit"},"large":{"w":2048,"h":1365,"resize":"fit"}}},{"id":908043290452226048,"id_str":"908043290452226048","indices":[104,127],"media_url":"http:\/\/pbs.twimg.com\/media\/DJoEj8gU8AAkeAa.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DJoEj8gU8AAkeAa.jpg","url":"https:\/\/t.co\/SoHyp7sBoV","display_url":"pic.twitter.com\/SoHyp7sBoV","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/908043873120907264\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":453,"resize":"fit"},"medium":{"w":1200,"h":800,"resize":"fit"},"large":{"w":2048,"h":1365,"resize":"fit"}}},{"id":908043705021374464,"id_str":"908043705021374464","indices":[104,127],"media_url":"http:\/\/pbs.twimg.com\/media\/DJoE8E5UIAAvLlt.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/DJoE8E5UIAAvLlt.jpg","url":"https:\/\/t.co\/SoHyp7sBoV","display_url":"pic.twitter.com\/SoHyp7sBoV","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/908043873120907264\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":680,"h":453,"resize":"fit"},"medium":{"w":1200,"h":800,"resize":"fit"},"large":{"w":2048,"h":1365,"resize":"fit"}}}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":3,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:14 GMT
+  recorded_at: Thu, 31 May 2018 03:11:42 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=908043873120907263&screen_name=turingschool&trim_user=true
@@ -785,20 +785,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:15 GMT
+      - Thu, 31 May 2018 03:11:43 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:15 GMT
+      - Thu, 31 May 2018 03:11:43 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273494896349; Expires=Sat, 30 May 2020 02:12:15 GMT; Path=/;
+      - guest_id=v1%3A152773630305990341; Expires=Sat, 30 May 2020 03:11:43 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_gF33UGifzNRz3RRjd5sWrA=="; Expires=Sat, 30 May 2020
-        02:12:15 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_Kzaw2X0GfTgx4FFFFxhCLg=="; Expires=Sat, 30 May 2020
+        03:11:43 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -806,7 +806,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 02f12be60ef47631debff4fcf6761df1
+      - 8a6d8cab67c145be35bef3ef0b22ff54
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -814,13 +814,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1153'
+      - '991'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '60'
+      - '73'
       X-Transaction:
-      - 001eaeea00d28fb4
+      - 007a3441007e4f11
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -929,7 +929,7 @@ http_interactions:
         report! #MondayMotivation \ud83d\ude4c\ud83c\udffd https:\/\/t.co\/fgCFmtQPRp","truncated":false,"entities":{"hashtags":[{"text":"MondayMotivation","indices":[13,30]}],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":886985347380293632,"id_str":"886985347380293632","indices":[34,57],"media_url":"http:\/\/pbs.twimg.com\/tweet_video_thumb\/DE80eVeUMAA_swL.jpg","media_url_https":"https:\/\/pbs.twimg.com\/tweet_video_thumb\/DE80eVeUMAA_swL.jpg","url":"https:\/\/t.co\/fgCFmtQPRp","display_url":"pic.twitter.com\/fgCFmtQPRp","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/886986253576671233\/photo\/1","type":"photo","sizes":{"small":{"w":434,"h":498,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":434,"h":498,"resize":"fit"},"large":{"w":434,"h":498,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":886985347380293632,"id_str":"886985347380293632","indices":[34,57],"media_url":"http:\/\/pbs.twimg.com\/tweet_video_thumb\/DE80eVeUMAA_swL.jpg","media_url_https":"https:\/\/pbs.twimg.com\/tweet_video_thumb\/DE80eVeUMAA_swL.jpg","url":"https:\/\/t.co\/fgCFmtQPRp","display_url":"pic.twitter.com\/fgCFmtQPRp","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/886986253576671233\/photo\/1","type":"animated_gif","sizes":{"small":{"w":434,"h":498,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":434,"h":498,"resize":"fit"},"large":{"w":434,"h":498,"resize":"fit"}},"video_info":{"aspect_ratio":[217,249],"variants":[{"bitrate":0,"content_type":"video\/mp4","url":"https:\/\/video.twimg.com\/tweet_video\/DE80eVeUMAA_swL.mp4"}]}}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":3,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:15 GMT
+  recorded_at: Thu, 31 May 2018 03:11:43 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=886986253576671232&screen_name=turingschool&trim_user=true
@@ -959,20 +959,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:15 GMT
+      - Thu, 31 May 2018 03:11:43 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:15 GMT
+      - Thu, 31 May 2018 03:11:43 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273519674612; Expires=Sat, 30 May 2020 02:12:15 GMT; Path=/;
+      - guest_id=v1%3A152773630332769780; Expires=Sat, 30 May 2020 03:11:43 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_gPAVgZux1ZRbQxO+pzXy7Q=="; Expires=Sat, 30 May 2020
-        02:12:15 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_pIIGnIQwNqFD8v0buJr1WQ=="; Expires=Sat, 30 May 2020
+        03:11:43 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -980,7 +980,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - e931c5a94772c70e972dacf477ea86cc
+      - c4fe410058a494ec0bbce25e56b6afa9
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -988,13 +988,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1152'
+      - '990'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '131'
+      - '92'
       X-Transaction:
-      - 0063f65f004cee50
+      - '0004936300d0154a'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -1231,7 +1231,7 @@ http_interactions:
         Startup Week","id":137837035,"id_str":"137837035","indices":[58,73]}],"urls":[{"url":"https:\/\/t.co\/3DXBvSbCDl","expanded_url":"https:\/\/www.eventbrite.com\/e\/try-coding-boulder-start-up-week-tickets-34545547663","display_url":"eventbrite.com\/e\/try-coding-b\u2026","indices":[106,129]}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":2,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:15 GMT
+  recorded_at: Thu, 31 May 2018 03:11:43 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=863059672902881279&screen_name=turingschool&trim_user=true
@@ -1261,20 +1261,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:15 GMT
+      - Thu, 31 May 2018 03:11:43 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:15 GMT
+      - Thu, 31 May 2018 03:11:43 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273551896756; Expires=Sat, 30 May 2020 02:12:15 GMT; Path=/;
+      - guest_id=v1%3A152773630362053042; Expires=Sat, 30 May 2020 03:11:43 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_HG1zr81z1COtXZhzuW0g9Q=="; Expires=Sat, 30 May 2020
-        02:12:15 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_nibstkj49HBzIKu8WJku3Q=="; Expires=Sat, 30 May 2020
+        03:11:43 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -1282,7 +1282,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - f0a79d6e41f0dffd96f40f7a9ac44436
+      - 3ffe2a784a4d588b3015e3b726c9b7cd
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -1290,13 +1290,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1151'
+      - '989'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '77'
+      - '91'
       X-Transaction:
-      - 00c461da002c7796
+      - 00b12ebc00f62cd3
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -1461,7 +1461,7 @@ http_interactions:
         School","id":702354494,"id_str":"702354494","indices":[111,126]}],"urls":[{"url":"https:\/\/t.co\/K7K1b0d3hb","expanded_url":"http:\/\/www.today.com\/video\/women-find-fulfillment-and-jobs-in-a-new-career-writing-code-903766083807","display_url":"today.com\/video\/women-fi\u2026","indices":[65,88]}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":1,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:15 GMT
+  recorded_at: Thu, 31 May 2018 03:11:43 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=844599158115848193&screen_name=turingschool&trim_user=true
@@ -1491,20 +1491,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:15 GMT
+      - Thu, 31 May 2018 03:11:44 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:15 GMT
+      - Thu, 31 May 2018 03:11:44 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273579006935; Expires=Sat, 30 May 2020 02:12:15 GMT; Path=/;
+      - guest_id=v1%3A152773630390206751; Expires=Sat, 30 May 2020 03:11:44 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_mVyGhuOURReCfB7RJRJooQ=="; Expires=Sat, 30 May 2020
-        02:12:15 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_65J6hGvhfXHB/51MI25VMQ=="; Expires=Sat, 30 May 2020
+        03:11:44 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -1512,7 +1512,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 8a1e8b0c1700b2e7f4f8c64807b279ed
+      - b5f9a5731ff14491ddc478b85478cc4b
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -1520,13 +1520,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1150'
+      - '988'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '182'
+      - '332'
       X-Transaction:
-      - '008e788000d8835c'
+      - 002e18de0055dbb7
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -1776,7 +1776,7 @@ http_interactions:
         time WILL pass, CoderGirl. #MondayMotivation #YouCodeGirl #JustDoIt! https:\/\/t.co\/Fy8fJ5kFaQ","truncated":false,"entities":{"hashtags":[{"text":"MondayMotivation","indices":[31,48]},{"text":"YouCodeGirl","indices":[49,61]},{"text":"JustDoIt","indices":[62,71]}],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":828648670211895296,"id_str":"828648670211895296","indices":[73,96],"media_url":"http:\/\/pbs.twimg.com\/media\/C3_zkz-UcAAZ-MO.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/C3_zkz-UcAAZ-MO.jpg","url":"https:\/\/t.co\/Fy8fJ5kFaQ","display_url":"pic.twitter.com\/Fy8fJ5kFaQ","expanded_url":"https:\/\/twitter.com\/LaunchCoderGirl\/status\/828648885237252097\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":2048,"h":2048,"resize":"fit"},"small":{"w":680,"h":680,"resize":"fit"},"medium":{"w":1200,"h":1200,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":828648670211895296,"id_str":"828648670211895296","indices":[73,96],"media_url":"http:\/\/pbs.twimg.com\/media\/C3_zkz-UcAAZ-MO.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/C3_zkz-UcAAZ-MO.jpg","url":"https:\/\/t.co\/Fy8fJ5kFaQ","display_url":"pic.twitter.com\/Fy8fJ5kFaQ","expanded_url":"https:\/\/twitter.com\/LaunchCoderGirl\/status\/828648885237252097\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":2048,"h":2048,"resize":"fit"},"small":{"w":680,"h":680,"resize":"fit"},"medium":{"w":1200,"h":1200,"resize":"fit"}}}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2463574363,"id_str":"2463574363"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":7,"favorite_count":12,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":1,"favorite_count":1,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:16 GMT
+  recorded_at: Thu, 31 May 2018 03:11:44 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=828649974707716098&screen_name=turingschool&trim_user=true
@@ -1806,20 +1806,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:16 GMT
+      - Thu, 31 May 2018 03:11:44 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:16 GMT
+      - Thu, 31 May 2018 03:11:44 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273616538290; Expires=Sat, 30 May 2020 02:12:16 GMT; Path=/;
+      - guest_id=v1%3A152773630447488506; Expires=Sat, 30 May 2020 03:11:44 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_fHBAYbVEUxnVfg/GtEFbTg=="; Expires=Sat, 30 May 2020
-        02:12:16 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_P+KQ9HAw1hSrsbIubK6MGQ=="; Expires=Sat, 30 May 2020
+        03:11:44 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -1827,7 +1827,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - fcfadcd91d73006dc75db78b611c6dee
+      - 328c104400d946047d9aec2cd624dda1
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -1835,13 +1835,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1149'
+      - '987'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '58'
+      - '109'
       X-Transaction:
-      - 00a1faba0094a791
+      - 00e7985600f663cb
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -2050,7 +2050,7 @@ http_interactions:
         Gupta","id":705330458842701824,"id_str":"705330458842701824","indices":[79,93]}],"urls":[],"media":[{"id":820028479613915137,"id_str":"820028479613915137","indices":[94,117],"media_url":"http:\/\/pbs.twimg.com\/media\/C2FTjrkXUAEfO17.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/C2FTjrkXUAEfO17.jpg","url":"https:\/\/t.co\/H2S6A6s577","display_url":"pic.twitter.com\/H2S6A6s577","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/820028481664876549\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":2016,"h":1512,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"},"medium":{"w":1200,"h":900,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":820028479613915137,"id_str":"820028479613915137","indices":[94,117],"media_url":"http:\/\/pbs.twimg.com\/media\/C2FTjrkXUAEfO17.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/C2FTjrkXUAEfO17.jpg","url":"https:\/\/t.co\/H2S6A6s577","display_url":"pic.twitter.com\/H2S6A6s577","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/820028481664876549\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":2016,"h":1512,"resize":"fit"},"small":{"w":680,"h":510,"resize":"fit"},"medium":{"w":1200,"h":900,"resize":"fit"}}}]},"source":"\u003ca
         href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":14,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:16 GMT
+  recorded_at: Thu, 31 May 2018 03:11:44 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=820028481664876548&screen_name=turingschool&trim_user=true
@@ -2080,20 +2080,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:16 GMT
+      - Thu, 31 May 2018 03:11:44 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:16 GMT
+      - Thu, 31 May 2018 03:11:44 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273642503967; Expires=Sat, 30 May 2020 02:12:16 GMT; Path=/;
+      - guest_id=v1%3A152773630477773085; Expires=Sat, 30 May 2020 03:11:44 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_xuyfjvE9q6iJGR+aVNfklw=="; Expires=Sat, 30 May 2020
-        02:12:16 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_14m4Gc5Ak8k6ikajbIoI6A=="; Expires=Sat, 30 May 2020
+        03:11:44 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -2101,7 +2101,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 6e9c072ccb8aa9fea80deff2940c96b5
+      - 5afb2ac356dab86ae35e79dcb7175d41
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -2109,13 +2109,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1148'
+      - '986'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '85'
+      - '86'
       X-Transaction:
-      - 001f629c002fd559
+      - 00f4ca9b00a2d018
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -2645,7 +2645,7 @@ http_interactions:
         Lovelace #MondayMotivation","truncated":false,"entities":{"hashtags":[{"text":"MondayMotivation","indices":[89,106]}],"symbols":[],"user_mentions":[],"urls":[]},"source":"\u003ca
         href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":345673106,"id_str":"345673106"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":19,"favorite_count":30,"favorited":false,"retweeted":false,"lang":"en"},"retweet_count":1,"favorite_count":1,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"in"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:16 GMT
+  recorded_at: Thu, 31 May 2018 03:11:44 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=808362955838525439&screen_name=turingschool&trim_user=true
@@ -2675,20 +2675,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:16 GMT
+      - Thu, 31 May 2018 03:11:45 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:16 GMT
+      - Thu, 31 May 2018 03:11:45 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273676934980; Expires=Sat, 30 May 2020 02:12:16 GMT; Path=/;
+      - guest_id=v1%3A152773630510339476; Expires=Sat, 30 May 2020 03:11:45 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_8s2pybjacXFFaFigz3kjKw=="; Expires=Sat, 30 May 2020
-        02:12:16 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_ByHQjYDfHqgaRJDoanouMw=="; Expires=Sat, 30 May 2020
+        03:11:45 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -2696,7 +2696,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 6387496dd54b3ac42b34bbd33b97155a
+      - 45498851e941f2bd6305813cef777121
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -2704,13 +2704,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1147'
+      - '985'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '154'
+      - '103'
       X-Transaction:
-      - 00770ca600f4843c
+      - 004715ac0005bbb6
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -3350,7 +3350,7 @@ http_interactions:
         haven\u2019t forgiven them for Super Bowl\u2026 https:\/\/t.co\/QfmP1oPtf2","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/QfmP1oPtf2","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/793496877945745408","display_url":"twitter.com\/i\/web\/status\/7\u2026","indices":[117,140]}]},"source":"\u003ca
         href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":2,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:17 GMT
+  recorded_at: Thu, 31 May 2018 03:11:45 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=793496877945745407&screen_name=turingschool&trim_user=true
@@ -3380,20 +3380,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:17 GMT
+      - Thu, 31 May 2018 03:11:45 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:17 GMT
+      - Thu, 31 May 2018 03:11:45 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273717305051; Expires=Sat, 30 May 2020 02:12:17 GMT; Path=/;
+      - guest_id=v1%3A152773630544940389; Expires=Sat, 30 May 2020 03:11:45 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_5Pah6jMUSN1iIFCok97nsA=="; Expires=Sat, 30 May 2020
-        02:12:17 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_4GCyidoFQDE0hOkC9sSlEA=="; Expires=Sat, 30 May 2020
+        03:11:45 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -3401,7 +3401,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 9737a1f9cc7041604f37b08de6daecb2
+      - 25c60be3b7786a0b2db86a9a998ddafe
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -3409,13 +3409,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1146'
+      - '984'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '99'
+      - '94'
       X-Transaction:
-      - '0049b0ec003099a7'
+      - '008a63bd00a99489'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -4030,7 +4030,7 @@ http_interactions:
         weekend. #mondaymotivation\u2026 https:\/\/t.co\/vzgttsV18A","truncated":true,"entities":{"hashtags":[{"text":"childcare","indices":[41,51]},{"text":"mondaymotivation","indices":[96,113]}],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/vzgttsV18A","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/777930086167175171","display_url":"twitter.com\/i\/web\/status\/7\u2026","indices":[115,138]}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":4,"favorite_count":8,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:17 GMT
+  recorded_at: Thu, 31 May 2018 03:11:45 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=777930086167175170&screen_name=turingschool&trim_user=true
@@ -4060,20 +4060,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:17 GMT
+      - Thu, 31 May 2018 03:11:45 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:17 GMT
+      - Thu, 31 May 2018 03:11:45 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273752095312; Expires=Sat, 30 May 2020 02:12:17 GMT; Path=/;
+      - guest_id=v1%3A152773630578501154; Expires=Sat, 30 May 2020 03:11:45 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_h/dJQcSuboGDXiroQBWIew=="; Expires=Sat, 30 May 2020
-        02:12:17 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_8NT8iSNUcWhyRb7yY8PDAQ=="; Expires=Sat, 30 May 2020
+        03:11:45 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -4081,7 +4081,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 3eaea802505ccd70e005ac6b850281b5
+      - 676f542aed478c44e1baee0c201ecc93
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -4089,13 +4089,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1145'
+      - '983'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '88'
+      - '131'
       X-Transaction:
-      - 00e722cf00e1dcd7
+      - 0010ae700028d8cf
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -4351,7 +4351,7 @@ http_interactions:
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":3,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"und"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:17 GMT
+  recorded_at: Thu, 31 May 2018 03:11:45 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=751861190146478079&screen_name=turingschool&trim_user=true
@@ -4381,20 +4381,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:17 GMT
+      - Thu, 31 May 2018 03:11:46 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:17 GMT
+      - Thu, 31 May 2018 03:11:46 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273784933262; Expires=Sat, 30 May 2020 02:12:17 GMT; Path=/;
+      - guest_id=v1%3A152773630616161299; Expires=Sat, 30 May 2020 03:11:46 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_h7/PmKWty2EZGwDjtnvYNw=="; Expires=Sat, 30 May 2020
-        02:12:17 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_Kv8Nx+gFpl3vTnYblX2aEg=="; Expires=Sat, 30 May 2020
+        03:11:46 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -4402,7 +4402,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 38ff4be56a0cdd4a8b70f15f094e9b53
+      - a10739a5cc06592cef7ce3b1e95a6475
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -4410,13 +4410,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1144'
+      - '982'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '55'
+      - '76'
       X-Transaction:
-      - 004b970d00d0b71b
+      - 0046567d00a16b92
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -4621,7 +4621,7 @@ http_interactions:
         https:\/\/t.co\/8ObnC3CoNa","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/vnDbIPj3oL","expanded_url":"https:\/\/www.turing.io\/blog\/2016\/05\/05\/turing-hiring-event","display_url":"turing.io\/blog\/2016\/05\/0\u2026","indices":[77,100]}],"media":[{"id":728571036334104577,"id_str":"728571036334104577","indices":[101,124],"media_url":"http:\/\/pbs.twimg.com\/media\/Chxnf1ZVIAEwCzd.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/Chxnf1ZVIAEwCzd.jpg","url":"https:\/\/t.co\/8ObnC3CoNa","display_url":"pic.twitter.com\/8ObnC3CoNa","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/728571038695489537\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":2048,"h":1361,"resize":"fit"},"medium":{"w":1200,"h":797,"resize":"fit"},"small":{"w":680,"h":452,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":728571036334104577,"id_str":"728571036334104577","indices":[101,124],"media_url":"http:\/\/pbs.twimg.com\/media\/Chxnf1ZVIAEwCzd.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/Chxnf1ZVIAEwCzd.jpg","url":"https:\/\/t.co\/8ObnC3CoNa","display_url":"pic.twitter.com\/8ObnC3CoNa","expanded_url":"https:\/\/twitter.com\/turingschool\/status\/728571038695489537\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":2048,"h":1361,"resize":"fit"},"medium":{"w":1200,"h":797,"resize":"fit"},"small":{"w":680,"h":452,"resize":"fit"}}}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:17 GMT
+  recorded_at: Thu, 31 May 2018 03:11:46 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=728571038695489536&screen_name=turingschool&trim_user=true
@@ -4651,20 +4651,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:18 GMT
+      - Thu, 31 May 2018 03:11:46 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:18 GMT
+      - Thu, 31 May 2018 03:11:46 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273810918957; Expires=Sat, 30 May 2020 02:12:18 GMT; Path=/;
+      - guest_id=v1%3A152773630642136240; Expires=Sat, 30 May 2020 03:11:46 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_zOYuatwEsEJJqnZeG4feyQ=="; Expires=Sat, 30 May 2020
-        02:12:18 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_D4fdSiXVP/8d0twWB4Wcyw=="; Expires=Sat, 30 May 2020
+        03:11:46 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -4672,7 +4672,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 3017a21f6d737b77a4fe639a350c076f
+      - 56690efd8ce32212d15bbd5474d26f44
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -4680,13 +4680,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1143'
+      - '981'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '67'
+      - '56'
       X-Transaction:
-      - 00ab35f500700101
+      - 00ad43c10018cac7
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -4964,7 +4964,7 @@ http_interactions:
         Mind","id":14675801,"id_str":"14675801","indices":[44,58]}],"urls":[]},"source":"\u003ca
         href=\"https:\/\/about.twitter.com\/products\/tweetdeck\" rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":6,"favorited":false,"retweeted":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:18 GMT
+  recorded_at: Thu, 31 May 2018 03:11:46 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=698244666412572672&screen_name=turingschool&trim_user=true
@@ -4990,24 +4990,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '9440'
+      - '9437'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:18 GMT
+      - Thu, 31 May 2018 03:11:46 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:18 GMT
+      - Thu, 31 May 2018 03:11:46 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273841210210; Expires=Sat, 30 May 2020 02:12:18 GMT; Path=/;
+      - guest_id=v1%3A152773630670780986; Expires=Sat, 30 May 2020 03:11:46 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_d32Fixeqk0oUpp+pZNwrNg=="; Expires=Sat, 30 May 2020
-        02:12:18 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_QGB90hs/pXQJWLTJ4pDT6g=="; Expires=Sat, 30 May 2020
+        03:11:46 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -5015,7 +5015,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 8b43a8a6989240b81326ce251fc7cb69
+      - 331225dfef0e74075bc5fb5d716a9790
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -5023,13 +5023,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1142'
+      - '980'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '61'
+      - '94'
       X-Transaction:
-      - '00786af4008ff7b8'
+      - 00c076db00e5e6dc
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -5096,7 +5096,7 @@ http_interactions:
         clock, Ahmed. Want to bring it to the White House? We should inspire more
         kids like you to like science. It''s what makes America great.","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\u003ca
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
-        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1536791610,"id_str":"1536791610"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":387270,"favorite_count":422593,"favorited":false,"retweeted":false,"lang":"en"},"retweet_count":2,"favorite_count":9,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"created_at":"Tue
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1536791610,"id_str":"1536791610"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":387272,"favorite_count":422593,"favorited":false,"retweeted":false,"lang":"en"},"retweet_count":2,"favorite_count":9,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"created_at":"Tue
         Sep 15 19:58:32 +0000 2015","id":643876574098395136,"id_str":"643876574098395136","text":"Join
         @tomleskin and @ericdowty for Fun with Ruby and @arduino this Sunday at Turing
         School http:\/\/t.co\/0wx2i2epcC","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"tomleskin","name":"Tom
@@ -5279,7 +5279,7 @@ http_interactions:
         work and accomplishment with us! http:\/\/t.co\/pd7yb9KCaD","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/pd7yb9KCaD","expanded_url":"http:\/\/www.meetup.com\/Turing-Community-Events\/","display_url":"meetup.com\/Turing-Communi\u2026","indices":[113,135]}]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1973042528,"id_str":"1973042528"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:18 GMT
+  recorded_at: Thu, 31 May 2018 03:11:46 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=613438465812762625&screen_name=turingschool&trim_user=true
@@ -5309,20 +5309,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:18 GMT
+      - Thu, 31 May 2018 03:11:47 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:18 GMT
+      - Thu, 31 May 2018 03:11:47 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273866224278; Expires=Sat, 30 May 2020 02:12:18 GMT; Path=/;
+      - guest_id=v1%3A152773630700210884; Expires=Sat, 30 May 2020 03:11:47 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_YOr+iw/URAcPkMcFUdbE3g=="; Expires=Sat, 30 May 2020
-        02:12:18 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_RWzH8lLnmQuuAvntylkNcw=="; Expires=Sat, 30 May 2020
+        03:11:47 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -5330,7 +5330,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - abf275623d74ed7993daabcefa3fe319
+      - c5d6d4d7e3d087b8b9a0d016000716e3
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -5338,13 +5338,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1141'
+      - '979'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '59'
+      - '79'
       X-Transaction:
-      - 003b996f0089851c
+      - 002e6cdf004eb1fe
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -5506,7 +5506,7 @@ http_interactions:
         Lake Beach","full_name":"Round Lake Beach, IL","country_code":"US","country":"United
         States","contained_within":[],"bounding_box":{"type":"Polygon","coordinates":[[[-88.120296,42.364202],[-88.043395,42.364202],[-88.043395,42.3979716],[-88.120296,42.3979716]]]},"attributes":{}},"contributors":null,"is_quote_status":false,"retweet_count":2,"favorite_count":15,"favorited":false,"retweeted":false,"lang":"en"},"retweet_count":0,"favorite_count":1,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:18 GMT
+  recorded_at: Thu, 31 May 2018 03:11:47 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=591264430731595775&screen_name=turingschool&trim_user=true
@@ -5536,20 +5536,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 02:12:18 GMT
+      - Thu, 31 May 2018 03:11:47 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 02:12:18 GMT
+      - Thu, 31 May 2018 03:11:47 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773273891148510; Expires=Sat, 30 May 2020 02:12:18 GMT; Path=/;
+      - guest_id=v1%3A152773630726782373; Expires=Sat, 30 May 2020 03:11:47 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_j9eNvRi9fdzs3Mq+ytHhoQ=="; Expires=Sat, 30 May 2020
-        02:12:18 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_oij34XwSLMlXLe/4MzLeSw=="; Expires=Sat, 30 May 2020
+        03:11:47 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -5557,7 +5557,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 5db8c911f7bf9eea2f8c7d4115d097e6
+      - 81e82b9979d3d9a47c02694747948be9
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -5565,13 +5565,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1140'
+      - '978'
       X-Rate-Limit-Reset:
-      - '1527733251'
+      - '1527736358'
       X-Response-Time:
-      - '20'
+      - '19'
       X-Transaction:
-      - 0046416300b88bcf
+      - '009719b5002b52d8'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -5580,5 +5580,5 @@ http_interactions:
       encoding: ASCII-8BIT
       string: "[]"
     http_version: 
-  recorded_at: Thu, 31 May 2018 02:12:18 GMT
+  recorded_at: Thu, 31 May 2018 03:11:47 GMT
 recorded_with: VCR 4.0.0
