@@ -23,8 +23,23 @@ describe PersonalityInsightsProfile do
       end
     end
 
+    describe '#needs' do
+      it 'returns an array of consumer needs' do
+        expect(subject.needs).to be_a Array
+        expect(subject.needs.count).to eq(12)
+
+        expect(subject.needs.first).to be_a Need
+        expect(subject.needs.first.name).to eq("Challenge")
+        expect(subject.needs.first.percentile).to eq(0.4491220062003746)
+
+        expect(subject.needs.last).to be_a Need
+        expect(subject.needs.last.name).to eq("Structure")
+        expect(subject.needs.last.percentile).to eq(0.4835752076320925)
+      end
+    end
+
     describe '#values' do
-      it 'returns an array of personality characteristics' do
+      it 'returns an array of values' do
         expect(subject.values).to be_a Array
         expect(subject.values.count).to eq(5)
 
