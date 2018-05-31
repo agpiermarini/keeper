@@ -1,31 +1,32 @@
 require 'rails_helper'
 
 describe 'Logged-in user' do
-  let(:user) { create(:user, username: "turingschool") }
   context 'visits dashboard' do
     scenario 'and sees avatar, description, location and name' do
       VCR.use_cassette('dashboard-view') do
-        allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+        visit '/'
 
-        visit '/dashboard'
+        click_on "Login with Twitter"
 
-        within('name') do
-          expect(page).to have_content('Turing School')
+        expect(current_path).to eq('/dashboard')
+
+        within('.name') do
+          expect(page).to have_content('↟Aɴᴅʀeᴡ')
         end
 
-        within('login') do
-          expect(page).to have_content('@turingschool')
+        within('.login') do
+          expect(page).to have_content('@agpiermarini')
         end
 
-        within('location') do
-          expect(page).to have_content('Denver, CO')
+        within('.location') do
+          expect(page).to have_content('')
         end
 
-        within('description') do
-          expect(page).to have_content('We unlock human potential by training a diverse, inclusive student body to succeed in high-fulfillment technical careers.')
+        within('.description') do
+          expect(page).to have_content('🍃')
         end
 
-        expect(page).to have_css('avatar')
+        expect(page).to have_css('.avatar')
       end
     end
   end
