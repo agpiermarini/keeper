@@ -1,5 +1,7 @@
 class SearchController < ApplicationController
   def show
-    redirect_to "/#{params[:username]}"
+    if params[:username_query]
+      # @results =
+    end
   end
 end

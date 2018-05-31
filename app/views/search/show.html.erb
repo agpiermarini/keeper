@@ -1,5 +1,6 @@
-<%= form_tag @username do | f | %>
-  <%= f.label :username %>
-  <%= f.text_tag :username %>
-  <%= f.submit_tag %>
-<% end %>
+<main>
+  <%= form_tag '/search', method: :get do %>
+  <%= text_field_tag :username_query, "Username" %>
+  <%= submit_tag "Submit Search"%>
+  <% end %>
+</main>

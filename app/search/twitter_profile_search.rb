@@ -1,4 +1,4 @@
-class TwitterUserSearch
+class TwitterProfileSearch
   def initialize(username)
     @username = username
   end
