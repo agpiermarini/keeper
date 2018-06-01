@@ -17,8 +17,8 @@ describe TwitterProfileSearch do
           expect(subject.profile.description).to eq('We unlock human potential by training a diverse, inclusive student body to succeed in high-fulfillment technical careers.')
           expect(subject.profile.followers_count).to eq(2749)
           expect(subject.profile.following_count).to eq(587)
-          expect(subject.profile.last_tweet).to eq("“Introducing the Module Repeat Fund!” by Kayt Hensley https://t.co/5WPNX2VmhY")
-          expect(subject.profile.tweet_count).to eq(3892)
+          expect(subject.profile.last_tweet).to eq("RT @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our students have solid foundations before we move them on 2. O…")
+          expect(subject.profile.tweet_count).to eq(3894)
           expect(subject.profile.avatar_url).to eq("http://pbs.twimg.com/profile_images/444146105312243712/EHdy1GyV_400x400.png")
         end
       end
