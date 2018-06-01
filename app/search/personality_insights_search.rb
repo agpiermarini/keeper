@@ -22,18 +22,23 @@ class PersonalityInsightsSearch
 
     info = JSON.parse(response.body, symbolize_names: true)
 
-    PersonalityInsightsProfile.new(info)
+    info[:error] ? info[:error] : PersonalityInsightsProfile.new(info)
   end
 
   private
     attr_reader :username, :data
 
-    def generate_file(text = data)
-      File.open("db/data/#{generate_file_name}.txt", 'w') { |file| file.write(text) }
-      return @filename
-    end
+    
 
-    def generate_file_name
-      @filename ||= "#{username}#{Time.now}"
-    end
+
+
+
+    # def generate_file(text = data)
+    #   File.open("db/data/#{generate_file_name}.txt", 'w') { |file| file.write(text) }
+    #   return @filename
+    # end
+    #
+    # def generate_file_name
+    #   @filename ||= "#{username}#{Time.now}"
+    # end
 end

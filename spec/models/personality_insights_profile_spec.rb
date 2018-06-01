@@ -10,16 +10,16 @@ describe PersonalityInsightsProfile do
   describe 'instance methods' do
     describe '#personality' do
       it 'returns an array of personality characteristics' do
-        expect(subject.personality).to be_a Array
-        expect(subject.personality.count).to eq(5)
+        expect(subject.dimensions).to be_a Array
+        expect(subject.dimensions.count).to eq(5)
 
-        expect(subject.personality.first).to be_a Dimension
-        expect(subject.personality.first.name).to eq("Openness")
-        expect(subject.personality.first.percentile).to eq(0.9300253602804942)
+        expect(subject.dimensions.first).to be_a Dimension
+        expect(subject.dimensions.first.name).to eq("Openness")
+        expect(subject.dimensions.first.percentile).to eq(0.9300253602804942)
 
-        expect(subject.personality.last).to be_a Dimension
-        expect(subject.personality.last.name).to eq("Emotional range")
-        expect(subject.personality.last.percentile).to eq(0.38240027823654515)
+        expect(subject.dimensions.last).to be_a Dimension
+        expect(subject.dimensions.last.name).to eq("Emotional range")
+        expect(subject.dimensions.last.percentile).to eq(0.38240027823654515)
       end
     end
 

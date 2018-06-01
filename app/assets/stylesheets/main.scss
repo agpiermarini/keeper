@@ -199,11 +199,12 @@ main {
           }
           .stat {
             margin: 0 0 20px 10px;
-            font-size: 65px;
+            font-size: 40px;
+            overflow-wrap: break-word;
           }
           .analysis {
             margin: 0 0 20px 10px;
-            font-size: 40px;
+            font-size: 30px;
           }
         }
       }
@@ -224,6 +225,62 @@ main {
         }
       }
     }
+    .search-results {
+      display: flex;
+      justify-content: flex-start;
+      flex-flow: column nowrap;
+
+      h4 {
+        margin: 50px 0 0 0;
+      }
+
+      a {
+        color: black;
+        border-color: black;
+        text-decoration: none;
+
+        .result {
+          display: flex;
+          flex-flow: row nowrap;
+          margin: 0 0 20px 0;
+          padding: 10px 10px 10px 10px;
+          width: 100%;
+
+          img.thumbnail {
+            height: 50px;
+            width: 50px;
+            border: solid 1px;
+            margin: 0 15px 0 0;
+          }
+          .names {
+            display: flex;
+            flex-flow: column nowrap;
+            margin: 0 15px 0 0;
+            min-width: 250px;
+
+            .name {
+              display: flex;
+              flex-flow: row nowrap;
+            }
+          }
+
+          .location {
+
+          }
+
+          .title {
+            font-weight: bold;
+            margin: 0 5px 0 0;
+          }
+          .content {
+          }
+        }
+
+        .result:hover{
+          background-color: #e8e9eb;
+        }
+      }
+    }
     .personality-profile {
       display: flex;
       flex-flow: column nowrap;
@@ -237,30 +294,50 @@ main {
         font-weight: bold;
       }
 
-      .trait {
+      .profile-section {
         border: solid 1px;
-        margin: 10px 0 0 0;
+        margin: 5px 0 10px 0;
+
+        .trait-section-flex {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-flow: row wrap;
+          width: 100%;
+        }
 
         .trait-name {
         font-size: 20px;
         font-weight: bold;
-        padding: 0 0 0 5px;
-        }
-        .trait-percentile {
-        font-size: 20px;
-        padding: 0 0 0 5px;
+        padding: 0 0 0 10px;
         }
 
+        .trait-percentile {
+        font-size: 20px;
+        padding: 0 0 0 10px;
+        }
+
+        .facet-name {
+          margin: 5px 0 0 0;
+          padding: 0 0 0 10px;
+          font-size: 18px;
+          font-weight: bold;
+        }
+
+        .facet-percentile {
+          font-size: 18px;
+          padding: 0 0 0 10px;
+        }
+
+        .trait {
+          margin: 10px 10px 10px 10px;
+          min-width: 30%;
+          background-color: #ededed;
+        }
         .facet {
-          .facet-name {
-            font-size: 20px;
-            margin: 5px 0 0 0;
-            padding: 0 0 0 10px;
-          }
-          .facet-percentile {
-            font-size: 20px;
-            padding: 0 0 0 10px;
-          }
+          margin: 10px 10px 10px 10px;
+          min-width: 250px;
+          background-color: #f9f9f9;
         }
       }
     }

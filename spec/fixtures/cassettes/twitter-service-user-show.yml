@@ -7,14 +7,14 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      User-Agent:
-      - Faraday v0.15.2
       Authorization:
       - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -25,24 +25,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1101'
+      - '1314'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 03:11:55 GMT
+      - Fri, 01 Jun 2018 03:03:12 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 03:11:55 GMT
+      - Fri, 01 Jun 2018 03:03:12 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773631545293404; Expires=Sat, 30 May 2020 03:11:55 GMT; Path=/;
+      - guest_id=v1%3A152782219286843704; Expires=Sun, 31 May 2020 03:03:12 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_YmFWbmhxKCtLzZWg2MoA/Q=="; Expires=Sat, 30 May 2020
-        03:11:55 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_wrFNs2h4uIbO9q0ePlacng=="; Expires=Sun, 31 May 2020
+        03:03:12 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -50,7 +50,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 0751d1be45824c1cb7953b052e12e45d
+      - e22ba0f203532ba795ef7171a3ecfe0e
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -58,94 +58,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '844'
+      - '883'
       X-Rate-Limit-Reset:
-      - '1527736850'
-      X-Response-Time:
-      - '29'
-      X-Transaction:
-      - 0011cf72002812da
-      X-Twitter-Response-Tags:
-      - BouncerCompliant
-      X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
-        CO","profile_location":null,"description":"We unlock human potential by training
-        a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2645,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3892,"lang":"en","status":{"created_at":"Tue
-        May 29 16:05:20 +0000 2018","id":1001494710177992704,"id_str":"1001494710177992704","text":"\u201cIntroducing
-        the Module Repeat Fund!\u201d by Kayt Hensley https:\/\/t.co\/5WPNX2VmhY","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/5WPNX2VmhY","expanded_url":"https:\/\/medium.com\/turingschool\/introducing-the-module-repeat-fund-51eaf4de3fd6","display_url":"medium.com\/turingschool\/i\u2026","indices":[54,77]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
-    http_version: 
-  recorded_at: Thu, 31 May 2018 03:11:55 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      Authorization:
-      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Disposition:
-      - attachment; filename=json.json
-      Content-Length:
-      - '1101'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Thu, 31 May 2018 03:11:55 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Thu, 31 May 2018 03:11:55 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - tsa_a
-      Set-Cookie:
-      - guest_id=v1%3A152773631566292041; Expires=Sat, 30 May 2020 03:11:55 GMT; Path=/;
-        Domain=.twitter.com
-      - personalization_id="v1_ee+YwdZYmZYf2WPjUq7r8Q=="; Expires=Sat, 30 May 2020
-        03:11:55 GMT; Path=/; Domain=.twitter.com
-      Status:
-      - 200 OK
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Access-Level:
-      - read
-      X-Connection-Hash:
-      - 7b0a3b1d35c4c8651c53ea62c35edaad
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Rate-Limit-Limit:
-      - '900'
-      X-Rate-Limit-Remaining:
-      - '843'
-      X-Rate-Limit-Reset:
-      - '1527736850'
+      - '1527822409'
       X-Response-Time:
       - '25'
       X-Transaction:
-      - 00343a59001ae2cf
+      - 00a1b18a008570fc
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -155,13 +74,23 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2645,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3892,"lang":"en","status":{"created_at":"Tue
-        May 29 16:05:20 +0000 2018","id":1001494710177992704,"id_str":"1001494710177992704","text":"\u201cIntroducing
-        the Module Repeat Fund!\u201d by Kayt Hensley https:\/\/t.co\/5WPNX2VmhY","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/5WPNX2VmhY","expanded_url":"https:\/\/medium.com\/turingschool\/introducing-the-module-repeat-fund-51eaf4de3fd6","display_url":"medium.com\/turingschool\/i\u2026","indices":[54,77]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":139,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2646,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3894,"lang":"en","status":{"created_at":"Fri
+        Jun 01 01:37:57 +0000 2018","id":1002363590651928577,"id_str":"1002363590651928577","text":"RT
+        @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our
+        students have solid foundations before we move them on 2. O\u2026","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"a_reuster","name":"Allison
+        Reu Singer","id":4423193714,"id_str":"4423193714","indices":[3,13]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[34,47]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        May 31 23:02:29 +0000 2018","id":1002324466276265984,"id_str":"1002324466276265984","text":"2
+        more reasons why @turingschool is awesome: 1. We make sure our students have
+        solid foundations before we move the\u2026 https:\/\/t.co\/KcWE071jiC","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[19,32]}],"urls":[{"url":"https:\/\/t.co\/KcWE071jiC","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1002324466276265984","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Thu, 31 May 2018 03:11:55 GMT
+  recorded_at: Fri, 01 Jun 2018 03:03:12 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
@@ -169,14 +98,14 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      User-Agent:
-      - Faraday v0.15.2
       Authorization:
       - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -187,24 +116,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1101'
+      - '1314'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 03:11:55 GMT
+      - Fri, 01 Jun 2018 03:03:13 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 03:11:55 GMT
+      - Fri, 01 Jun 2018 03:03:13 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773631588131387; Expires=Sat, 30 May 2020 03:11:55 GMT; Path=/;
+      - guest_id=v1%3A152782219308624853; Expires=Sun, 31 May 2020 03:03:13 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_LafjVXd4EKVv/gn+zLJx+w=="; Expires=Sat, 30 May 2020
-        03:11:55 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_atlcPpmXn2u1pTdWKH8Dfw=="; Expires=Sun, 31 May 2020
+        03:03:13 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -212,7 +141,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 8853c8f4ebd23a9473dc049ff6bfb1b3
+      - 735a257eee35b47f1a853035e7608d79
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -220,13 +149,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '842'
+      - '882'
       X-Rate-Limit-Reset:
-      - '1527736850'
+      - '1527822409'
       X-Response-Time:
       - '35'
       X-Transaction:
-      - 00d01f8800e170ef
+      - 0055e22a00a5adca
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -236,13 +165,23 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2645,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3892,"lang":"en","status":{"created_at":"Tue
-        May 29 16:05:20 +0000 2018","id":1001494710177992704,"id_str":"1001494710177992704","text":"\u201cIntroducing
-        the Module Repeat Fund!\u201d by Kayt Hensley https:\/\/t.co\/5WPNX2VmhY","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/5WPNX2VmhY","expanded_url":"https:\/\/medium.com\/turingschool\/introducing-the-module-repeat-fund-51eaf4de3fd6","display_url":"medium.com\/turingschool\/i\u2026","indices":[54,77]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":139,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2646,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3894,"lang":"en","status":{"created_at":"Fri
+        Jun 01 01:37:57 +0000 2018","id":1002363590651928577,"id_str":"1002363590651928577","text":"RT
+        @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our
+        students have solid foundations before we move them on 2. O\u2026","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"a_reuster","name":"Allison
+        Reu Singer","id":4423193714,"id_str":"4423193714","indices":[3,13]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[34,47]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        May 31 23:02:29 +0000 2018","id":1002324466276265984,"id_str":"1002324466276265984","text":"2
+        more reasons why @turingschool is awesome: 1. We make sure our students have
+        solid foundations before we move the\u2026 https:\/\/t.co\/KcWE071jiC","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[19,32]}],"urls":[{"url":"https:\/\/t.co\/KcWE071jiC","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1002324466276265984","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Thu, 31 May 2018 03:11:55 GMT
+  recorded_at: Fri, 01 Jun 2018 03:03:13 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
@@ -250,14 +189,14 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      User-Agent:
-      - Faraday v0.15.2
       Authorization:
       - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -268,24 +207,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1101'
+      - '1314'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 03:11:56 GMT
+      - Fri, 01 Jun 2018 03:03:13 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 03:11:56 GMT
+      - Fri, 01 Jun 2018 03:03:13 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773631610243975; Expires=Sat, 30 May 2020 03:11:56 GMT; Path=/;
+      - guest_id=v1%3A152782219331664945; Expires=Sun, 31 May 2020 03:03:13 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_ESpJHJJ5xq68GUhNUT/eAw=="; Expires=Sat, 30 May 2020
-        03:11:56 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_27wagN6Z9tYrMLW/Sofa/g=="; Expires=Sun, 31 May 2020
+        03:03:13 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -293,7 +232,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 813099c3d6d55d53bf8b8b6748b125c7
+      - befce2506d5da88ecb164566b486b539
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -301,13 +240,286 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '841'
+      - '881'
       X-Rate-Limit-Reset:
-      - '1527736850'
+      - '1527822409'
+      X-Response-Time:
+      - '33'
+      X-Transaction:
+      - 003b099a00878085
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
+        CO","profile_location":null,"description":"We unlock human potential by training
+        a diverse, inclusive student body to succeed in high-fulfillment technical
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":139,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2646,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3894,"lang":"en","status":{"created_at":"Fri
+        Jun 01 01:37:57 +0000 2018","id":1002363590651928577,"id_str":"1002363590651928577","text":"RT
+        @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our
+        students have solid foundations before we move them on 2. O\u2026","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"a_reuster","name":"Allison
+        Reu Singer","id":4423193714,"id_str":"4423193714","indices":[3,13]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[34,47]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        May 31 23:02:29 +0000 2018","id":1002324466276265984,"id_str":"1002324466276265984","text":"2
+        more reasons why @turingschool is awesome: 1. We make sure our students have
+        solid foundations before we move the\u2026 https:\/\/t.co\/KcWE071jiC","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[19,32]}],"urls":[{"url":"https:\/\/t.co\/KcWE071jiC","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1002324466276265984","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Fri, 01 Jun 2018 03:03:13 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1314'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 01 Jun 2018 03:03:13 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 01 Jun 2018 03:03:13 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152782219354268531; Expires=Sun, 31 May 2020 03:03:13 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_WG/0j47mzeoaP7JwddC/zg=="; Expires=Sun, 31 May 2020
+        03:03:13 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 149da66d3a5adbba68608d53c3f5174f
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '880'
+      X-Rate-Limit-Reset:
+      - '1527822409'
+      X-Response-Time:
+      - '51'
+      X-Transaction:
+      - 0070b2e0004d7d47
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
+        CO","profile_location":null,"description":"We unlock human potential by training
+        a diverse, inclusive student body to succeed in high-fulfillment technical
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":139,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2646,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3894,"lang":"en","status":{"created_at":"Fri
+        Jun 01 01:37:57 +0000 2018","id":1002363590651928577,"id_str":"1002363590651928577","text":"RT
+        @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our
+        students have solid foundations before we move them on 2. O\u2026","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"a_reuster","name":"Allison
+        Reu Singer","id":4423193714,"id_str":"4423193714","indices":[3,13]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[34,47]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        May 31 23:02:29 +0000 2018","id":1002324466276265984,"id_str":"1002324466276265984","text":"2
+        more reasons why @turingschool is awesome: 1. We make sure our students have
+        solid foundations before we move the\u2026 https:\/\/t.co\/KcWE071jiC","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[19,32]}],"urls":[{"url":"https:\/\/t.co\/KcWE071jiC","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1002324466276265984","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Fri, 01 Jun 2018 03:03:13 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1314'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 01 Jun 2018 03:03:13 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 01 Jun 2018 03:03:13 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152782219378091963; Expires=Sun, 31 May 2020 03:03:13 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_O0kU3nAH313rQPytFz7alQ=="; Expires=Sun, 31 May 2020
+        03:03:13 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 3866293be3f260f618666aea3024db23
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '879'
+      X-Rate-Limit-Reset:
+      - '1527822409'
+      X-Response-Time:
+      - '33'
+      X-Transaction:
+      - 0016a8410052e72f
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
+        CO","profile_location":null,"description":"We unlock human potential by training
+        a diverse, inclusive student body to succeed in high-fulfillment technical
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":139,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2646,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3894,"lang":"en","status":{"created_at":"Fri
+        Jun 01 01:37:57 +0000 2018","id":1002363590651928577,"id_str":"1002363590651928577","text":"RT
+        @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our
+        students have solid foundations before we move them on 2. O\u2026","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"a_reuster","name":"Allison
+        Reu Singer","id":4423193714,"id_str":"4423193714","indices":[3,13]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[34,47]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        May 31 23:02:29 +0000 2018","id":1002324466276265984,"id_str":"1002324466276265984","text":"2
+        more reasons why @turingschool is awesome: 1. We make sure our students have
+        solid foundations before we move the\u2026 https:\/\/t.co\/KcWE071jiC","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[19,32]}],"urls":[{"url":"https:\/\/t.co\/KcWE071jiC","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1002324466276265984","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Fri, 01 Jun 2018 03:03:13 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1314'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 01 Jun 2018 03:03:14 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 01 Jun 2018 03:03:14 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152782219400289292; Expires=Sun, 31 May 2020 03:03:14 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_y+guyQq2QbA+DjvsJyx2oA=="; Expires=Sun, 31 May 2020
+        03:03:14 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 7cb9fbd0478d4573128620fb723db018
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '878'
+      X-Rate-Limit-Reset:
+      - '1527822409'
       X-Response-Time:
       - '24'
       X-Transaction:
-      - 00dc10d2007f9e12
+      - 00bd644d00ec26fb
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -317,13 +529,23 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2645,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3892,"lang":"en","status":{"created_at":"Tue
-        May 29 16:05:20 +0000 2018","id":1001494710177992704,"id_str":"1001494710177992704","text":"\u201cIntroducing
-        the Module Repeat Fund!\u201d by Kayt Hensley https:\/\/t.co\/5WPNX2VmhY","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/5WPNX2VmhY","expanded_url":"https:\/\/medium.com\/turingschool\/introducing-the-module-repeat-fund-51eaf4de3fd6","display_url":"medium.com\/turingschool\/i\u2026","indices":[54,77]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":139,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2646,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3894,"lang":"en","status":{"created_at":"Fri
+        Jun 01 01:37:57 +0000 2018","id":1002363590651928577,"id_str":"1002363590651928577","text":"RT
+        @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our
+        students have solid foundations before we move them on 2. O\u2026","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"a_reuster","name":"Allison
+        Reu Singer","id":4423193714,"id_str":"4423193714","indices":[3,13]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[34,47]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        May 31 23:02:29 +0000 2018","id":1002324466276265984,"id_str":"1002324466276265984","text":"2
+        more reasons why @turingschool is awesome: 1. We make sure our students have
+        solid foundations before we move the\u2026 https:\/\/t.co\/KcWE071jiC","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[19,32]}],"urls":[{"url":"https:\/\/t.co\/KcWE071jiC","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1002324466276265984","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Thu, 31 May 2018 03:11:56 GMT
+  recorded_at: Fri, 01 Jun 2018 03:03:14 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
@@ -331,14 +553,14 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      User-Agent:
-      - Faraday v0.15.2
       Authorization:
       - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -349,24 +571,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '1101'
+      - '1314'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 May 2018 03:11:56 GMT
+      - Fri, 01 Jun 2018 03:03:14 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 May 2018 03:11:56 GMT
+      - Fri, 01 Jun 2018 03:03:14 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152773631631216107; Expires=Sat, 30 May 2020 03:11:56 GMT; Path=/;
+      - guest_id=v1%3A152782219421448525; Expires=Sun, 31 May 2020 03:03:14 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_04Naf3c7rniREpE0Ok8yyQ=="; Expires=Sat, 30 May 2020
-        03:11:56 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_fLVZE/UL3jkkAqTFGKAEig=="; Expires=Sun, 31 May 2020
+        03:03:14 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -374,7 +596,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 8a96bf279bd105fb3e9338c6c72a00ef
+      - 182869953cc83a108af4768f7f39f3a9
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -382,337 +604,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '840'
+      - '877'
       X-Rate-Limit-Reset:
-      - '1527736850'
-      X-Response-Time:
-      - '30'
-      X-Transaction:
-      - 00b0dfb80061a7ed
-      X-Twitter-Response-Tags:
-      - BouncerCompliant
-      X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
-        CO","profile_location":null,"description":"We unlock human potential by training
-        a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2645,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3892,"lang":"en","status":{"created_at":"Tue
-        May 29 16:05:20 +0000 2018","id":1001494710177992704,"id_str":"1001494710177992704","text":"\u201cIntroducing
-        the Module Repeat Fund!\u201d by Kayt Hensley https:\/\/t.co\/5WPNX2VmhY","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/5WPNX2VmhY","expanded_url":"https:\/\/medium.com\/turingschool\/introducing-the-module-repeat-fund-51eaf4de3fd6","display_url":"medium.com\/turingschool\/i\u2026","indices":[54,77]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
-    http_version: 
-  recorded_at: Thu, 31 May 2018 03:11:56 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      Authorization:
-      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Disposition:
-      - attachment; filename=json.json
-      Content-Length:
-      - '1101'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Thu, 31 May 2018 03:11:56 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Thu, 31 May 2018 03:11:56 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - tsa_a
-      Set-Cookie:
-      - guest_id=v1%3A152773631652740222; Expires=Sat, 30 May 2020 03:11:56 GMT; Path=/;
-        Domain=.twitter.com
-      - personalization_id="v1_89omNNcbXLuu7adiXs5agQ=="; Expires=Sat, 30 May 2020
-        03:11:56 GMT; Path=/; Domain=.twitter.com
-      Status:
-      - 200 OK
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Access-Level:
-      - read
-      X-Connection-Hash:
-      - c00db127d89dbd10191cef1f89642f62
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Rate-Limit-Limit:
-      - '900'
-      X-Rate-Limit-Remaining:
-      - '839'
-      X-Rate-Limit-Reset:
-      - '1527736850'
-      X-Response-Time:
-      - '42'
-      X-Transaction:
-      - '008f1faf00ccdd40'
-      X-Twitter-Response-Tags:
-      - BouncerCompliant
-      X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
-        CO","profile_location":null,"description":"We unlock human potential by training
-        a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2645,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3892,"lang":"en","status":{"created_at":"Tue
-        May 29 16:05:20 +0000 2018","id":1001494710177992704,"id_str":"1001494710177992704","text":"\u201cIntroducing
-        the Module Repeat Fund!\u201d by Kayt Hensley https:\/\/t.co\/5WPNX2VmhY","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/5WPNX2VmhY","expanded_url":"https:\/\/medium.com\/turingschool\/introducing-the-module-repeat-fund-51eaf4de3fd6","display_url":"medium.com\/turingschool\/i\u2026","indices":[54,77]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
-    http_version: 
-  recorded_at: Thu, 31 May 2018 03:11:56 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      Authorization:
-      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Disposition:
-      - attachment; filename=json.json
-      Content-Length:
-      - '1101'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Thu, 31 May 2018 03:11:56 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Thu, 31 May 2018 03:11:56 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - tsa_a
-      Set-Cookie:
-      - guest_id=v1%3A152773631675824556; Expires=Sat, 30 May 2020 03:11:56 GMT; Path=/;
-        Domain=.twitter.com
-      - personalization_id="v1_JXeUILEhQCnzztCe0eAaBw=="; Expires=Sat, 30 May 2020
-        03:11:56 GMT; Path=/; Domain=.twitter.com
-      Status:
-      - 200 OK
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Access-Level:
-      - read
-      X-Connection-Hash:
-      - 7c36f8f5d717f1b15665714ddfca061b
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Rate-Limit-Limit:
-      - '900'
-      X-Rate-Limit-Remaining:
-      - '838'
-      X-Rate-Limit-Reset:
-      - '1527736850'
-      X-Response-Time:
-      - '23'
-      X-Transaction:
-      - '0049cc390006c8b6'
-      X-Twitter-Response-Tags:
-      - BouncerCompliant
-      X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
-        CO","profile_location":null,"description":"We unlock human potential by training
-        a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2645,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3892,"lang":"en","status":{"created_at":"Tue
-        May 29 16:05:20 +0000 2018","id":1001494710177992704,"id_str":"1001494710177992704","text":"\u201cIntroducing
-        the Module Repeat Fund!\u201d by Kayt Hensley https:\/\/t.co\/5WPNX2VmhY","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/5WPNX2VmhY","expanded_url":"https:\/\/medium.com\/turingschool\/introducing-the-module-repeat-fund-51eaf4de3fd6","display_url":"medium.com\/turingschool\/i\u2026","indices":[54,77]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
-    http_version: 
-  recorded_at: Thu, 31 May 2018 03:11:56 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      Authorization:
-      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Disposition:
-      - attachment; filename=json.json
-      Content-Length:
-      - '1101'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Thu, 31 May 2018 03:11:56 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Thu, 31 May 2018 03:11:56 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - tsa_a
-      Set-Cookie:
-      - guest_id=v1%3A152773631697271086; Expires=Sat, 30 May 2020 03:11:56 GMT; Path=/;
-        Domain=.twitter.com
-      - personalization_id="v1_pAWiKtwIOy0us+wz2hKLRw=="; Expires=Sat, 30 May 2020
-        03:11:56 GMT; Path=/; Domain=.twitter.com
-      Status:
-      - 200 OK
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Access-Level:
-      - read
-      X-Connection-Hash:
-      - 1d301c47beffd1c9ab21c09b5e14a6d0
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Rate-Limit-Limit:
-      - '900'
-      X-Rate-Limit-Remaining:
-      - '837'
-      X-Rate-Limit-Reset:
-      - '1527736850'
-      X-Response-Time:
-      - '24'
-      X-Transaction:
-      - 00ca2d1200b77282
-      X-Twitter-Response-Tags:
-      - BouncerCompliant
-      X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
-        CO","profile_location":null,"description":"We unlock human potential by training
-        a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2645,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3892,"lang":"en","status":{"created_at":"Tue
-        May 29 16:05:20 +0000 2018","id":1001494710177992704,"id_str":"1001494710177992704","text":"\u201cIntroducing
-        the Module Repeat Fund!\u201d by Kayt Hensley https:\/\/t.co\/5WPNX2VmhY","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/5WPNX2VmhY","expanded_url":"https:\/\/medium.com\/turingschool\/introducing-the-module-repeat-fund-51eaf4de3fd6","display_url":"medium.com\/turingschool\/i\u2026","indices":[54,77]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
-    http_version: 
-  recorded_at: Thu, 31 May 2018 03:11:57 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      Authorization:
-      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Content-Disposition:
-      - attachment; filename=json.json
-      Content-Length:
-      - '1101'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Thu, 31 May 2018 03:11:57 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Thu, 31 May 2018 03:11:57 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - tsa_a
-      Set-Cookie:
-      - guest_id=v1%3A152773631719473366; Expires=Sat, 30 May 2020 03:11:57 GMT; Path=/;
-        Domain=.twitter.com
-      - personalization_id="v1_VN12hpMiKx7+Txb+o98eqQ=="; Expires=Sat, 30 May 2020
-        03:11:57 GMT; Path=/; Domain=.twitter.com
-      Status:
-      - 200 OK
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Access-Level:
-      - read
-      X-Connection-Hash:
-      - f6930f1f4137b91b5798327c2981b395
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Rate-Limit-Limit:
-      - '900'
-      X-Rate-Limit-Remaining:
-      - '836'
-      X-Rate-Limit-Reset:
-      - '1527736850'
+      - '1527822409'
       X-Response-Time:
       - '27'
       X-Transaction:
-      - 0040bac100176f48
+      - '00578dda0099ade5'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -722,11 +620,203 @@ http_interactions:
       string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
         CO","profile_location":null,"description":"We unlock human potential by training
         a diverse, inclusive student body to succeed in high-fulfillment technical
-        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":140,"created_at":"Sat
-        Oct 19 22:33:01 +0000 2013","favourites_count":2645,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3892,"lang":"en","status":{"created_at":"Tue
-        May 29 16:05:20 +0000 2018","id":1001494710177992704,"id_str":"1001494710177992704","text":"\u201cIntroducing
-        the Module Repeat Fund!\u201d by Kayt Hensley https:\/\/t.co\/5WPNX2VmhY","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/5WPNX2VmhY","expanded_url":"https:\/\/medium.com\/turingschool\/introducing-the-module-repeat-fund-51eaf4de3fd6","display_url":"medium.com\/turingschool\/i\u2026","indices":[54,77]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":11,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":139,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2646,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3894,"lang":"en","status":{"created_at":"Fri
+        Jun 01 01:37:57 +0000 2018","id":1002363590651928577,"id_str":"1002363590651928577","text":"RT
+        @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our
+        students have solid foundations before we move them on 2. O\u2026","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"a_reuster","name":"Allison
+        Reu Singer","id":4423193714,"id_str":"4423193714","indices":[3,13]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[34,47]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        May 31 23:02:29 +0000 2018","id":1002324466276265984,"id_str":"1002324466276265984","text":"2
+        more reasons why @turingschool is awesome: 1. We make sure our students have
+        solid foundations before we move the\u2026 https:\/\/t.co\/KcWE071jiC","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[19,32]}],"urls":[{"url":"https:\/\/t.co\/KcWE071jiC","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1002324466276265984","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Thu, 31 May 2018 03:11:57 GMT
+  recorded_at: Fri, 01 Jun 2018 03:03:14 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1314'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 01 Jun 2018 03:03:14 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 01 Jun 2018 03:03:14 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152782219442365115; Expires=Sun, 31 May 2020 03:03:14 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_RbuDkxuVv5/tFAgCnNGsww=="; Expires=Sun, 31 May 2020
+        03:03:14 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - de2b8abde1989af494b4b9ce119e99d6
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '876'
+      X-Rate-Limit-Reset:
+      - '1527822409'
+      X-Response-Time:
+      - '28'
+      X-Transaction:
+      - 00f00be400fd5a5c
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
+        CO","profile_location":null,"description":"We unlock human potential by training
+        a diverse, inclusive student body to succeed in high-fulfillment technical
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":139,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2646,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3894,"lang":"en","status":{"created_at":"Fri
+        Jun 01 01:37:57 +0000 2018","id":1002363590651928577,"id_str":"1002363590651928577","text":"RT
+        @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our
+        students have solid foundations before we move them on 2. O\u2026","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"a_reuster","name":"Allison
+        Reu Singer","id":4423193714,"id_str":"4423193714","indices":[3,13]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[34,47]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        May 31 23:02:29 +0000 2018","id":1002324466276265984,"id_str":"1002324466276265984","text":"2
+        more reasons why @turingschool is awesome: 1. We make sure our students have
+        solid foundations before we move the\u2026 https:\/\/t.co\/KcWE071jiC","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[19,32]}],"urls":[{"url":"https:\/\/t.co\/KcWE071jiC","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1002324466276265984","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Fri, 01 Jun 2018 03:03:14 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=turingschool
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1314'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 01 Jun 2018 03:03:14 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 01 Jun 2018 03:03:14 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152782219463441086; Expires=Sun, 31 May 2020 03:03:14 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_SpuSTmmxRKKrAOCp/qtVUw=="; Expires=Sun, 31 May 2020
+        03:03:14 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 849d226b114cf7f632fd5d31859c7962
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '875'
+      X-Rate-Limit-Reset:
+      - '1527822409'
+      X-Response-Time:
+      - '28'
+      X-Transaction:
+      - '009e2d2100668e7b'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1973042528,"id_str":"1973042528","name":"Turing School","screen_name":"turingschool","location":"Denver,
+        CO","profile_location":null,"description":"We unlock human potential by training
+        a diverse, inclusive student body to succeed in high-fulfillment technical
+        careers.","url":"https:\/\/t.co\/TrJ7G88hmO","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G88hmO","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":2749,"friends_count":587,"listed_count":139,"created_at":"Sat
+        Oct 19 22:33:01 +0000 2013","favourites_count":2646,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":3894,"lang":"en","status":{"created_at":"Fri
+        Jun 01 01:37:57 +0000 2018","id":1002363590651928577,"id_str":"1002363590651928577","text":"RT
+        @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our
+        students have solid foundations before we move them on 2. O\u2026","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"a_reuster","name":"Allison
+        Reu Singer","id":4423193714,"id_str":"4423193714","indices":[3,13]},{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[34,47]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        May 31 23:02:29 +0000 2018","id":1002324466276265984,"id_str":"1002324466276265984","text":"2
+        more reasons why @turingschool is awesome: 1. We make sure our students have
+        solid foundations before we move the\u2026 https:\/\/t.co\/KcWE071jiC","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"turingschool","name":"Turing
+        School","id":1973042528,"id_str":"1973042528","indices":[19,32]}],"urls":[{"url":"https:\/\/t.co\/KcWE071jiC","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1002324466276265984","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":7,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"is_quote_status":true,"quoted_status_id":1001494710177992704,"quoted_status_id_str":"1001494710177992704","retweet_count":1,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/444146105312243712\/EHdy1GyV_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1973042528\/1505944047","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Fri, 01 Jun 2018 03:03:14 GMT
 recorded_with: VCR 4.0.0
