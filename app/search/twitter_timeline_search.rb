@@ -8,15 +8,21 @@ class TwitterTimelineSearch
   end
 
   def newest_tweet
-    DateTime.parse(user_timeline.first[:date]).strftime('%B %e, %Y')
+    if user_timeline.length >= 1
+      return DateTime.parse(user_timeline.first[:date]).strftime('%B %e, %Y')
+    end
+    "NA"
   end
 
   def oldest_tweet
-    DateTime.parse(user_timeline.last[:date]).strftime('%B %e, %Y')
+    if user_timeline.length >= 1
+      return DateTime.parse(user_timeline.last[:date]).strftime('%B %e, %Y')
+    end
+    "NA"
   end
 
   def to_string
-    user_timeline.map { | tweet | tweet[:text] }.join(" ")
+    user_timeline.map { | tweet | tweet[:text] }.join(" ") || "NA"
   end
 
   private

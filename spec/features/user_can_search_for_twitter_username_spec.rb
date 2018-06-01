@@ -2,17 +2,22 @@ require 'rails_helper'
 
 context 'User' do
   context 'searches for a valid twitter username' do
+    let(:user) { create(:user) }
     it 'and sees a list of potential users matching that username' do
-      visit '/search'
+      VCR.use_cassette('search-endpoint') do
+        allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
-      fill_in "username_query", with: 'turingschool'
-      click_on "Submit Search"
+        visit '/search'
 
-      expect(current_path).to eq('/search')
+        fill_in "username_query", with: 'turingschool'
+        click_on "Submit Search"
 
-      click_on 'turingschool'
+        expect(current_path).to eq('/search')
 
-      expect(current_path).to eq("/#{username}")
+        click_on 'turingschool'
+
+        expect(current_path).to eq("/turingschool")
+      end
     end
   end
 end

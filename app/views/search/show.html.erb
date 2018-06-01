@@ -1,6 +1,50 @@
 <main>
-  <%= form_tag '/search', method: :get do %>
-  <%= text_field_tag :username_query, "Username" %>
-  <%= submit_tag "Submit Search"%>
+  <section class="search">
+    <%= form_tag '/search', method: :get do %>
+    <%= text_field_tag :username_query, "Username" %>
+    <%= submit_tag "Submit Search"%>
+    <% end %>
+  </div>
+  <% if @results %>
+  <section class="profile-right">
+    <section class="search-results">
+      <h4>Search Results:</h4>
+      <% @results.each do | user | %>
+      <a href= <%= user.screen_name %> >
+        <div class="result">
+          <%= image_tag(user.profile_image_uri.to_s, class: 'thumbnail') %>
+          <div class="names">
+            <div class="name">
+              <div class="title">
+                Name:
+              </div>
+              <div class="content">
+                <%= user.name %>
+              </div>
+            </div>
+            <div class="name">
+              <div class="title">
+                Username:
+              </div>
+              <div class="content">
+                <%= user.screen_name %>
+              </div>
+            </div>
+          </div>
+          <div class="location">
+            <% unless user.location.length < 1 %>
+            <div class="title">
+              Location:
+            </div>
+            <div class="content">
+              <%= user.location %>
+            </div>
+            <% end %>
+          </div>
+        </div>
+        <% end %>
+      </a>
+    </section>
   <% end %>
+</section>
 </main>

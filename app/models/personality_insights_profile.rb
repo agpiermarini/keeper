@@ -8,7 +8,7 @@ class PersonalityInsightsProfile
     @values_data        = profile_hash[:values]
   end
 
-  def personality
+  def dimensions
     personality_data.map { | dimension | Dimension.new(dimension) }
   end
 

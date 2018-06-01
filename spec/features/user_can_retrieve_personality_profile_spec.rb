@@ -9,8 +9,6 @@ context 'User' do
         click_on 'Generate Personality Profile'
 
         expect(current_path).to eq("/turingschool/personality-profile")
-
-        expect(page).to have_css("big-five")
       end
     end
   end

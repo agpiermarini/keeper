@@ -6,7 +6,6 @@ class TwitterUserSearch
 
   def results
     client.user_search(username_query)
-    require 'pry'; binding.pry
   end
 
   private

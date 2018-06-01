@@ -11,9 +11,8 @@ describe TwitterUserSearch do
     describe '#results' do
       it 'returns a search results object' do
         VCR.use_cassette('twitter-user-search') do
-          require 'pry'; binding.pry
+          allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
           expect(subject.results).to be_an Array
-          expect(subject.results.first).to be_a Twitter::User
         end
       end
     end
