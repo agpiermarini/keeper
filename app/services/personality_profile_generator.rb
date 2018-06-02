@@ -4,8 +4,7 @@ class PersonalityProfileGenerator
   end
 
   def generate!
-    profile = PersonalityProfile.create!(uid:                   timeline_data.uid,
-                                         username:              username,
+    profile = PersonalityProfile.create!(username:              username,
                                          word_count:            personality_data[:word_count],
                                          warning_message:       personality_data[:word_count_message],
                                          error_message:         personality_data[:error_message],

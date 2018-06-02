@@ -1,3 +1,3 @@
 class Facet < ApplicationRecord
-  belongs_to :dimension
+  belongs_to :dimension, dependent: :destroy
 end
