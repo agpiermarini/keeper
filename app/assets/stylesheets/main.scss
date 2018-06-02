@@ -170,6 +170,25 @@ main {
   .profile-right {
     width: auto;
 
+  .profile-alert {
+    border: solid 2px;
+    margin: 20px 25px 0 75px;
+    padding: 20px 0 20px 10px;
+    width: 100%;
+    text-align: center;
+
+    .error-message {
+      color: red;
+      font-weight: bold;
+    }
+
+    .warning-message {
+      color: orange;
+      font-weight: bold;
+    }
+
+  }
+
     .user-stats {
       display: flex;
       justify-content: flex-start;
