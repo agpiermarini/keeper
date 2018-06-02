@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   get '/:username', to: 'profiles#show'
 
   get '/:username/personality-profile', to: 'personality_profile#show'
+  post '/:username/personality-profile', to: 'personality_profile#create'
 end
