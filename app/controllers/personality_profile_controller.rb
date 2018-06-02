@@ -11,6 +11,7 @@ class PersonalityProfileController < ApplicationController
     unless PersonalityProfile.find_by(username: params[:username])
       PersonalityProfileGenerator.new(params[:username]).generate!
     end
-    @personality_profile = PersonalityProfilePresenter.new(params[:username])
+    @personality_profile =  PersonalityProfile.find_by(username: params[:username])
+    @twitter_profile     =  TwitterProfileSearch.new(params[:username]).profile 
   end
 end

@@ -1,13 +1,13 @@
 <main>
   <section class="user-info section" fill-color="#8F8F8F">
     <ul class="user">
-      <li class="avatar"> <%= image_tag(@personality_profile.subject_avatar, class: "avatar") %> </li>
-      <li class="name">  <%= @personality_profile.subject_name %> </li>
-      <li class="login"> @<%= @personality_profile.subject_username %> </li>
-      <li class="description lightweight-small"> <%= @personality_profile.subject_description %> </li>
-      <% if @personality_profile.subject_location %>
+      <li class="avatar"> <%= image_tag(@twitter_profile.avatar_url, class: "avatar") %> </li>
+      <li class="name">  <%= @twitter_profile.name %> </li>
+      <li class="login"> @<%= @twitter_profile.username %> </li>
+      <li class="description lightweight-small"> <%= @twitter_profile.description %> </li>
+      <% if @twitter_profile.location %>
         <div class="additional-user-info top-border">
-          <li class="location lightweight-small"> <i class="fas fa-map-marker-alt"></i> </i><%= @personality_profile.subject_location %> </li>
+          <li class="location lightweight-small"> <i class="fas fa-map-marker-alt"></i> </i><%= @twitter_profile.location %> </li>
         </div>
       <% end %>
     </ul>

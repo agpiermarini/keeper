@@ -66,6 +66,6 @@ class PersonalityProfileGenerator
     end
 
     def personality_data
-      @personality_data ||= PersonalityProfileSearch.new(username, timeline_data.to_string).profile_info
+      @personality_data ||= PersonalityProfileSearch.new(timeline_data.to_string).profile_info
     end
 end

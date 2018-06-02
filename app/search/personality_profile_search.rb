@@ -1,5 +1,5 @@
 class PersonalityProfileSearch
-  def initialize(username, data)
+  def initialize(data)
     @data = data
   end
 
@@ -8,7 +8,7 @@ class PersonalityProfileSearch
   end
 
   private
-    attr_reader :username, :data
+    attr_reader :data
 
     def client
       @client ||= WatsonService.new(data)
