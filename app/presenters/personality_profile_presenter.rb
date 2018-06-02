@@ -24,7 +24,7 @@ class PersonalityProfilePresenter
   end
 
   def total_tweets_analyzed
-    timeline_data.user_timeline.count
+    timeline_data.total_tweets
   end
 
   def oldest_tweet_analyzed
@@ -39,17 +39,27 @@ class PersonalityProfilePresenter
     personality_data.warning_message
   end
 
+  def valid?
+    return true unless personality_data.error_message
+  end
+
+  def error_message
+    personality_data.error_message unless valid?
+  end
+
   def dimensions
-    personality_data.profile.dimensions
+    valid? ? profile.dimensions : nil
   end
 
   def needs
-    personality_data.profile.needs
+    valid? ? profile.needs : nil
   end
 
   def values
-    personality_data.profile.values
+    valid? ? profile.values : nil
   end
+
+
 
   private
     attr_reader :username
@@ -65,4 +75,9 @@ class PersonalityProfilePresenter
     def personality_data
       @personality_data ||= PersonalityInsightsSearch.new(username, timeline_data.to_string)
     end
+
+    def profile
+      personality_data.profile
+    end
+
 end
