@@ -1,10 +1,10 @@
 <main>
   <section class="search">
-    <%= form_tag '/search', method: :get do %>
-    <%= text_field_tag :username_query, "Username" %>
-    <%= submit_tag "Submit Search"%>
+    <%= form_tag '/search', class: "search-form", method: :get do %>
+    <%= text_field_tag :username_query, "Type username here..." %>
+    <%= submit_tag "Submit Search", class: 'btn search-btn' %>
     <% end %>
-  </div>
+  </section>
   <% if @results %>
   <section class="profile-right">
     <section class="search-results">
