@@ -24,7 +24,7 @@ class PersonalityProfilePresenter
   end
 
   def total_tweets_analyzed
-    timeline_data.user_timeline.count
+    timeline_data.total_tweets
   end
 
   def oldest_tweet_analyzed

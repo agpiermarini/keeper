@@ -7,13 +7,11 @@ describe TwitterTimelineSearch do
   end
 
   describe 'instance methods' do
-    describe '#user_timeline' do
-      it 'returns an array of hashes of users most recent statuses excluding retweets (max 3,200 including retweets)' do
+    describe '#total_tweets' do
+      it 'returns an integer corresponding to the number of tweets in the timeline' do
         VCR.use_cassette("twitter-timeline-search-user-timeline") do
-          expect(subject.user_timeline).to be_an Array
-          expect(subject.user_timeline.count).to eq(886)
-          expect(subject.user_timeline.first[:date]).to be_a String
-          expect(subject.user_timeline.first[:text]).to be_a String
+          expect(subject.total_tweets).to be_an Integer
+          expect(subject.total_tweets).to eq(886)
         end
       end
     end

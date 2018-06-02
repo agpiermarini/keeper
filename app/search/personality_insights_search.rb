@@ -5,7 +5,7 @@ class PersonalityInsightsSearch
   end
 
   def profile
-    PersonalityInsightsProfile.new(profile) unless error_message
+    PersonalityInsightsProfile.new(profile_info) unless error_message
   end
 
   def warning_message
