@@ -10,14 +10,14 @@ context 'User' do
         expect(page).to have_content('Turing School')
         expect(page).to have_content('Denver, CO')
         expect(page).to have_content('We unlock human potential by training a diverse, inclusive student body to succeed in high-fulfillment technical careers.')
-        expect(page).to have_content('RT @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our students have solid foundations before we move them on 2. O…')
+        expect(page).to have_content("RT @ameseee: I'm fortunate to work at a place where I'm pushed technically every day and still feel connected to K12 education! Inspired by…")
 
         within('.user-stat:nth-child(1)') do
-          expect(page).to have_content("Total Tweets\n3,894")
+          expect(page).to have_content("Total Tweets\n3,895")
         end
 
         within('.user-stat:nth-child(2)') do
-          expect(page).to have_content("Followers\n2,749")
+          expect(page).to have_content("Followers\n2,750")
         end
 
         within('.user-stat:nth-child(3)') do
@@ -25,7 +25,7 @@ context 'User' do
         end
 
         within('.last-tweet') do
-          expect(page).to have_content("RT @a_reuster: 2 more reasons why @turingschool is awesome: 1. We make sure our students have solid foundations before we move them on 2. O…")
+          expect(page).to have_content("RT @ameseee: I'm fortunate to work at a place where I'm pushed technically every day and still feel connected to K12 education! Inspired by…")
         end
 
         expect(page).to have_content("Generate Personality Profile")
