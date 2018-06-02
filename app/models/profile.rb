@@ -23,7 +23,7 @@ class Profile
   end
 
   def avatar_url
-    small_avatar_url.gsub("normal", "400x400")
+    small_avatar_url.gsub("normal", "400x400") unless small_avatar_url.nil?
   end
 
   private
