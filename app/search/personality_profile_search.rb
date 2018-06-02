@@ -1,11 +1,11 @@
-class PersonalityInsightsSearch
+class PersonalityProfileSearch
   def initialize(username, data)
     @username = username
     @data = data
   end
 
   def profile
-    PersonalityInsightsProfile.new(profile_info) unless error_message
+    PersonalityProfile.new(profile_info) unless error_message
   end
 
   def warning_message

@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-describe PersonalityInsightsProfile do
+describe PersonalityProfile do
   let(:data)     { stub_profile }
-  subject { PersonalityInsightsProfile.new(data) }
+  subject { PersonalityProfile.new(data) }
   it 'initializes with username and personality profile data' do
-    expect(subject).to be_a PersonalityInsightsProfile
+    expect(subject).to be_a PersonalityProfile
   end
 
   describe 'instance methods' do

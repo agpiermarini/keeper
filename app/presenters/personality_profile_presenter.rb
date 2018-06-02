@@ -73,7 +73,7 @@ class PersonalityProfilePresenter
     end
 
     def personality_data
-      @personality_data ||= PersonalityInsightsSearch.new(username, timeline_data.to_string)
+      @personality_data ||= PersonalityProfileSearch.new(username, timeline_data.to_string)
     end
 
     def profile

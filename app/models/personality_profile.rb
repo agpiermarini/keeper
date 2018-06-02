@@ -1,4 +1,4 @@
-class PersonalityInsightsProfile
+class PersonalityProfile
   attr_reader :word_count, :word_count_message
   def initialize(profile_hash)
     @word_count         = profile_hash[:word_count]
