@@ -2,7 +2,6 @@ class CreatePersonalityProfiles < ActiveRecord::Migration[5.2]
   def change
     create_table :personality_profiles do |t|
       t.text :username
-      t.integer :uid
       t.integer :word_count
       t.string :warning_message
       t.string :error_message

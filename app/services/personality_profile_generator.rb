@@ -11,7 +11,9 @@ class PersonalityProfileGenerator
                                          error_message:         personality_data[:error_message],
                                          total_tweets_analyzed: timeline_data.total_tweets,
                                          newest_tweet_analyzed: timeline_data.newest_tweet,
-                                         oldest_tweet_analyzed: timeline_data.oldest_tweet
+                                         oldest_tweet_analyzed: timeline_data.oldest_tweet,
+                                         created_at:            Date.today,
+                                         updated_at:             Date.today
                                         )
     generate_dimensions!(profile.id)
     generate_needs!(profile.id)
@@ -59,7 +61,6 @@ class PersonalityProfileGenerator
                       )
       end
     end
-
 
     def timeline_data
       @timeline_data ||= TwitterTimelineSearch.new(username)
