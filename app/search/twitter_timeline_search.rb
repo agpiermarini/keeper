@@ -16,7 +16,7 @@ class TwitterTimelineSearch
   end
 
   def to_string
-    user_timeline.map { | tweet | tweet[:text] }.join(" ") || "NA"
+    user_timeline.map { | tweet | tweet[:text] }.join(" ")
   end
 
   private
