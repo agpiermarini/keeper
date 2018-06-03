@@ -48,8 +48,8 @@ ActiveRecord::Schema.define(version: 2018_06_02_191907) do
     t.string "warning_message"
     t.string "error_message"
     t.integer "total_tweets_analyzed"
-    t.string "newest_tweet_analyzed"
-    t.string "oldest_tweet_analyzed"
+    t.string "newest_tweet_analyzed_date"
+    t.string "oldest_tweet_analyzed_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

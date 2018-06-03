@@ -4,22 +4,21 @@ class PersonalityProfileGenerator
   end
 
   def generate!
-    profile = PersonalityProfile.create!(username:              username,
-                                         word_count:            personality_data[:word_count],
-                                         warning_message:       personality_data[:word_count_message],
-                                         error_message:         personality_data[:error_message],
-                                         total_tweets_analyzed: timeline_data.total_tweets,
-                                         newest_tweet_analyzed: timeline_data.newest_tweet,
-                                         oldest_tweet_analyzed: timeline_data.oldest_tweet,
-                                         created_at:            Date.today,
-                                         updated_at:             Date.today
+    profile = PersonalityProfile.create!(username:                   username,
+                                         word_count:                 personality_data[:word_count],
+                                         warning_message:            personality_data[:word_count_message],
+                                         error_message:              personality_data[:error_message],
+                                         total_tweets_analyzed:      timeline_data.total_tweets,
+                                         newest_tweet_analyzed_date: timeline_data.newest_tweet,
+                                         oldest_tweet_analyzed_date: timeline_data.oldest_tweet,
+                                         created_at:                 Date.today,
+                                         updated_at:                 Date.today
                                         )
     generate_dimensions!(profile.id)
     generate_needs!(profile.id)
     generate_values!(profile.id)
     return profile
   end
-
 
   private
     attr_reader :username

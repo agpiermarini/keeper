@@ -6,8 +6,8 @@ class CreatePersonalityProfiles < ActiveRecord::Migration[5.2]
       t.string :warning_message
       t.string :error_message
       t.integer :total_tweets_analyzed
-      t.string :newest_tweet_analyzed
-      t.string :oldest_tweet_analyzed
+      t.string :newest_tweet_analyzed_date
+      t.string :oldest_tweet_analyzed_date
 
       t.timestamps null: false
     end
