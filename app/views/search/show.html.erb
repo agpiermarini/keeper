@@ -1,50 +1,48 @@
-<main>
-  <section class="search section" fill-color="#8F8F8F">
-    <%= form_tag '/search', class: "search-form", method: :get do %>
-    <%= text_field_tag :username_query, "Type username here..." %>
-    <%= submit_tag "Submit Search", class: 'btn search-btn' %>
-    <% end %>
-  </section>
-  <% if @results %>
-  <section class="profile-right">
-    <section class="search-results">
-      <h4>Search Results:</h4>
-      <% @results.each do | user | %>
-      <a href= <%= user.screen_name %> >
-        <div class="result">
-          <%= image_tag(user.profile_image_uri.to_s, class: 'thumbnail') %>
-          <div class="names">
-            <div class="name">
-              <div class="title">
-                Name:
-              </div>
-              <div class="content">
-                <%= user.name %>
-              </div>
-            </div>
-            <div class="name">
-              <div class="title">
-                Username:
-              </div>
-              <div class="content">
-                <%= user.screen_name %>
-              </div>
-            </div>
-          </div>
-          <div class="location">
-            <% unless user.location.length < 1 %>
-            <div class="title">
-              Location:
-            </div>
-            <div class="content">
-              <%= user.location %>
-            </div>
-            <% end %>
-          </div>
-        </div>
-        <% end %>
-      </a>
-    </section>
+<section class="search section" fill-color="#8F8F8F">
+  <%= form_tag '/search', class: "search-form", method: :get do %>
+  <%= text_field_tag :username_query, "Type username here..." %>
+  <%= submit_tag "Submit Search", class: 'btn search-btn' %>
   <% end %>
 </section>
-</main>
+<% if @results %>
+<section class="profile-right">
+  <section class="list-results">
+    <h4 class="search-header">Search Results:</h4>
+    <% @results.each do | user | %>
+    <a href= <%= user.screen_name %> >
+      <div class="result">
+        <%= image_tag(user.profile_image_uri.to_s, class: 'thumbnail') %>
+        <div class="names">
+          <div class="name">
+            <div class="title">
+              Name:
+            </div>
+            <div class="content">
+              <%= user.name %>
+            </div>
+          </div>
+          <div class="name">
+            <div class="title">
+              Username:
+            </div>
+            <div class="content">
+              <%= user.screen_name %>
+            </div>
+          </div>
+        </div>
+        <div class="location">
+          <% unless user.location.length < 1 %>
+          <div class="title">
+            Location:
+          </div>
+          <div class="content">
+            <%= user.location %>
+          </div>
+          <% end %>
+        </div>
+      </div>
+      <% end %>
+    </a>
+  </section>
+  <% end %>
+</section>

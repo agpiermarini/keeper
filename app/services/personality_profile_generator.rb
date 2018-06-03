@@ -45,7 +45,7 @@ class PersonalityProfileGenerator
     end
 
     def generate_needs!(profile_id)
-      personality_data[:personality].each do | need |
+      personality_data[:needs].each do | need |
         Need.create!(name:                   need[:name],
                      percentile:             need[:percentile],
                      personality_profile_id: profile_id
@@ -54,7 +54,7 @@ class PersonalityProfileGenerator
     end
 
     def generate_values!(profile_id)
-      personality_data[:personality].each do | value |
+      personality_data[:values].each do | value |
         Value.create!(name:                   value[:name],
                       percentile:             value[:percentile],
                       personality_profile_id: profile_id
