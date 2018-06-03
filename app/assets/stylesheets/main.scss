@@ -350,6 +350,10 @@ main {
           }
         }
 
+        .generated {
+          min-width: 250px;
+        }
+
         .location {
 
         }
@@ -410,6 +414,7 @@ main {
 
     .search-btn, .search-btn:hover {
       padding: 4px 8px 4px 8px;
+      font-size: 12px!important;
     }
 
     #username_query {
@@ -417,6 +422,26 @@ main {
       margin: 0 10px 0 0;
       width: 300px;
       color: lightgrey;
+    }
+  }
+
+  .personality-profile-buttons {
+    .personality-profile-btn, .personality-profile-btn:hover {
+      margin: 5px 0 5px 0;
+      padding: 4px 8px 4px 8px;
+      min-width: 350px;
+      font-size: 15px;
+    }
+  }
+  .saved-profile-buttons {
+    display: flex;
+    align-items: center;
+
+    .saved-profile-btn, .personality-profile-btn:hover {
+      margin: 5px 0 5px 0;
+      padding: 4px 8px 4px 8px;
+      min-width: 100px;
+      font-size: 15px;
     }
   }
 }

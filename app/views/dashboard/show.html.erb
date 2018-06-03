@@ -48,11 +48,11 @@
               Generated on:
             </div>
             <div class="content">
-              <%= saved.personality_profile.created_at %>
+              <%= format_date(saved.personality_profile.created_at.to_s) %>
             </div>
           </div>
-          <div class="buttons">
-            DELETE BUTTON
+          <div class="saved-profile-buttons">
+            <%= button_to 'Delete', '#', method: :delete, class: 'btn saved-profile-btn' %>
           </div>
         </div>
       </a>
