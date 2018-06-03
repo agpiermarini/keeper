@@ -1,8 +1,7 @@
 require 'rails_helper'
 
-describe Need do
-  subject { Need.new({name: "harmony", percentile: 1}) }
-  it 'initializes with hash' do
-    expect(subject).to be_a Need
+describe Need, type: :model do
+  describe 'relationships' do
+    it {should belong_to :personality_profile}
   end
 end

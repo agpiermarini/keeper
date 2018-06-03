@@ -1,7 +1,3 @@
-class Need
-  attr_reader :name, :percentile
-  def initialize(need)
-    @name = need[:name]
-    @percentile = need[:percentile]
-  end
+class Need < ApplicationRecord
+  belongs_to :personality_profile, dependent: :destroy
 end

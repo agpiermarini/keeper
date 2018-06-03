@@ -3,16 +3,20 @@ class TwitterTimelineSearch
     @username = username
   end
 
+  def uid
+    user_timeline.first[:uid]
+  end
+
   def total_tweets
     user_timeline.count
   end
 
   def newest_tweet
-    total_tweets > 0 ? format_date(user_timeline.first[:date]) : "N/A"
+    total_tweets > 0 ? user_timeline.first[:date] : "N/A"
   end
 
   def oldest_tweet
-    total_tweets > 0 ? format_date(user_timeline.last[:date]) : "N/A"
+    total_tweets > 0 ? user_timeline.last[:date] : "N/A"
   end
 
   def to_string
@@ -45,16 +49,12 @@ class TwitterTimelineSearch
 
     def generate_hash(statuses)
       statuses.map do | status |
-        {date: status[:created_at], text: status[:text]}
+        {uid: status[:user][:id], date: status[:created_at], text: status[:text]}
       end
     end
 
     def user_timeline
       @user_timeline ||= fetch_tweets
-    end
-
-    def format_date(date)
-      DateTime.parse(date).strftime('%B %e, %Y')
     end
 
     def twitter_service(endpoint, params)
