@@ -13,9 +13,11 @@ context 'User' do
         expect(page).to have_content('Profile saved successfully')
         expect(page).to have_content('Saved Personality Profiles:')
 
-        within('.saved-profiles') do
-          # expect(page).to have_content('TuringSchool')
-          expect(page).to have_content('turingschool')
+        within('.list-results') do
+          expect(page).to have_content("Username:\nturingschool")
+          expect(page).to have_content("Name:\nTuring School")
+          expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B%e, %Y')}")
+          expect(page).to have_button('Delete')
         end
       end
     end
