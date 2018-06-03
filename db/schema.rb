@@ -43,7 +43,9 @@ ActiveRecord::Schema.define(version: 2018_06_03_011442) do
   end
 
   create_table "personality_profiles", force: :cascade do |t|
+    t.text "name"
     t.text "username"
+    t.text "avatar_url"
     t.integer "word_count"
     t.string "warning_message"
     t.string "error_message"

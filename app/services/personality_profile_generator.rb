@@ -5,6 +5,8 @@ class PersonalityProfileGenerator
 
   def generate!
     profile = PersonalityProfile.create!(username:                   username,
+                                         name:                       timeline_data.name,
+                                         avatar_url:                 timeline_data.avatar_url,
                                          word_count:                 personality_data[:word_count],
                                          warning_message:            personality_data[:word_count_message],
                                          error_message:              personality_data[:error_message],

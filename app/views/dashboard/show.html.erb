@@ -22,15 +22,39 @@
           You currently have 0 personality profiles saved.
         </div>
         <% else %>
-        <% @saved_profiles.each do | profile | %>
-        <div class="profile">
-          <div class="names">
-            Username: <%= profile.personality_profile.username %>
+        <% @saved_profiles.each do | saved | %>
+        <a href= "/saved-profiles/#{@saved_profile.id}" >
+          <div class="result">
+            <% require 'pry'; binding.pry %>
+            <%= image_tag(saved.personality_profile.avatar_url, class: 'thumbnail') %>
+            <div class="names">
+              <div class="name">
+                <div class="title">
+                  Name:
+                </div>
+                <div class="content">
+                  <%= saved.personality_profile.name %>
+                </div>
+              </div>
+              <div class="name">
+                <div class="title">
+                  Username:
+                </div>
+                <div class="content">
+                  <%= saved.personality_profile.username %>
+                </div>
+              </div>
+            </div>
+            <div class="generated">
+              <div class="title">
+                Generated on:
+              </div>
+              <div class="content">
+                <%= saved.personality_profile.created_at %>
+              </div>
+            </div>
           </div>
-          <div class-"other">
-            Generated On: <%= profile.personality_profile.created_at %>
-          </div>
-        </div>
+        </a>
         <% end %>
       <% end %>
     </section>
