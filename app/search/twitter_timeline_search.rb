@@ -3,8 +3,12 @@ class TwitterTimelineSearch
     @username = username
   end
 
-  def uid
-    user_timeline.first[:uid]
+  def name
+    user_timeline.first[:name]
+  end
+
+  def avatar_url
+    user_timeline.first[:avatar_url]
   end
 
   def total_tweets
@@ -34,7 +38,6 @@ class TwitterTimelineSearch
       {screen_name: username,
        include_rts: false,
        exclude_replies: true,
-       trim_user: true,
        count: 200
       }
     end
@@ -49,7 +52,10 @@ class TwitterTimelineSearch
 
     def generate_hash(statuses)
       statuses.map do | status |
-        {uid: status[:user][:id], date: status[:created_at], text: status[:text]}
+        {name: status[:user][:name],
+         avatar_url: status[:user][:profile_image_url_https],
+         date: status[:created_at],
+         text: status[:text]}
       end
     end
 

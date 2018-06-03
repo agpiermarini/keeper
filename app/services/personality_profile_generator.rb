@@ -5,6 +5,8 @@ class PersonalityProfileGenerator
 
   def generate!
     profile = PersonalityProfile.create!(username:                   username,
+                                         name:                       timeline_data.name,
+                                         avatar_url:                 timeline_data.avatar_url,
                                          word_count:                 personality_data[:word_count],
                                          warning_message:            personality_data[:word_count_message],
                                          error_message:              personality_data[:error_message],
@@ -43,7 +45,7 @@ class PersonalityProfileGenerator
     end
 
     def generate_needs!(profile_id)
-      personality_data[:personality].each do | need |
+      personality_data[:needs].each do | need |
         Need.create!(name:                   need[:name],
                      percentile:             need[:percentile],
                      personality_profile_id: profile_id
@@ -52,7 +54,7 @@ class PersonalityProfileGenerator
     end
 
     def generate_values!(profile_id)
-      personality_data[:personality].each do | value |
+      personality_data[:values].each do | value |
         Value.create!(name:                   value[:name],
                       percentile:             value[:percentile],
                       personality_profile_id: profile_id

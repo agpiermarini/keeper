@@ -6,6 +6,8 @@ class User < ApplicationRecord
   validates :oauth_token,  presence: true
   validates :oauth_secret, presence: true
 
+  has_many :saved_profiles, dependent: :destroy
+
   def self.from_omniauth(auth_info)
     find_or_create_by(uid: auth_info[:uid]) do | new_user |
       new_user.uid          = auth_info.uid

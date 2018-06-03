@@ -1,19 +1,62 @@
-<main>
-  <section class="user-info section" fill-color="#8F8F8F">
-    <ul class="user">
-      <li class="avatar"> <%= image_tag(@profile.avatar_url, class: "avatar") %> </li>
-      <li class="name">  <%= @profile.name %> </li>
-      <li class="login"> @<%= @profile.username %> </li>
-      <li class="description lightweight-small"> <%= @profile.description %> </li>
-      <% if @profile.location %>
-        <div class="additional-user-info top-border">
-          <% if @profile.location %>
-            <li class="location lightweight-small"> <i class="fas fa-map-marker-alt"></i> </i><%= @profile.location %> </li>
-          <% end %>
+<section class="user-info section" fill-color="#8F8F8F">
+  <ul class="user">
+    <li class="avatar"> <%= image_tag(@profile.avatar_url, class: "avatar") %> </li>
+    <li class="name">  <%= @profile.name %> </li>
+    <li class="login"> @<%= @profile.username %> </li>
+    <li class="description lightweight-small"> <%= @profile.description %> </li>
+    <% if @profile.location %>
+      <div class="additional-user-info top-border">
+        <% if @profile.location %>
+          <li class="location lightweight-small"> <i class="fas fa-map-marker-alt"></i> </i><%= @profile.location %> </li>
+        <% end %>
+      </div>
+    <% end %>
+  </ul>
+</section>
+<section class="profile-right">
+  <section class="list-results">
+    <h4 class="saved-header">Saved Personality Profiles:</h4>
+    <% if @saved_profiles.empty? %>
+      <div class="message">
+        You currently have 0 personality profiles saved.
+      </div>
+      <% else %>
+      <% @saved_profiles.each do | saved | %>
+      <a href= "/saved-profiles/<%= saved.id %>" >
+        <div class="result">
+          <%= image_tag(saved.personality_profile.avatar_url, class: 'thumbnail') %>
+          <div class="names">
+            <div class="name">
+              <div class="title">
+                Name:
+              </div>
+              <div class="content">
+                <%= saved.personality_profile.name %>
+              </div>
+            </div>
+            <div class="name">
+              <div class="title">
+                Username:
+              </div>
+              <div class="content">
+                <%= saved.personality_profile.username %>
+              </div>
+            </div>
+          </div>
+          <div class="generated">
+            <div class="title">
+              Generated on:
+            </div>
+            <div class="content">
+              <%= format_date(saved.personality_profile.created_at.to_s) %>
+            </div>
+          </div>
+          <div class="saved-profile-buttons">
+            <%= button_to 'Delete', '#', method: :delete, class: 'btn saved-profile-btn' %>
+          </div>
         </div>
+      </a>
       <% end %>
-    </ul>
+    <% end %>
   </section>
-  <section class="profile-right">
-  </section>
-<main>
+</section>
