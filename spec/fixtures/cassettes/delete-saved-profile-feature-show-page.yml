@@ -1,0 +1,168 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=j3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1240'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Sun, 03 Jun 2018 21:22:39 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Sun, 03 Jun 2018 21:22:39 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152806095908607163; Expires=Tue, 02 Jun 2020 21:22:39 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_vlwUgp8QKNSBTfbzErr/VQ=="; Expires=Tue, 02 Jun 2020
+        21:22:39 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 3b6b9301ff6cfc541f8faabec9b6e97c
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '895'
+      X-Rate-Limit-Reset:
+      - '1528061292'
+      X-Response-Time:
+      - '26'
+      X-Transaction:
+      - 001fccba002b739a
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1133971,"id_str":"1133971","name":"Jeff Casimir","screen_name":"j3","location":"Denver,
+        CO","profile_location":null,"description":"Don''t talk about it, be about
+        it. Executive Director at the @TuringSchool.","url":"https:\/\/t.co\/TrJ7G7QGvg","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/TrJ7G7QGvg","expanded_url":"http:\/\/turing.io","display_url":"turing.io","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":7091,"friends_count":1774,"listed_count":448,"created_at":"Wed
+        Mar 14 02:35:24 +0000 2007","favourites_count":9681,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":28756,"lang":"en","status":{"created_at":"Sat
+        Jun 02 21:49:40 +0000 2018","id":1003030914916478976,"id_str":"1003030914916478976","text":"@ChrisSkirka
+        To be fair, my bias is that I\u2019m not interested in autographs.","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"ChrisSkirka","name":"Chris
+        Skirka","id":1626739926,"id_str":"1626739926","indices":[0,12]}],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/tapbots.com\/tweetbot\" rel=\"nofollow\"\u003eTweetbot for
+        i\u039fS\u003c\/a\u003e","in_reply_to_status_id":1003021415396732929,"in_reply_to_status_id_str":"1003021415396732929","in_reply_to_user_id":1626739926,"in_reply_to_user_id_str":"1626739926","in_reply_to_screen_name":"ChrisSkirka","geo":null,"coordinates":null,"place":{"id":"460b8a5f636e7c9e","url":"https:\/\/api.twitter.com\/1.1\/geo\/id\/460b8a5f636e7c9e.json","place_type":"neighborhood","name":"Union
+        Station","full_name":"Union Station, Denver","country_code":"US","country":"United
+        States","contained_within":[],"bounding_box":{"type":"Polygon","coordinates":[[[-105.008219,39.7455573],[-104.991716,39.7455573],[-104.991716,39.760381],[-105.008219,39.760381]]]},"attributes":{}},"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"9AE4E8","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/900406994506366977\/jtdyLYVF_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/900406994506366977\/jtdyLYVF_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1133971\/1503508820","profile_link_color":"0000FF","profile_sidebar_border_color":"87BC44","profile_sidebar_fill_color":"E0FF92","profile_text_color":"000000","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"regular"}'
+    http_version: 
+  recorded_at: Sun, 03 Jun 2018 21:22:39 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=katyperry
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1120'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Sun, 03 Jun 2018 21:22:39 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Sun, 03 Jun 2018 21:22:39 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152806095931936088; Expires=Tue, 02 Jun 2020 21:22:39 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_cLQ3jWXByuyUJv4a5iXLPg=="; Expires=Tue, 02 Jun 2020
+        21:22:39 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - aca46875dd88096b8db6743e7e92a17b
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '894'
+      X-Rate-Limit-Reset:
+      - '1528061292'
+      X-Response-Time:
+      - '24'
+      X-Transaction:
+      - 00e4a82d00ac06a9
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21447363,"id_str":"21447363","name":"KATY PERRY","screen_name":"katyperry","location":"","profile_location":null,"description":"Love.
+        Light.","url":"https:\/\/t.co\/UCVo8NkmAc","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/UCVo8NkmAc","expanded_url":"http:\/\/www.katyperry.com\/tour","display_url":"katyperry.com\/tour","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":109510493,"friends_count":216,"listed_count":141478,"created_at":"Fri
+        Feb 20 23:45:56 +0000 2009","favourites_count":6204,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":true,"statuses_count":9210,"lang":"en","status":{"created_at":"Sat
+        Jun 02 22:44:24 +0000 2018","id":1003044688381739008,"id_str":"1003044688381739008","text":"We
+        just played our 80TH show for #WITNESSTHETOUR... \ud83e\udd1d\ud83c\udf0e\ud83d\udcaa\ud83c\udffb\ud83c\udf0d\ud83d\ude4c\ud83c\udffb\ud83c\udf0f\u2764\ufe0f
+        #andwedontstop\n#welloiledmachine #cookingwithgas \ud83d\udc75\ud83c\udffc","truncated":false,"entities":{"hashtags":[{"text":"WITNESSTHETOUR","indices":[33,48]},{"text":"andwedontstop","indices":[63,77]},{"text":"welloiledmachine","indices":[78,95]},{"text":"cookingwithgas","indices":[96,111]}],"symbols":[],"user_mentions":[],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1836,"favorite_count":11617,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":true,"profile_background_color":"CECFBC","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1001159499133149184\/mNHEcMbf_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1001159499133149184\/mNHEcMbf_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21447363\/1527150186","profile_link_color":"D55732","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"78C0A8","profile_text_color":"5E412F","profile_use_background_image":true,"has_extended_profile":true,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"regular"}'
+    http_version: 
+  recorded_at: Sun, 03 Jun 2018 21:22:39 GMT
+recorded_with: VCR 4.0.0

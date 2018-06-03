@@ -1,4 +1,4 @@
- body {
+body {
     min-height: 150vh;
 }
 
@@ -96,10 +96,17 @@ padding-top: 75px;
   }
 
 main {
+  padding: 50px 0 0 0;
+  margin: 0px 0 0 0;
+  width: 100vw;
+
+.main-content {
   display: flex;
   justify-content: flex-start;
   flex-flow: row nowrap;
-  margin: 100px 25px 0 100px;
+  margin: 50px 25px 0 100px;
+  width: 83vw;
+
 
   .bottom-border {
     border-top: 0px;
@@ -166,7 +173,7 @@ main {
       }
     }
   }
-
+}
   .profile-right {
     width: auto;
 
@@ -444,4 +451,8 @@ main {
       font-size: 15px;
     }
   }
+}
+
+#alert {
+  text-align: center;
 }

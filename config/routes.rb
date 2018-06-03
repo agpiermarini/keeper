@@ -8,13 +8,16 @@ Rails.application.routes.draw do
 
   get '/logout', to: 'sessions#destroy'
 
-  get '/dashboard',       to: 'dashboard#show', as: :dashboard
-  post '/saved-profiles', to: 'saved_profiles#create', as: :saved_profiles
+  get '/dashboard', to: 'dashboard#show', as: :dashboard
+
+  get    '/saved-profiles/:id', to: 'saved_profiles#show',   as: :saved_profile
+  post   '/saved-profiles',     to: 'saved_profiles#create', as: :saved_profiles
+  delete '/saved-profiles/:id', to: 'saved_profiles#destroy'
 
   get '/search', to: 'search#show'
 
   get '/:username', to: 'profiles#show'
 
-  get '/:username/personality-profile', to: 'personality_profile#show'
+  get '/:username/personality-profile',  to: 'personality_profile#show'
   post '/:username/personality-profile', to: 'personality_profile#create'
 end
