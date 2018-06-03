@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_02_191907) do
+ActiveRecord::Schema.define(version: 2018_06_03_011442) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -54,6 +54,13 @@ ActiveRecord::Schema.define(version: 2018_06_02_191907) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "saved_profiles", force: :cascade do |t|
+    t.bigint "user_id"
+    t.bigint "personality_profile_id"
+    t.index ["personality_profile_id"], name: "index_saved_profiles_on_personality_profile_id"
+    t.index ["user_id"], name: "index_saved_profiles_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "uid"
     t.string "username"
@@ -79,5 +86,7 @@ ActiveRecord::Schema.define(version: 2018_06_02_191907) do
   add_foreign_key "dimensions", "personality_profiles"
   add_foreign_key "facets", "dimensions"
   add_foreign_key "needs", "personality_profiles"
+  add_foreign_key "saved_profiles", "personality_profiles"
+  add_foreign_key "saved_profiles", "users"
   add_foreign_key "values", "personality_profiles"
 end

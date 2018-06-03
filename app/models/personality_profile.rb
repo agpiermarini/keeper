@@ -4,6 +4,7 @@ class PersonalityProfile < ApplicationRecord
   has_many :needs
   has_many :values
   has_many :facets
+  has_many :saved_profiles
 
   def oldest_tweet
     format_date(self.oldest_tweet_analyzed_date)

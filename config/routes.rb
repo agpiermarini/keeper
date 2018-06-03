@@ -6,9 +6,10 @@ Rails.application.routes.draw do
   get '/auth/twitter', as: :twitter_login
   get '/auth/twitter/callback', to: 'sessions#create'
 
-  get '/logout', to: "sessions#destroy"
+  get '/logout', to: 'sessions#destroy'
 
-  get '/dashboard', to: "dashboard#show"
+  get '/dashboard',       to: 'dashboard#show', as: :dashboard
+  post '/saved-profiles', to: 'saved_profiles#create', as: :saved_profiles
 
   get '/search', to: 'search#show'
 

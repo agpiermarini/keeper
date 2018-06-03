@@ -15,5 +15,24 @@
     </ul>
   </section>
   <section class="profile-right">
+    <section class="saved-profiles">
+      <h4>Saved Personality Profiles:</h4>
+      <% if @saved_profiles.empty? %>
+        <div class="message">
+          You currently have 0 personality profiles saved.
+        </div>
+        <% else %>
+        <% @saved_profiles.each do | profile | %>
+        <div class="profile">
+          <div class="names">
+            Username: <%= profile.personality_profile.username %>
+          </div>
+          <div class-"other">
+            Generated On: <%= profile.personality_profile.created_at %>
+          </div>
+        </div>
+        <% end %>
+      <% end %>
+    </section>
   </section>
 <main>

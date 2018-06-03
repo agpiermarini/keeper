@@ -11,6 +11,12 @@
         </div>
       <% end %>
     </ul>
+    <div class="buttons">
+      <% unless @personality_profile.error_message %>
+        <%= link_to "Save Profile and Return to Dashboard", saved_profiles_path(personality_profile_id: @personality_profile.id), method: :post, class: "btn" %>
+      <% end %>
+      <%= link_to "Search for a Different User", "/search", class: "btn" %>
+    </div>
   </section>
   <section class="profile-right">
     <% if @personality_profile.warning_message %>
