@@ -18,13 +18,6 @@
   </div>
 </section>
 <section class="profile-right">
-  <% if @personality_profile.warning_message %>
-  <section class="profile-alert">
-    <div class="warning-message">
-      <%= @personality_profile.warning_message %>
-    </div>
-  </section>
-  <% end %>
   <div class="user-stats">
     <div class="counts">
       <div class="user-stat">
@@ -53,6 +46,13 @@
       </div>
     </div>
   </div>
+  <% if @personality_profile.warning_message %>
+  <section class="profile-alert">
+    <div class="warning-message">
+      <%= @personality_profile.warning_message %>
+    </div>
+  </section>
+  <% end %>
   <% if @personality_profile.valid? %>
   <section class="personality-profile">
     <div class="profile-header">
