@@ -1,6 +1,6 @@
 <section class="search section" fill-color="#8F8F8F">
   <%= form_tag '/search', class: "search-form", method: :get do %>
-  <%= text_field_tag :username_query, "Type username here..." %>
+  <%= text_field_tag :username_query, nil, placeholder: "Type username here..." %>
   <%= submit_tag "Submit Search", class: 'btn search-btn' %>
   <% end %>
 </section>

@@ -6,7 +6,6 @@ body {
 padding-top: 75px;
 }
 
-
 .navbar {
   display: flex;
   height: 50px;
@@ -90,7 +89,6 @@ padding-top: 75px;
   min-height: 150px
 }
 
-
   img {
     width: 100%;
   }
@@ -106,7 +104,6 @@ main {
   flex-flow: row nowrap;
   margin: 50px 25px 0 100px;
   width: 83vw;
-
 
   .bottom-border {
     border-top: 0px;
@@ -136,7 +133,6 @@ main {
     .avatar {
       height: 350px;
       width: 350px;
-      // border-radius: 10%;
     }
 
     .name {
@@ -193,7 +189,6 @@ main {
       color: orange;
       font-weight: bold;
     }
-
   }
 
     .user-stats {
@@ -428,7 +423,7 @@ main {
       padding: 6px 10px 6px 10px;
       margin: 0 10px 0 0;
       width: 300px;
-      color: lightgrey;
+      color: black;
     }
   }
 
