@@ -175,6 +175,7 @@ main {
 }
   .profile-right {
     width: 100%;
+    max-width: 1100px;
 
   .profile-alert {
     border: solid 2px;
@@ -303,9 +304,13 @@ main {
         }
 
         .trait {
-          margin: 5px 5px 5px 5px;
           min-width: 225px;
-          background-color: #ededed;
+          background-color: #EEEEEE;
+          margin: 1px 0 5px 0;
+        }
+
+        .trait:hover {
+          background-color: #DDDDDD;
         }
 
         .dimension {
@@ -398,6 +403,12 @@ main {
     margin: 20px 0px 0 30px;
   }
 
+  .personality-profile-buttons {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+  }
+
   .btn {
     background: #8f8f8f;
     background-image: -webkit-linear-gradient(top, #8f8f8f, #646464);
@@ -469,4 +480,64 @@ main {
   text-align: center;
   position: absolute;
   width: 100%;
+}
+
+
+/* Popup container - can be anything you want */
+.popup, .popup-primary {
+    cursor: pointer;
+}
+.popuptext, .popuptext-primary {
+  visibility: hidden;
+  color: #3cb0fd;
+  text-align: center;
+  padding: 8px 0;
+  z-index: 100;
+  height: 100;
+  float: left;
+  width: 1%;
+  position: absolute;
+  min-width: 225px;
+  background-color: #DDDDDD;
+  margin: 1px 0 5px 0;
+  border: 1px solid #AAAAAA;
+}
+
+  /* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  margin: 0 0 10px -5px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    margin: 2px 0 0 0;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup-primary .show {
+    visibility: visible;
+    margin: 0 0 0 0;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
 }
