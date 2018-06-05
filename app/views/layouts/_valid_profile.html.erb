@@ -48,7 +48,7 @@
         <div class="trait-percentile" percentile="#">
           Percentile: <%= number_to_percentage(dimension.percentile * 100, precision: 0) %>
         </div>
-        <span class="trait popuptext-primary" id="<%= dimension.name %>"> <%= dimension_description[dimension.name] %> </span>
+        <span class="popuptext-primary" id="<%= dimension.name %>"> <%= dimension_description[dimension.name] %> </span>
       </div>
       <div class="trait-section-flex">
         <% dimension.facets.each do | facet | %>
@@ -59,7 +59,7 @@
           <div class="facet-percentile">
             Percentile: <%= number_to_percentage(facet.percentile * 100, precision: 0) %>
           </div>
-          <span class="trait popuptext" id="<%= facet.name %>"><%= facet_description[facet.name] %></span>
+          <span class="popuptext" id="<%= facet.name %>"><%= facet_description[facet.name] %></span>
         </div>
         <% end %>
       </div>
@@ -78,7 +78,7 @@
           <div class="trait-percentile">
             Percentile: <%= number_to_percentage(need.percentile * 100, precision: 0) %>
           </div>
-          <span class="trait popuptext" id="<%= need.name %>"><%= need_description[need.name] %></span>
+          <span class="popuptext" id="<%= need.name %>"><%= need_description[need.name] %></span>
         </div>
         <% end %>
       </div>
@@ -96,7 +96,7 @@
           <div class="trait-percentile">
             Percentile: <%= number_to_percentage(value.percentile * 100, precision: 0) %>
           </div>
-          <span class="trait popuptext" id="<%= value.name %>"><%= value_description[value.name] %></span>
+          <span class="popuptext" id="<%= value.name %>"><%= value_description[value.name] %></span>
         </div>
         <% end %>
       </div>

@@ -497,6 +497,10 @@ main {
   float: left;
   width: 1%;
   position: absolute;
+  min-width: 225px;
+  background-color: #DDDDDD;
+  margin: 1px 0 5px 0;
+  border: 1px solid #AAAAAA;
 }
 
   /* Popup arrow */
