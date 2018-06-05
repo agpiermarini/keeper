@@ -1,0 +1,297 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=agpiermarini
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '562'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 05 Jun 2018 05:30:25 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Tue, 05 Jun 2018 05:30:25 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152817662528309676; Expires=Thu, 04 Jun 2020 05:30:25 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_UndY/Z2eCxto/PBahZ+qvQ=="; Expires=Thu, 04 Jun 2020
+        05:30:25 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 68efef8d2190c6ff885d9fa7e91e9e02
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '890'
+      X-Rate-Limit-Reset:
+      - '1528177081'
+      X-Response-Time:
+      - '20'
+      X-Transaction:
+      - 0006dd4d0087812f
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":809075773105721344,"id_str":"809075773105721344","name":"\u219fA\u0274\u1d05\u0280e\u1d21","screen_name":"agpiermarini","location":"","profile_location":null,"description":"\ud83c\udf43","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":0,"friends_count":0,"listed_count":0,"created_at":"Wed
+        Dec 14 16:41:11 +0000 2016","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":0,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/968045861958635520\/LxDeesSo_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/968045861958635520\/LxDeesSo_normal.jpg","profile_link_color":"ABB8C2","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"000000","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Tue, 05 Jun 2018 05:30:25 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&screen_name=agpiermarini
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '28'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 05 Jun 2018 05:30:25 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Tue, 05 Jun 2018 05:30:25 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152817662549780929; Expires=Thu, 04 Jun 2020 05:30:25 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_lFizI5t7SZAUbDA2wy1jkQ=="; Expires=Thu, 04 Jun 2020
+        05:30:25 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 912720ee2a9c0fe0f295509eadcd193f
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '1500'
+      X-Rate-Limit-Remaining:
+      - '1478'
+      X-Rate-Limit-Reset:
+      - '1528177139'
+      X-Response-Time:
+      - '40'
+      X-Transaction:
+      - 004c53410066c9d7
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 05 Jun 2018 05:30:25 GMT
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic MGVjMDRjYWMtZDFiOS00YjcxLTlmODgtNTkxNjc4MWNlYjJkOk5KZmwwV1E0TW5TSA==
+      User-Agent:
+      - Faraday v0.15.2
+      Content-Type:
+      - text/plain;charset=utf-8
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      X-Backside-Transport:
+      - FAIL FAIL
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      Pragma:
+      - no-cache
+      X-Service-Api-Version:
+      - 3.4.4
+      Cache-Control:
+      - no-store
+      X-Service-Build-Number:
+      - 2018-05-21T05:06:00.565 UTC
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Language:
+      - en-US
+      X-Powered-By:
+      - Servlet/3.1
+      Content-Type:
+      - application/json
+      Server:
+      - "-"
+      X-Dp-Transit-Id:
+      - gateway01-376424009
+      X-Global-Transaction-Id:
+      - 7ecac92c5b161ff1166fc649
+      Strict-Transport-Security:
+      - max-age=31536000;
+      X-Dp-Watson-Tran-Id:
+      - gateway01-376424009
+      Content-Length:
+      - '78'
+      Date:
+      - Tue, 05 Jun 2018 05:30:25 GMT
+      Connection:
+      - close
+      Set-Cookie:
+      - Watson-DPAT=5JoXf4mnRF%2Fpw66IKSjreOPdbKrHTcIXzknc2RlxWCAPWvd0%2FbGsMr324Fc8UlBQRKQzm9Npw%2FdeK6XZ%2FAeujogR34nRmuDkqaGgLUb67KOD1j9G%2BEKZE4CI9M%2Fh2yEYWdx%2BEU16fYFNeR7beetVM5mSIBbunLRlBhrjfhCpw2NLetfUKs93OqQ80dG2gcfRFuME%2BSkndAhJHJxcF%2FWSeTG5HS7fMH31i%2F%2F4YqL4tS6q8QasX6%2F1%2B8VUEugP7W%2Bba7g6npHQfp2mfKi0%2FCDqzbPGvsV%2Fir6odqaUGWWQe5V8FHB4HVkACp0ggfWyd%2BGvP%2BBOeJX4M9TjZRkAhK4Kz6ou0QSIAjLwvx%2B9cYNoW4GPbfSloVEs5MOSzjc8rk1xmfyT%2BZg%2F3oKhVKT6tonPps6yikBhPgoOPUIhQBJqLZgzErJlYLJ%2BSmFmAx75kReWauGZP4maiTWDvmGvzkLM%2BshTV0Gx3fv0ktJrVf6ViJFg%2B4SOYpm6TZRjkiCMOeLUDbDk8DXz4e9TROcbHVjVqYxBX7UZOR9tR2lFw0DXWJTSokoRlaJefsg6du5i%2BrEuJoK0hpe3vEWnpyNPSeKwNPmP%2BQASDF30k0NqkVOToBVuj%2BUFutoekDULkE2sa5T%2FFhwsTyvPZmkHas1rhmXtRLIdZY9R2w395maDFWXQIqtQGjd3aiwppv%2B2Ww1LUq2kV6n6Cyr6GVIqgmm3pf%2FSrQlWU2299LBHKkDl%2F07DtnzXD1wSaHK1YSGVkkfPkYSdUdN6YB8vdjv862gmstCtWSvJd7j46%2BBzHxr1dbnr6oxkjwltyxIeLYcUwc3W%2Bo1Ercfu2SvL1OihEU13478CyDrVv2xpkLk7XFh2vKhYNtQMsabZytSWe%2B4azPn4GCeJUohLPTtJ4Q49By7Lg%2FUmyO37wVX8M1cjxQssOpy0n%2BeNNr2UIOFm09I8cAT1Pg5o3Wz6WkCCLlqM16jo4OeaoQ%3D%3D;
+        path=/personality-insights/api; secure; HttpOnly
+    body:
+      encoding: ASCII-8BIT
+      string: '{"code":400,"sub_code":"S00008","error":"No text provided"}'
+    http_version: 
+  recorded_at: Tue, 05 Jun 2018 05:30:25 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=agpiermarini
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '562'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 05 Jun 2018 05:30:30 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Tue, 05 Jun 2018 05:30:30 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152817663000861747; Expires=Thu, 04 Jun 2020 05:30:30 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_iDyMwHzuWJPhVPxUjIZ3kw=="; Expires=Thu, 04 Jun 2020
+        05:30:30 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - b49284f313a225f0bd6ef555edb7d413
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '889'
+      X-Rate-Limit-Reset:
+      - '1528177081'
+      X-Response-Time:
+      - '25'
+      X-Transaction:
+      - 00a1e66400c3dc76
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":809075773105721344,"id_str":"809075773105721344","name":"\u219fA\u0274\u1d05\u0280e\u1d21","screen_name":"agpiermarini","location":"","profile_location":null,"description":"\ud83c\udf43","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":0,"friends_count":0,"listed_count":0,"created_at":"Wed
+        Dec 14 16:41:11 +0000 2016","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":0,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/968045861958635520\/LxDeesSo_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/968045861958635520\/LxDeesSo_normal.jpg","profile_link_color":"ABB8C2","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"000000","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Tue, 05 Jun 2018 05:30:30 GMT
+recorded_with: VCR 4.0.0

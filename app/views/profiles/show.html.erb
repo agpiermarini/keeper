@@ -1,17 +1,4 @@
-<section class="user-info section" fill-color="#8F8F8F">
-  <ul class="user">
-    <li class="avatar"> <%= image_tag(@profile.avatar_url, class: "avatar") %> </li>
-    <li class="name">  <%= @profile.name %> </li>
-    <li class="login"> @<%= @profile.username %> </li>
-    <li class="description lightweight-small"> <%= @profile.description %> </li>
-    <% if @profile.location %>
-      <div class="additional-user-info top-border">
-        <% if @profile.location %>
-          <li class="location lightweight-small"> <i class="fas fa-map-marker-alt"></i> </i><%= @profile.location %> </li>
-        <% end %>
-      </div>
-    <% end %>
-  </ul>
+<%= render partial: 'layouts/twitter_user_basic_info' %>
 </section>
 <section class="profile-right">
   <section class="user-stats">
@@ -21,7 +8,7 @@
           <i class="far fa-comments"></i> Total Tweets
         </div>
         <div class="stat">
-          <%= number_with_delimiter(@profile.tweet_count, :delimiter => ',') %>
+          <%= number_with_delimiter(@twitter_profile.tweet_count, :delimiter => ',') %>
         </div>
       </div>
       <div class="user-stat">
@@ -29,7 +16,7 @@
           <i class="far fa-user"></i> Followers
         </div>
         <div class="stat">
-          <%= number_with_delimiter(@profile.followers_count, :delimiter => ',') %>
+          <%= number_with_delimiter(@twitter_profile.followers_count, :delimiter => ',') %>
         </div>
       </div>
       <div class="user-stat">
@@ -37,21 +24,21 @@
           <i class="far fa-user"></i> Friends
         </div>
         <div class="stat">
-          <%= number_with_delimiter(@profile.following_count, :delimiter => ',') %>
+          <%= number_with_delimiter(@twitter_profile.following_count, :delimiter => ',') %>
         </div>
       </div>
     </section>
     <section class="last-tweet">
       <div class="icon">
-        <i class="far fa-comment"></i> Last Tweet • <%= @profile.last_tweet_date %>
+        <i class="far fa-comment"></i> Last Tweet • <%= @twitter_profile.last_tweet_date %>
       </div>
       <div class="tweet-text">
-        <%= @profile.last_tweet %>
+        <%= @twitter_profile.last_tweet %>
       </div>
     </section>
   </section>
   <section class="profile-buttons">
-    <%= link_to "Generate Personality Profile", "/#{@profile.username}/personality-profile", class: "btn" %>
+    <%= link_to "Generate Personality Profile", "/#{@twitter_profile.username}/personality-profile", class: "btn" %>
     <%= link_to "Search for a Different User", "/search", class: "btn" %>
   </section>
 </section>
