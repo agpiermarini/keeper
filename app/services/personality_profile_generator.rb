@@ -22,7 +22,6 @@ class PersonalityProfileGenerator
       generate_needs!(profile.id)
       generate_values!(profile.id)
     else
-      require 'pry'; binding.pry
       PersonalityProfile.create!(username: username,
                                  error_message: personality_data[:error],
                                  created_at: Date.today,

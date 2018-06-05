@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :personality_profile do
-    name 'test-profile'
-    username 'j3'
+    name 'Neil deGrasse Tyson'
+    username '@neiltyson'
     avatar_url "http://pbs.twimg.com/profile_images/968045861958635520/LxDeesSo_normal.jpg"
     word_count 600
     total_tweets_analyzed 600
