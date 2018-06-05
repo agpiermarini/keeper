@@ -1,6 +1,8 @@
 <%= render partial: 'layouts/twitter_user_basic_info' %>
 <div class="personality-profile-buttons">
-  <%= link_to "Save Profile and Return to Dashboard", saved_profiles_path(personality_profile_id: @personality_profile.id), method: :post, class: "btn personality-profile-btn" %>
+  <% if @personality_profile.is_valid? %>
+    <%= link_to "Save Profile and Return to Dashboard", saved_profiles_path(personality_profile_id: @personality_profile.id), method: :post, class: "btn personality-profile-btn" %>
+  <% end %>
   <%= link_to "Search for a Different User", "/search", class: "btn personality-profile-btn" %>
 </div>
 <% if @personality_profile.is_valid? %>
