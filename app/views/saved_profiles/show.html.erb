@@ -1,6 +1,12 @@
 <%= render partial: 'layouts/twitter_user_basic_info' %>
-<% if @personality_profile.is_valid? %>
-  <%= render partial: 'layouts/valid_profile' %>
-<% else %>
-  <%= render partial: 'layouts/invalid_profile' %>
-<% end %>
+  <div class="personality-profile-buttons">
+    <%= link_to "Return to Dashboard", dashboard_path, class: "btn personality-profile-btn" %>
+    <% unless @personality_profile.error_message %>
+      <%= link_to "Delete Profile and Return to Dashboard", "#{request.path}", method: :delete, class: "btn personality-profile-btn", data: {confirm: "Are you sure you want to delete this profile? You can generate a new profile for this Twitter user, but the data may have since changed."} %>
+    <% end %>
+  </div>
+  <% if @personality_profile.is_valid? %>
+    <%= render partial: 'layouts/valid_profile' %>
+  <% else %>
+    <%= render partial: 'layouts/invalid_profile' %>
+  <% end %>
