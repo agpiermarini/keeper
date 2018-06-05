@@ -15,3 +15,13 @@ $(window).on('scroll', function() {
     });
 });
 })
+
+
+
+
+function showInformation(id, id2) {
+		var characteristic = document.getElementById(id2)
+    var popup = document.getElementById(id);
+    popup.classList.toggle("show");
+		characteristic.classList.toggle("orange")
+}
