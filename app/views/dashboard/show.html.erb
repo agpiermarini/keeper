@@ -1,17 +1,4 @@
-<section class="user-info section" fill-color="#8F8F8F">
-  <ul class="user">
-    <li class="avatar"> <%= image_tag(@profile.avatar_url, class: "avatar") %> </li>
-    <li class="name">  <%= @profile.name %> </li>
-    <li class="login"> @<%= @profile.username %> </li>
-    <li class="description lightweight-small"> <%= @profile.description %> </li>
-    <% if @profile.location %>
-      <div class="additional-user-info top-border">
-        <% if @profile.location %>
-          <li class="location lightweight-small"> <i class="fas fa-map-marker-alt"></i> </i><%= @profile.location %> </li>
-        <% end %>
-      </div>
-    <% end %>
-  </ul>
+<%= render partial: 'layouts/twitter_user_basic_info' %>
 </section>
 <section class="profile-right">
   <section class="list-results">
