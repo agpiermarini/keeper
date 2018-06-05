@@ -27,6 +27,10 @@ class TwitterTimelineSearch
     user_timeline.map { | tweet | tweet[:text] }.join(" ")
   end
 
+  def private_account?
+    return true if user_timeline.class == Hash && user_timeline[:error]
+  end
+
   private
     attr_reader :username
 
@@ -44,7 +48,8 @@ class TwitterTimelineSearch
 
     def fetch_tweets(tweets = [], params = timeline_params)
       statuses = twitter_service(timeline_endpoint, params).response
-      return tweets if statuses.empty?
+      return statuses if statuses.class == Hash && statuses[:error]
+      return tweets   if statuses.empty?
       params[:max_id] = statuses.last[:id] - 1
       new_tweets = generate_hash(statuses)
       fetch_tweets(tweets.append(new_tweets).flatten, params)

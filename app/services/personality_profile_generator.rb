@@ -4,22 +4,30 @@ class PersonalityProfileGenerator
   end
 
   def generate!
-    profile = PersonalityProfile.create!(username:                   username,
-                                         name:                       timeline_data.name,
-                                         avatar_url:                 timeline_data.avatar_url,
-                                         word_count:                 personality_data[:word_count],
-                                         warning_message:            personality_data[:word_count_message],
-                                         error_message:              personality_data[:error_message],
-                                         total_tweets_analyzed:      timeline_data.total_tweets,
-                                         newest_tweet_analyzed_date: timeline_data.newest_tweet,
-                                         oldest_tweet_analyzed_date: timeline_data.oldest_tweet,
-                                         created_at:                 Date.today,
-                                         updated_at:                 Date.today
-                                        )
-    generate_dimensions!(profile.id)
-    generate_needs!(profile.id)
-    generate_values!(profile.id)
-    return profile
+    if personality_data[:error].nil?
+      profile = PersonalityProfile.create!(username:                   username,
+                                           name:                       timeline_data.name,
+                                           avatar_url:                 timeline_data.avatar_url,
+                                           word_count:                 personality_data[:word_count],
+                                           warning_message:            personality_data[:word_count_message],
+                                           error_message:              personality_data[:error],
+                                           total_tweets_analyzed:      timeline_data.total_tweets,
+                                           newest_tweet_analyzed_date: timeline_data.newest_tweet,
+                                           oldest_tweet_analyzed_date: timeline_data.oldest_tweet,
+                                           created_at:                 Date.today,
+                                           updated_at:                 Date.today
+                                          )
+
+      generate_dimensions!(profile.id)
+      generate_needs!(profile.id)
+      generate_values!(profile.id)
+    else
+      require 'pry'; binding.pry
+      PersonalityProfile.create!(username: username,
+                                 error_message: personality_data[:error],
+                                 created_at: Date.today,
+                                 updated_at: Date.today)
+    end
   end
 
   private
@@ -67,6 +75,11 @@ class PersonalityProfileGenerator
     end
 
     def personality_data
+      @personality_data = private_account_error if timeline_data.private_account?
       @personality_data ||= PersonalityProfileSearch.new(timeline_data.to_string).profile_info
+    end
+
+    def private_account_error
+      {error: "This user's account has been set to private. As such, we are unable to retrieve any tweets for analysis"}
     end
 end

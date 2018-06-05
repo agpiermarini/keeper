@@ -1,5 +1,5 @@
 class ProfilesController < ApplicationController
   def show
-    @profile = TwitterProfileSearch.new(params[:username]).profile
+    @twitter_profile = TwitterProfileSearch.new(params[:username]).profile
   end
 end
