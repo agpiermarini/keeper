@@ -1,0 +1,233 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=lilwillifo
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '687'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 05 Jun 2018 05:24:10 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Tue, 05 Jun 2018 05:24:10 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152817625027055103; Expires=Thu, 04 Jun 2020 05:24:10 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_Lihm2eHM26PTqDQEmGw3hQ=="; Expires=Thu, 04 Jun 2020
+        05:24:10 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 7a476e8b161eaad575169759c10dcbc2
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '892'
+      X-Rate-Limit-Reset:
+      - '1528177081'
+      X-Response-Time:
+      - '88'
+      X-Transaction:
+      - '008edd0900a19da2'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":32985917,"id_str":"32985917","name":"Margaret Williford","screen_name":"lilwillifo","location":"Denver,
+        CO","profile_location":{"id":"b49b3053b5c25bf5","url":"https:\/\/api.twitter.com\/1.1\/geo\/id\/b49b3053b5c25bf5.json","place_type":"unknown","name":"Denver,
+        CO","full_name":"Denver, CO","country_code":"","country":"","contained_within":[],"bounding_box":null,"attributes":{}},"description":"","url":null,"entities":{"description":{"urls":[]}},"protected":true,"followers_count":73,"friends_count":120,"listed_count":0,"created_at":"Sat
+        Apr 18 19:36:24 +0000 2009","favourites_count":16,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":45,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"07090B","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/995722904498094084\/JK718VMQ_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/995722904498094084\/JK718VMQ_normal.jpg","profile_link_color":"C34242","profile_sidebar_border_color":"BFBFBF","profile_sidebar_fill_color":"C9C9C9","profile_text_color":"1C1F23","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Tue, 05 Jun 2018 05:24:10 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&screen_name=lilwillifo
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 401
+      message: Authorization Required
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '101'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 05 Jun 2018 05:24:10 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Tue, 05 Jun 2018 05:24:10 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152817625054824138; Expires=Thu, 04 Jun 2020 05:24:10 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_fxOWW0W1xmbOHfj1vtDhqg=="; Expires=Thu, 04 Jun 2020
+        05:24:10 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 401 Unauthorized
+      Strict-Transport-Security:
+      - max-age=631138519
+      Www-Authenticate:
+      - OAuth realm="https://api.twitter.com"
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 1a7a77177e05fe025bfeb9c97aea0ab5
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '1500'
+      X-Rate-Limit-Remaining:
+      - '1479'
+      X-Rate-Limit-Reset:
+      - '1528177139'
+      X-Response-Time:
+      - '58'
+      X-Transaction:
+      - '009f85d50083f6fc'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"request":"\/1.1\/\/statuses\/user_timeline.json","error":"Not authorized."}'
+    http_version: 
+  recorded_at: Tue, 05 Jun 2018 05:24:10 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1//users/show.json?screen_name=lilwillifo
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAIb56AAAAAAAGvKPi5kyQcJvYQgPS9lzreJScoo%3DEiZBtjt3tieHsC2RfUln4vCBsSqoTu5wYedgD1IV9JIvEBdhLt
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '687'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 05 Jun 2018 05:24:14 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Tue, 05 Jun 2018 05:24:14 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A152817625418982792; Expires=Thu, 04 Jun 2020 05:24:14 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_XsNOsHqDH8rkpfvONHZ/BA=="; Expires=Thu, 04 Jun 2020
+        05:24:14 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - 57de6d56d8b487828a7446444a2ef62a
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '891'
+      X-Rate-Limit-Reset:
+      - '1528177081'
+      X-Response-Time:
+      - '83'
+      X-Transaction:
+      - '0002958e00ab1423'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":32985917,"id_str":"32985917","name":"Margaret Williford","screen_name":"lilwillifo","location":"Denver,
+        CO","profile_location":{"id":"b49b3053b5c25bf5","url":"https:\/\/api.twitter.com\/1.1\/geo\/id\/b49b3053b5c25bf5.json","place_type":"unknown","name":"Denver,
+        CO","full_name":"Denver, CO","country_code":"","country":"","contained_within":[],"bounding_box":null,"attributes":{}},"description":"","url":null,"entities":{"description":{"urls":[]}},"protected":true,"followers_count":73,"friends_count":120,"listed_count":0,"created_at":"Sat
+        Apr 18 19:36:24 +0000 2009","favourites_count":16,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":45,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"07090B","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/995722904498094084\/JK718VMQ_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/995722904498094084\/JK718VMQ_normal.jpg","profile_link_color":"C34242","profile_sidebar_border_color":"BFBFBF","profile_sidebar_fill_color":"C9C9C9","profile_text_color":"1C1F23","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Tue, 05 Jun 2018 05:24:14 GMT
+recorded_with: VCR 4.0.0
