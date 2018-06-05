@@ -103,7 +103,7 @@ main {
   justify-content: flex-start;
   flex-flow: row nowrap;
   margin: 50px 25px 0 100px;
-  width: 83vw;
+  max-width: 1200px;
 
   .bottom-border {
     border-top: 0px;
@@ -262,6 +262,9 @@ main {
       .profile-section {
         border: solid 1px;
         margin: 5px 0 10px 0;
+        padding: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: center;
 
         .trait-section-flex {
           display: flex;
@@ -275,11 +278,13 @@ main {
         font-size: 20px;
         font-weight: bold;
         padding: 0 0 0 10px;
+        width: 215px;
         }
 
         .trait-percentile {
         font-size: 20px;
         padding: 0 0 0 10px;
+        width: 215px;
         }
 
         .facet-name {
@@ -295,12 +300,21 @@ main {
         }
 
         .trait {
-          margin: 10px 10px 10px 10px;
-          min-width: 30%;
+          margin: 5px 5px 5px 5px;
+          min-width: 250px;
           background-color: #ededed;
         }
+
+        .dimension {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: column nowrap;
+          margin: 0 30px 0 0;
+        }
+
         .facet {
-          margin: 10px 10px 10px 10px;
+          margin: 5px 5px 5px 5px;
           min-width: 250px;
           background-color: #f9f9f9;
         }
