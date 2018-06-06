@@ -5,7 +5,7 @@
 	width: 100%;
 	text-align: left;
 	font: normal 16px 'Roboto', sans-serif;
-	padding: 25px 25px;
+	padding: 25px 50px 10px 75px;
 	margin-top: 80px;
 	display: flex;
 	justify-content: space-between;
@@ -163,8 +163,15 @@
 		text-align: center;
 	}
 
+
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
 
+}
+
+.footer-left h3 img{
+	height: 25px;
+	width: 25px;
+	margin: 0 5px 5px 0;
 }
