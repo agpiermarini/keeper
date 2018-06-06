@@ -11,7 +11,7 @@ class SavedProfilesController < ApplicationController
       flash[:success] = "Profile saved successfully"
       redirect_to dashboard_path
     else
-      flash[:error] = "Profile already saved"
+      flash[:danger] = "You have already saved this profile. You will be permitted to save new profiles for this user once they have been generated."
       redirect_to dashboard_path
     end
   end
@@ -22,7 +22,7 @@ class SavedProfilesController < ApplicationController
       flash[:success] = "Profile deleted successfully"
       redirect_to dashboard_path
     else
-      flash[:failure] = "Failed to delete profile"
+      flash[:danger] = "Failed to delete profile"
       redirect_to dashboard_path
     end
   end
