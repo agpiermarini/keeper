@@ -20,7 +20,7 @@ context 'User' do
         expect(page).to have_content("#{profile.name}")
         expect(page).to have_content("#{profile.username}")
 
-        expect(page).to have_content("Dimensions of Personality")
+        expect(page).to have_content("Dimensions and Facets of Personality")
         expect(page).to have_content("#{profile.dimensions.first.name}")
         expect(page).to have_content("#{profile.dimensions.first.facets.first.name}")
 

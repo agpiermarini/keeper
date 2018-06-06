@@ -29,20 +29,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Tue, 05 Jun 2018 05:24:08 GMT
+      - Wed, 06 Jun 2018 06:23:39 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Tue, 05 Jun 2018 05:24:08 GMT
+      - Wed, 06 Jun 2018 06:23:39 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152817624841303817; Expires=Thu, 04 Jun 2020 05:24:08 GMT; Path=/;
+      - guest_id=v1%3A152826621962503877; Expires=Fri, 05 Jun 2020 06:23:39 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_AGHUit0ERtCk4muWY0PlYQ=="; Expires=Thu, 04 Jun 2020
-        05:24:08 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_AQyhYjSwY3fVxCGjnjGGjw=="; Expires=Fri, 05 Jun 2020
+        06:23:39 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -50,7 +50,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 4206e1729010550e1ce7c3c4dabea6f4
+      - 0d8191e2aac75b7f7d4819399c35e996
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -58,13 +58,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '894'
+      - '897'
       X-Rate-Limit-Reset:
-      - '1528177081'
+      - '1528267099'
       X-Response-Time:
       - '25'
       X-Transaction:
-      - 00b1604200448224
+      - 00a6aefb000d0d90
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -80,7 +80,7 @@ http_interactions:
         Liquid LoL","id":964529942,"id_str":"964529942","indices":[0,14]}],"urls":[]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":964529942,"in_reply_to_user_id_str":"964529942","in_reply_to_screen_name":"TeamLiquidLoL","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/100541630\/cube_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/100541630\/cube_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Tue, 05 Jun 2018 05:24:08 GMT
+  recorded_at: Wed, 06 Jun 2018 06:23:39 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&screen_name=wraithcube
@@ -110,20 +110,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Tue, 05 Jun 2018 05:24:08 GMT
+      - Wed, 06 Jun 2018 06:23:39 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Tue, 05 Jun 2018 05:24:08 GMT
+      - Wed, 06 Jun 2018 06:23:39 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152817624863966995; Expires=Thu, 04 Jun 2020 05:24:08 GMT; Path=/;
+      - guest_id=v1%3A152826621984442747; Expires=Fri, 05 Jun 2020 06:23:39 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_ISxpMzk1g3Fn0kgU0dF5Ig=="; Expires=Thu, 04 Jun 2020
-        05:24:08 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_IkeraFzDPtXdQqY/T4igPA=="; Expires=Fri, 05 Jun 2020
+        06:23:39 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -131,7 +131,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 216fd9ecfc4f7231560cdffbbbf85fc5
+      - 79efaa9af33e34e4201d30491e1d2b24
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -141,11 +141,11 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '1481'
       X-Rate-Limit-Reset:
-      - '1528177139'
+      - '1528267099'
       X-Response-Time:
-      - '53'
+      - '107'
       X-Transaction:
-      - 00e44078005e0285
+      - 00e4968d007035f6
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -189,7 +189,7 @@ http_interactions:
         Cube","screen_name":"wraithcube","location":"Boulder, CO","description":"","url":"http:\/\/t.co\/CXbbTY5hxv","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/CXbbTY5hxv","expanded_url":"http:\/\/twitch.tv\/wraithcube","display_url":"twitch.tv\/wraithcube","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":6,"friends_count":9,"listed_count":0,"created_at":"Mon
         Mar 16 16:53:18 +0000 2009","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":8,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/100541630\/cube_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/100541630\/cube_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Tue, 05 Jun 2018 05:24:08 GMT
+  recorded_at: Wed, 06 Jun 2018 06:23:39 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&max_id=1337226802&screen_name=wraithcube
@@ -219,20 +219,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Tue, 05 Jun 2018 05:24:08 GMT
+      - Wed, 06 Jun 2018 06:23:40 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Tue, 05 Jun 2018 05:24:08 GMT
+      - Wed, 06 Jun 2018 06:23:40 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152817624888058961; Expires=Thu, 04 Jun 2020 05:24:08 GMT; Path=/;
+      - guest_id=v1%3A152826622013582512; Expires=Fri, 05 Jun 2020 06:23:40 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_SuJjLP4JjXP9Gdkt1OAdGg=="; Expires=Thu, 04 Jun 2020
-        05:24:08 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_/bI7vUZwwq10/bRd//f1Fw=="; Expires=Fri, 05 Jun 2020
+        06:23:40 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -240,7 +240,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 888871711885706422f7c38e878e6720
+      - f790689eafdec2b28c902b73a305db9b
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -250,11 +250,11 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '1480'
       X-Rate-Limit-Reset:
-      - '1528177139'
+      - '1528267099'
       X-Response-Time:
-      - '17'
+      - '18'
       X-Transaction:
-      - 0014f913008de79e
+      - '0006847700a3b317'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -263,7 +263,7 @@ http_interactions:
       encoding: ASCII-8BIT
       string: "[]"
     http_version: 
-  recorded_at: Tue, 05 Jun 2018 05:24:08 GMT
+  recorded_at: Wed, 06 Jun 2018 06:23:40 GMT
 - request:
     method: post
     uri: https://gateway.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13
@@ -302,7 +302,7 @@ http_interactions:
       Cache-Control:
       - no-store
       X-Service-Build-Number:
-      - 2018-05-21T05:06:00.565 UTC
+      - 2018-05-14T05:03:49.758 UTC
       Content-Security-Policy:
       - default-src 'none'
       Content-Disposition:
@@ -318,23 +318,23 @@ http_interactions:
       Server:
       - "-"
       X-Dp-Transit-Id:
-      - gateway01-372253765
+      - gateway02-428584553
       X-Global-Transaction-Id:
-      - 7ecac92c5b161e7916302445
+      - ffea405d5b177dec198bae69
       Strict-Transport-Security:
       - max-age=31536000;
       X-Dp-Watson-Tran-Id:
-      - gateway01-372253765
+      - gateway02-428584553
       Vary:
       - Accept-Encoding
       Date:
-      - Tue, 05 Jun 2018 05:24:09 GMT
+      - Wed, 06 Jun 2018 06:23:41 GMT
       Content-Length:
       - '7248'
       Connection:
       - keep-alive
       Set-Cookie:
-      - Watson-DPAT=apv9E9zQj4eb6u%2Ffo5er%2BVVgUOx4skeOex7AMh%2F1WbpGQcxR91ALXV%2BkYRQgaxkLl%2Fhl4YKCR2CZ5TO9qa%2BdovdP51YTGhDMgEFxBSwW0Mb1arOdiURE6q%2BJhCBn2SDUQSvVNDhHkoqXQIbx1EsHnjoIozCGRwYe6vYSARLygChkRz9qm14jRJYD9CapbsGMKbP53tV7X8UAiSD4B8ZQ6Qi3RhafgkuOhxy9MNSrwXss0uK8cybN%2FYoNU1IM0mxideJXP5htzZxmIFCw4AUiYlc742ZMNAPndyiiVlwZF62FXTc2dJz%2F3%2FBaxj68FUCbgTYyYDr%2Fu0U2ow%2BJk2hG2HZw7VTN26cULdsu3LfIR3XYi5eKO9xvRj0mC%2FVg1FbBDnRg%2FBKrB%2BTUzOwQkHqAseSZOoJf8t%2BHTnJbQH0bwFPnxfsL4fhEcQ10xXHS7U%2BeEjiM9mNWnHXk206ZMU8Kz9Mfgc77MrI04RTdrnwb6CjeY5Ge2gbq36TGfLmOCSG06jzxe7uO0vCeU10j2GAbU4V%2BIrSUMo2txd2H1ObIemRBWjQOAdIqeI%2F1GQZn9Boxv7RVLbP75EAeIAZybZrZ1bhvaoPtYdzV%2BIlWfSQ7BXq41OkvfskETKBUUlDfDMDn16eAR4iC0Ko%2FexEDjk6rLysGoS6jSmTMHL8hYvar1rtmMoPPOZ3OPM1CG3%2Bk7VCXVwXLa%2B1QPLBWyYystT4VJkZbwGu96bvn%2Feo4D%2BE57aScbz8PV41dk3Hmc1ZWMs1o9Ly%2FHi8Az4scZ1qGHEX%2FFs8cfOlDeU6YfWG686vxYTl5lJlaYhQZy4x82IHETIC%2B%2BsZBouZhM80fVQTwSc%2F%2BKhq0Bfn5dh0mDE6y2TYp2OihUEMbOI8tQUdMfavYwsPI7hnCI9viMs%2BYeZFzIDHp1ZY6PRBypS3nYe85G0SDW1GSymIOsHo2ZiDtyvpRRJXyG7VMWNSu3HsKcwb%2F1v2ZJg%3D%3D;
+      - Watson-DPAT=imNqouhHIRcWnyTLMLC%2BqpoTDVL4%2Bf8YAymYLsk%2Bt18Uou%2BakmQwPc3eI9SVf0K4KKeMrEJmX%2F9YI9Fwczy9xRd8eR5h7OKjV3RYfsUnSo33TzWcbv0PLIbv8odkJ%2F7eOk4HNZkff8bJujtHbuBe4nX%2FntChZA2UZYBw0bbdavwu1TBF%2BQEfpN2LJTz2tHysjYmqaMhh2dXZSeoqx2TuBCQ7NLxeUzZ%2BXuVMyEnopKKgh%2BRAisXJ1jjDXbYjHenOh0fTAdXE54XpsrFSr7iYeoJ6QpEDwzyc4MZ21rcfZlleKGFJwSZnPeXLWRZuA0lhxm3Gg7RUdDIYROyD1Rks6GS9cZV0Q20KIGqgg4p3MAe11fKoLiMp61bb0RTGqWfRep8a96N3gimmhmGSCzlXDpSx9iJ9JMcHq7wwD3q40Ubkcv%2BKHB5iyr5f1iRfJGsvgvwdfV7dIk6BIR%2Bge%2FJYGzT7geyOYLOJHUK560Qf%2Bf6RqNYamvK8zIKLMnaSyhkabe7xvlZ%2FdBR%2BqpG8w2bGpnxoiFy24PgVMbN664D41JiTwaLpSAM4N1dM3FTH0sxtO3hug7EbQNpzRqNgNF%2BYG83QVf3G5EDfjKT6gI6fpsOj80r1TUC1G9F0LzROQw9WBqnRpykAuXdmMoVFDy24LrZYVTd4fLkWykWr%2FnG4QzTpNcrjtghNo8povFwgEnIlelYPxB60RgT7IcJiq%2B7yIDZQIo0a62IOwfM%2FiU%2FzSKFuJ1BCuoiTqL3EsQroGuopaGr6gjKEEBsUGNRZ%2FE9n9IFrOb12tNNh%2FK1%2FDysoST16IgbZirDZN5QL%2FjigDRPXWE%2BAOgSY%2F2DSgkdSaC9vc%2BrTM6sonILDxnlmhuAxddbmwmRzjbNU%2BC3pm2hl1H7wXjOPK7GG9FQD1ElrFVHMminwqv0Gy8yVBVYl34YsoK%2FE4CdqvBHGRWq5LgTL0ldppyU%2BYnB7g7SapXm7vGgkeQ%3D%3D;
         path=/personality-insights/api; secure; HttpOnly
     body:
       encoding: UTF-8
@@ -351,7 +351,7 @@ http_interactions:
         were 104 words in the input. We need a minimum of 600, preferably 1,200 or
         more, to compute statistically significant estimates"}]}'
     http_version: 
-  recorded_at: Tue, 05 Jun 2018 05:24:09 GMT
+  recorded_at: Wed, 06 Jun 2018 06:23:41 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=wraithcube
@@ -381,20 +381,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Tue, 05 Jun 2018 05:24:09 GMT
+      - Wed, 06 Jun 2018 06:23:41 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Tue, 05 Jun 2018 05:24:09 GMT
+      - Wed, 06 Jun 2018 06:23:41 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152817624995658186; Expires=Thu, 04 Jun 2020 05:24:09 GMT; Path=/;
+      - guest_id=v1%3A152826622142688519; Expires=Fri, 05 Jun 2020 06:23:41 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_yionbIlJftnT8crF+FtoIg=="; Expires=Thu, 04 Jun 2020
-        05:24:09 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_ZbGC/xPBxUjEn/gergR/7A=="; Expires=Fri, 05 Jun 2020
+        06:23:41 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -402,7 +402,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 19233fb692bd7f201f29be3ebba7bc69
+      - 53e9bc854d00445334e963f6622f3056
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -410,13 +410,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '893'
+      - '896'
       X-Rate-Limit-Reset:
-      - '1528177081'
+      - '1528267099'
       X-Response-Time:
-      - '24'
+      - '26'
       X-Transaction:
-      - 00444f3700d6d689
+      - 00074c0b00cd4721
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -432,5 +432,5 @@ http_interactions:
         Liquid LoL","id":964529942,"id_str":"964529942","indices":[0,14]}],"urls":[]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":964529942,"in_reply_to_user_id_str":"964529942","in_reply_to_screen_name":"TeamLiquidLoL","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/100541630\/cube_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/100541630\/cube_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Tue, 05 Jun 2018 05:24:09 GMT
+  recorded_at: Wed, 06 Jun 2018 06:23:41 GMT
 recorded_with: VCR 4.0.0

@@ -13,7 +13,7 @@ context 'User' do
 
         expect(page).to have_content("Unable to retrieve user profile. No text provided.")
 
-        expect(page).to_not have_content("Dimensions of Personality")
+        expect(page).to_not have_content("Dimensions and Facets of Personality")
         expect(page).to_not have_content("Openness")
         expect(page).to_not have_content("Adventurousness")
         expect(page).to_not have_content("Emotionality")
