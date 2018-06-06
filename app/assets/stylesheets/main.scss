@@ -403,76 +403,74 @@ main {
     margin: 20px 0px 0 30px;
   }
 
-  .personality-profile-buttons {
+  .sidepanel-buttons {
     display: flex;
     justify-content: flex-start;
     flex-flow: column nowrap;
   }
 
-  .btn {
-    background: #8f8f8f;
-    background-image: -webkit-linear-gradient(top, #8f8f8f, #646464);
-    background-image: -moz-linear-gradient(top, #8f8f8f, #646464);
-    background-image: -ms-linear-gradient(top, #8f8f8f, #646464);
-    background-image: -o-linear-gradient(top, #8f8f8f, #646464);
-    background-image: linear-gradient(to bottom, #8f8f8f, #646464);
-    -webkit-border-radius: 2;
-    -moz-border-radius: 2;
-    border-radius: 2px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    margin: 0 50px 0 0;
-    text-decoration: none;
+
+// buttons
+.btn {
+  background: #8f8f8f;
+  background-image: -webkit-linear-gradient(top, #8f8f8f, #646464);
+  background-image: -moz-linear-gradient(top, #8f8f8f, #646464);
+  background-image: -ms-linear-gradient(top, #8f8f8f, #646464);
+  background-image: -o-linear-gradient(top, #8f8f8f, #646464);
+  background-image: linear-gradient(to bottom, #8f8f8f, #646464);
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 0 50px 0 0;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.search-form {
+  margin: 25px 0 0 0;
+  display: flex;
+  align-items: center;
+
+  .search-btn, .search-btn:hover {
+    padding: 4px 8px 4px 8px;
+    font-size: 12px!important;
   }
 
-  .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+  #username_query {
+    padding: 6px 10px 6px 10px;
+    margin: 0 10px 0 0;
+    width: 300px;
+    color: black;
   }
+}
 
-  .search-form {
-    margin: 25px 0 0 0;
-    display: flex;
-    align-items: center;
-
-    .search-btn, .search-btn:hover {
-      padding: 4px 8px 4px 8px;
-      font-size: 12px!important;
-    }
-
-    #username_query {
-      padding: 6px 10px 6px 10px;
-      margin: 0 10px 0 0;
-      width: 300px;
-      color: black;
-    }
+.sidepanel-buttons {
+  .sidepanel-button-btn, .sidepanel-button-btn:hover {
+    margin: 5px 0 5px 0;
+    padding: 4px 8px 4px 8px;
+    min-width: 350px;
+    font-size: 15px;
   }
+}
 
-  .personality-profile-buttons {
-    .personality-profile-btn, .personality-profile-btn:hover {
-      margin: 5px 0 5px 0;
-      padding: 4px 8px 4px 8px;
-      min-width: 350px;
-      font-size: 15px;
-    }
-  }
-  .saved-profile-buttons {
-    display: flex;
-    align-items: center;
-
-    .saved-profile-btn, .personality-profile-btn:hover {
-      margin: 5px 0 5px 0;
-      padding: 4px 8px 4px 8px;
-      min-width: 100px;
-      font-size: 15px;
-    }
+.sidepanel-button-btn:hover {
+    margin: 5px 0 5px 0;
+    padding: 4px 8px 4px 8px;
+    min-width: 100px;
+    font-size: 15px;
   }
 }
 
@@ -483,10 +481,11 @@ main {
 }
 
 
-/* Popup container - can be anything you want */
+// popup descriptions
 .popup, .popup-primary {
     cursor: pointer;
 }
+
 .popuptext, .popuptext-primary {
   visibility: hidden;
   color: #3cb0fd;
@@ -506,7 +505,7 @@ main {
   border: 1px solid #AAAAAA;
 }
 
-  /* Popup arrow */
+// popup arrow
 .popup .popuptext::after {
   content: "";
   position: absolute;
@@ -518,7 +517,7 @@ main {
   border-color: transparent transparent #555 transparent;
 }
 
-/* Toggle this class - hide and show the popup */
+// toggle classes...display popups
 .popup .show {
     visibility: visible;
     margin: 2px 0 0 0;
@@ -526,7 +525,6 @@ main {
     animation: fadeIn 1s;
 }
 
-/* Toggle this class - hide and show the popup */
 .popup-primary .show {
     visibility: visible;
     margin: 0 0 0 0;
@@ -534,7 +532,7 @@ main {
     animation: fadeIn 1s;
 }
 
-/* Add animation (fade in the popup) */
+// fade-in, fade-outo animations
 @-webkit-keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 1;}
