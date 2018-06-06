@@ -521,15 +521,15 @@ main {
 .popup .show {
     visibility: visible;
     margin: 2px 0 0 0;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 500ms;
+    animation: fadeIn 500ms;
 }
 
 .popup-primary .show {
     visibility: visible;
     margin: 0 0 0 0;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 500ms;
+    animation: fadeIn 500ms;
 }
 
 // fade-in, fade-outo animations
