@@ -33,4 +33,4 @@
 /db/data/*
 
 #Ignore cassette files
-/spec/fixtures/cassettes/*
+/spec/fixtures/*
