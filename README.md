@@ -49,7 +49,7 @@ This project uses the RSpec test framework. To run tests locally, you will need 
 Run tests using the standard `$ rspec` command.
 
 #### Database Schema
-![Database Schema](https://github.com/agpiermarini/keeper/tree/master/app/assets/images/schema.png)
+![](https://github.com/agpiermarini/keeper/tree/master/app/assets/images/schema.png?raw=true)
 
 #### Current Contributors
 [Andrew Piermarini](http://www.github.com/agpiermarini)
