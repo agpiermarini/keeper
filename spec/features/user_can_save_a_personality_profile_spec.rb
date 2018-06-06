@@ -49,4 +49,43 @@ context 'User' do
       end
     end
   end
+
+  context 'attempts to save a profile that someone else has already saved' do
+    scenario 'and is able to do so' do
+      VCR.use_cassette('user-can-save-profile-that-someone-else-has-saved') do
+        visit '/'
+        click_on 'Login with Twitter'
+        visit '/turingschool/personality-profile'
+        click_on 'Save Profile and Return to Dashboard'
+
+        expect(current_path).to eq('/dashboard')
+        expect(page).to have_content('Profile saved successfully')
+        expect(page).to have_content('Saved Personality Profiles:')
+
+        within('.list-results') do
+          expect(page).to have_content("Username:\nturingschool")
+          expect(page).to have_content("Name:\nTuring School")
+          expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B%e, %Y')}")
+          expect(page).to have_button('Delete')
+        end
+
+        new_user = create(:user)
+
+        allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(new_user)
+
+        visit '/turingschool/personality-profile'
+        click_on 'Save Profile and Return to Dashboard'
+
+        expect(current_path).to eq('/dashboard')
+        expect(page).to have_content('Profile saved successfully')
+
+        within('.list-results') do
+          expect(page).to have_content("Username:\nturingschool")
+          expect(page).to have_content("Name:\nTuring School")
+          expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B%e, %Y')}")
+          expect(page).to have_button('Delete')
+        end
+      end
+    end
+  end
 end
