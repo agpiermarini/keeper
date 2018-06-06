@@ -6,7 +6,9 @@
   <%= link_to "Search for a Different User", "/search", class: "btn sidepanel-button-btn" %>
 </div>
 <% if @personality_profile.is_valid? %>
-  <%= render partial: 'layouts/valid_profile' %>
+  <%= cache "personality-profile-#{@personality_profile.username}-#{@personality_profile.updated_at}" do %>
+    <%= render partial: 'layouts/valid_profile' %>
+  <% end %>
 <% else %>
   <%= render partial: 'layouts/invalid_profile' %>
 <% end %>
