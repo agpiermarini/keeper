@@ -31,3 +31,6 @@
 
 #Ignore text data files
 /db/data/*
+
+#Ignore cassette files
+/spec/fixtures/cassettes/*
