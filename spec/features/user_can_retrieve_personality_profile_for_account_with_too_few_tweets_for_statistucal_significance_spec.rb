@@ -12,7 +12,7 @@ context 'User' do
 
         expect(page).to have_content("There were 104 words in the input. We need a minimum of 600, preferably 1,200 or more, to compute statistically significant estimates.")
 
-        expect(page).to have_content("Dimensions of Personality")
+        expect(page).to have_content("Dimensions and Facets of Personality")
         expect(page).to have_content("Openness")
         expect(page).to have_content("Adventurousness")
         expect(page).to have_content("Emotionality")

@@ -11,7 +11,7 @@ context 'User' do
         expect(current_path).to eq("/turingschool/personality-profile")
 
 
-        expect(page).to have_content("Dimensions of Personality")
+        expect(page).to have_content("Dimensions and Facets of Personality")
         expect(page).to have_content("Openness")
         expect(page).to have_content("Adventurousness")
         expect(page).to have_content("Emotionality")

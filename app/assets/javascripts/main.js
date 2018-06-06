@@ -16,9 +16,7 @@ $(window).on('scroll', function() {
 });
 })
 
-
-
-
+// for characteristic popups
 function showInformation(id, id2) {
 		var characteristic = document.getElementById(id2)
     var popup = document.getElementById(id);

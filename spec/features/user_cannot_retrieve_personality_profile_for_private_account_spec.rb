@@ -13,7 +13,7 @@ context 'User' do
 
         expect(page).to have_content("Unable to retrieve user profile. This user's account has been set to private. As such, we are unable to retrieve any tweets for analysis.")
 
-        expect(page).to_not have_content("Dimensions of Personality")
+        expect(page).to_not have_content("Dimensions and Facets of Personality")
         expect(page).to_not have_content("Openness")
         expect(page).to_not have_content("Adventurousness")
         expect(page).to_not have_content("Emotionality")

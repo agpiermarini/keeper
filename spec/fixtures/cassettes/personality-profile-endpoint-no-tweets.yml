@@ -29,20 +29,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Tue, 05 Jun 2018 05:30:25 GMT
+      - Wed, 06 Jun 2018 06:23:43 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Tue, 05 Jun 2018 05:30:25 GMT
+      - Wed, 06 Jun 2018 06:23:43 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152817662528309676; Expires=Thu, 04 Jun 2020 05:30:25 GMT; Path=/;
+      - guest_id=v1%3A152826622365207586; Expires=Fri, 05 Jun 2020 06:23:43 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_UndY/Z2eCxto/PBahZ+qvQ=="; Expires=Thu, 04 Jun 2020
-        05:30:25 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_79IDt8ruubqm8y5G6z/T3A=="; Expires=Fri, 05 Jun 2020
+        06:23:43 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -50,7 +50,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 68efef8d2190c6ff885d9fa7e91e9e02
+      - 30fff337ede580b22f70addad3cd7da2
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -58,13 +58,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '890'
+      - '893'
       X-Rate-Limit-Reset:
-      - '1528177081'
+      - '1528267099'
       X-Response-Time:
-      - '20'
+      - '21'
       X-Transaction:
-      - 0006dd4d0087812f
+      - 00edfc3d00ee2b9d
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -74,7 +74,7 @@ http_interactions:
       string: '{"id":809075773105721344,"id_str":"809075773105721344","name":"\u219fA\u0274\u1d05\u0280e\u1d21","screen_name":"agpiermarini","location":"","profile_location":null,"description":"\ud83c\udf43","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":0,"friends_count":0,"listed_count":0,"created_at":"Wed
         Dec 14 16:41:11 +0000 2016","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":0,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/968045861958635520\/LxDeesSo_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/968045861958635520\/LxDeesSo_normal.jpg","profile_link_color":"ABB8C2","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"000000","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Tue, 05 Jun 2018 05:30:25 GMT
+  recorded_at: Wed, 06 Jun 2018 06:23:43 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//statuses/user_timeline.json?count=200&exclude_replies=true&include_rts=false&screen_name=agpiermarini
@@ -104,20 +104,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Tue, 05 Jun 2018 05:30:25 GMT
+      - Wed, 06 Jun 2018 06:23:43 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Tue, 05 Jun 2018 05:30:25 GMT
+      - Wed, 06 Jun 2018 06:23:43 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152817662549780929; Expires=Thu, 04 Jun 2020 05:30:25 GMT; Path=/;
+      - guest_id=v1%3A152826622387756373; Expires=Fri, 05 Jun 2020 06:23:43 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_lFizI5t7SZAUbDA2wy1jkQ=="; Expires=Thu, 04 Jun 2020
-        05:30:25 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_X6vaxVeGwQAesCKBv5vE8Q=="; Expires=Fri, 05 Jun 2020
+        06:23:43 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -125,7 +125,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 912720ee2a9c0fe0f295509eadcd193f
+      - 7b3bc5b8c798a544d6d157b7390c5522
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -133,13 +133,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '1500'
       X-Rate-Limit-Remaining:
-      - '1478'
+      - '1479'
       X-Rate-Limit-Reset:
-      - '1528177139'
+      - '1528267099'
       X-Response-Time:
-      - '40'
+      - '17'
       X-Transaction:
-      - 004c53410066c9d7
+      - 00e31a6000964fd2
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -148,7 +148,7 @@ http_interactions:
       encoding: ASCII-8BIT
       string: "[]"
     http_version: 
-  recorded_at: Tue, 05 Jun 2018 05:30:25 GMT
+  recorded_at: Wed, 06 Jun 2018 06:23:43 GMT
 - request:
     method: post
     uri: https://gateway.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13
@@ -198,27 +198,25 @@ http_interactions:
       Server:
       - "-"
       X-Dp-Transit-Id:
-      - gateway01-376424009
+      - gateway02-26163360
       X-Global-Transaction-Id:
-      - 7ecac92c5b161ff1166fc649
+      - ffea405d5b177df0018f38a0
       Strict-Transport-Security:
       - max-age=31536000;
       X-Dp-Watson-Tran-Id:
-      - gateway01-376424009
-      Content-Length:
-      - '78'
+      - gateway02-26163360
       Date:
-      - Tue, 05 Jun 2018 05:30:25 GMT
+      - Wed, 06 Jun 2018 06:23:44 GMT
       Connection:
       - close
       Set-Cookie:
-      - Watson-DPAT=5JoXf4mnRF%2Fpw66IKSjreOPdbKrHTcIXzknc2RlxWCAPWvd0%2FbGsMr324Fc8UlBQRKQzm9Npw%2FdeK6XZ%2FAeujogR34nRmuDkqaGgLUb67KOD1j9G%2BEKZE4CI9M%2Fh2yEYWdx%2BEU16fYFNeR7beetVM5mSIBbunLRlBhrjfhCpw2NLetfUKs93OqQ80dG2gcfRFuME%2BSkndAhJHJxcF%2FWSeTG5HS7fMH31i%2F%2F4YqL4tS6q8QasX6%2F1%2B8VUEugP7W%2Bba7g6npHQfp2mfKi0%2FCDqzbPGvsV%2Fir6odqaUGWWQe5V8FHB4HVkACp0ggfWyd%2BGvP%2BBOeJX4M9TjZRkAhK4Kz6ou0QSIAjLwvx%2B9cYNoW4GPbfSloVEs5MOSzjc8rk1xmfyT%2BZg%2F3oKhVKT6tonPps6yikBhPgoOPUIhQBJqLZgzErJlYLJ%2BSmFmAx75kReWauGZP4maiTWDvmGvzkLM%2BshTV0Gx3fv0ktJrVf6ViJFg%2B4SOYpm6TZRjkiCMOeLUDbDk8DXz4e9TROcbHVjVqYxBX7UZOR9tR2lFw0DXWJTSokoRlaJefsg6du5i%2BrEuJoK0hpe3vEWnpyNPSeKwNPmP%2BQASDF30k0NqkVOToBVuj%2BUFutoekDULkE2sa5T%2FFhwsTyvPZmkHas1rhmXtRLIdZY9R2w395maDFWXQIqtQGjd3aiwppv%2B2Ww1LUq2kV6n6Cyr6GVIqgmm3pf%2FSrQlWU2299LBHKkDl%2F07DtnzXD1wSaHK1YSGVkkfPkYSdUdN6YB8vdjv862gmstCtWSvJd7j46%2BBzHxr1dbnr6oxkjwltyxIeLYcUwc3W%2Bo1Ercfu2SvL1OihEU13478CyDrVv2xpkLk7XFh2vKhYNtQMsabZytSWe%2B4azPn4GCeJUohLPTtJ4Q49By7Lg%2FUmyO37wVX8M1cjxQssOpy0n%2BeNNr2UIOFm09I8cAT1Pg5o3Wz6WkCCLlqM16jo4OeaoQ%3D%3D;
+      - Watson-DPAT=3me0uutxeQstXOJzrbixoJSn6L09cxNJ3juYvZqjXjfjzStocgLUUtpRquqa7ff0uhp%2F2gE%2F9Vxq0M33cur9PAEGAa%2F78XuolrE1wMjONKfEEude8uT%2FUjw%2Bvx6ikedkrSOgxVmySGuO1Fr4bznoP3m9CivXLJswAfsuyiJXb%2B4nBE9tSPf6iHtYrCKryrEnuTO5DU3WHYZIUCATxoLUNEcaVrBw4SvpxAE9OheywZjJyN5Z%2Fxh6tovaV%2FxDwVMKndgeKE2mFvBZO172%2BlBzQrd249SLnQDeWNQ%2B1EkkR%2FbMq%2BV%2FN8DMPRT9iXdnHBeu%2BDztZVooEg2jvwz%2BPk4J%2BzJu9wPdtTr5DpEFn650unWpbqf36w3h%2B%2BYxiQ67HiwHUHfXOUsobbwLuexkv1Logb5VpcFQ%2FlPRCVrWdotTaFbFo415YJPVJ8I%2B53kI3XV2ZdzCOAcbQBpjnnMX3Y0LhHzx0gI9g%2F9VV2tzDg9G7jJiXjnlZ7bhuS%2BwAdJVZsgyjTDdQUPuWh7IA3TqwM%2Bkt4d1Azl8vYs1%2FzI%2FBQkzCjAK0ScNVk3zPHf8qT3enjzponf%2F3exCAIyRtI1C1VeG2qK%2FfEYS1%2FbQfkndCdgN3aIkwOuxvWzt%2F242wVikpfXhPYEtkahC1XMrWde55aMz4CpYZiObbGdLy%2Bq2IieVokqBK39MygIPEGb7uGgy9VlmjosYF8tEp7Juk7rY5zXGzxB5zFWX1up3%2FbrCM8h48v1VRwYK0qZVAXPxjsFfRUa6cBaUifVRUESH%2F3OXN%2BoR3tNLB2mp4SZgkKwrf7Erv0KPyf4LuMhxSScfl6JIYunelI%2FyU6xZBm7GBb0z%2B0gFMRf62ualppR8SoPKCWJ6JnTwFYUcQph52zg%2FWhlgtq9Tquqn%2BasKQSnBI2T17vc6uYwCjqVd%2FA9tpbtjsuC%2FbQp%2BaP6zAU2Ejjxk0MSkMBQHhuOD%2BIs3f3By0IUuZgmDHA%3D%3D;
         path=/personality-insights/api; secure; HttpOnly
     body:
       encoding: ASCII-8BIT
       string: '{"code":400,"sub_code":"S00008","error":"No text provided"}'
     http_version: 
-  recorded_at: Tue, 05 Jun 2018 05:30:25 GMT
+  recorded_at: Wed, 06 Jun 2018 06:23:44 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1//users/show.json?screen_name=agpiermarini
@@ -248,20 +246,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Tue, 05 Jun 2018 05:30:30 GMT
+      - Wed, 06 Jun 2018 06:23:44 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Tue, 05 Jun 2018 05:30:30 GMT
+      - Wed, 06 Jun 2018 06:23:44 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A152817663000861747; Expires=Thu, 04 Jun 2020 05:30:30 GMT; Path=/;
+      - guest_id=v1%3A152826622470284989; Expires=Fri, 05 Jun 2020 06:23:44 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_iDyMwHzuWJPhVPxUjIZ3kw=="; Expires=Thu, 04 Jun 2020
-        05:30:30 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_OYWL0RtsghdJDy7UlQBn/w=="; Expires=Fri, 05 Jun 2020
+        06:23:44 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -269,7 +267,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - b49284f313a225f0bd6ef555edb7d413
+      - dd6d9cd459acbb3e7bb167c4ce7f6e72
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -277,13 +275,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '900'
       X-Rate-Limit-Remaining:
-      - '889'
+      - '892'
       X-Rate-Limit-Reset:
-      - '1528177081'
+      - '1528267099'
       X-Response-Time:
-      - '25'
+      - '20'
       X-Transaction:
-      - 00a1e66400c3dc76
+      - 0054e7c6006ae91f
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -293,5 +291,5 @@ http_interactions:
       string: '{"id":809075773105721344,"id_str":"809075773105721344","name":"\u219fA\u0274\u1d05\u0280e\u1d21","screen_name":"agpiermarini","location":"","profile_location":null,"description":"\ud83c\udf43","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":0,"friends_count":0,"listed_count":0,"created_at":"Wed
         Dec 14 16:41:11 +0000 2016","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":0,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/968045861958635520\/LxDeesSo_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/968045861958635520\/LxDeesSo_normal.jpg","profile_link_color":"ABB8C2","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"000000","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"}'
     http_version: 
-  recorded_at: Tue, 05 Jun 2018 05:30:30 GMT
+  recorded_at: Wed, 06 Jun 2018 06:23:44 GMT
 recorded_with: VCR 4.0.0

@@ -1,5 +1,6 @@
 body {
     min-height: 150vh;
+    background-color: #FFFFFF;
 }
 
 .nav-backing {
@@ -26,13 +27,13 @@ padding-top: 75px;
 
   .navbar-brand {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
   }
 
   .nav-link {
     align-items: flex-end;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
   }
@@ -66,32 +67,82 @@ padding-top: 75px;
   background-position: cover;
   background-size: 100% 100%;
   height: 100vh;
+
+  .hero-text {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 60px;
+      font-weight: 800;
+      margin: 0 10% 0 10%;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      width: 80%;
+    }
+  }
 }
 
 
 .carousel-item {
   width: 100%;
   background-color: transparentize(#444444,.4);
-  min-height: 400px;
+  height: 35vh;
   padding-top: 0
 }
 
-.white-section {
+.learn-more {
+  font-family: 'Roboto', sans-serif;
   display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  height: 70vh;
+  padding: 150px 75px 0 75px;
   width: 100%;
   background-color: white;
-  min-height: 90vh
-}
 
-.solid-section {
-  width: 100%;
-  background-color: #346AA9;
-  min-height: 150px
-}
-
-  img {
-    width: 100%;
+  .learn-more-instruction, .learn-more-divider {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column nowrap;
+    font-size: 30px;
+    text-align: center;
   }
+
+  .learn-more-instruction{
+    padding: 0 15px 0 15px;
+    max-width: 35%;
+    min-width: 25%;
+    h3{
+      margin: 0 0 15px 0;
+    }
+    p {
+      font-size: 20px;
+      text-align: justify;
+    }
+    i {
+      font-size: 30px;
+      margin: 0 0 15px 0;
+    }
+  }
+
+  .learn-more-divider {
+    padding: 150px 30px 0 30px;
+    max-width: 5%;
+
+    i {
+      font-size: 10px;
+      margin: 0 0 15px 0;
+    }
+  }
+
+}
+
 
 main {
   padding: 50px 0 0 0;
@@ -403,12 +454,14 @@ main {
     margin: 20px 0px 0 30px;
   }
 
-  .personality-profile-buttons {
+  .sidepanel-buttons {
     display: flex;
     justify-content: flex-start;
     flex-flow: column nowrap;
   }
 
+
+// buttons
   .btn {
     background: #8f8f8f;
     background-image: -webkit-linear-gradient(top, #8f8f8f, #646464);
@@ -437,42 +490,38 @@ main {
     text-decoration: none;
   }
 
-  .search-form {
-    margin: 25px 0 0 0;
-    display: flex;
-    align-items: center;
+.search-form {
+  margin: 25px 0 0 0;
+  display: flex;
+  align-items: center;
 
-    .search-btn, .search-btn:hover {
-      padding: 4px 8px 4px 8px;
-      font-size: 12px!important;
-    }
-
-    #username_query {
-      padding: 6px 10px 6px 10px;
-      margin: 0 10px 0 0;
-      width: 300px;
-      color: black;
-    }
+  .search-btn, .search-btn:hover {
+    padding: 4px 8px 4px 8px;
+    font-size: 12px!important;
   }
 
-  .personality-profile-buttons {
-    .personality-profile-btn, .personality-profile-btn:hover {
-      margin: 5px 0 5px 0;
-      padding: 4px 8px 4px 8px;
-      min-width: 350px;
-      font-size: 15px;
-    }
+  #username_query {
+    padding: 6px 10px 6px 10px;
+    margin: 0 10px 0 0;
+    width: 300px;
+    color: black;
   }
-  .saved-profile-buttons {
-    display: flex;
-    align-items: center;
+}
 
-    .saved-profile-btn, .personality-profile-btn:hover {
-      margin: 5px 0 5px 0;
-      padding: 4px 8px 4px 8px;
-      min-width: 100px;
-      font-size: 15px;
-    }
+.sidepanel-buttons {
+  .sidepanel-button-btn, .sidepanel-button-btn:hover {
+    margin: 5px 0 5px 0;
+    padding: 4px 8px 4px 8px;
+    min-width: 350px;
+    font-size: 15px;
+  }
+}
+
+.sidepanel-button-btn:hover {
+    margin: 5px 0 5px 0;
+    padding: 4px 8px 4px 8px;
+    min-width: 100px;
+    font-size: 15px;
   }
 }
 
@@ -483,10 +532,11 @@ main {
 }
 
 
-/* Popup container - can be anything you want */
+// popup descriptions
 .popup, .popup-primary {
     cursor: pointer;
 }
+
 .popuptext, .popuptext-primary {
   visibility: hidden;
   color: #3cb0fd;
@@ -500,10 +550,13 @@ main {
   min-width: 225px;
   background-color: #DDDDDD;
   margin: 1px 0 5px 0;
+}
+
+.popuptext {
   border: 1px solid #AAAAAA;
 }
 
-  /* Popup arrow */
+// popup arrow
 .popup .popuptext::after {
   content: "";
   position: absolute;
@@ -515,23 +568,22 @@ main {
   border-color: transparent transparent #555 transparent;
 }
 
-/* Toggle this class - hide and show the popup */
+// toggle classes...display popups
 .popup .show {
     visibility: visible;
     margin: 2px 0 0 0;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 500ms;
+    animation: fadeIn 500ms;
 }
 
-/* Toggle this class - hide and show the popup */
 .popup-primary .show {
     visibility: visible;
     margin: 0 0 0 0;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 500ms;
+    animation: fadeIn 500ms;
 }
 
-/* Add animation (fade in the popup) */
+// fade-in, fade-outo animations
 @-webkit-keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 1;}
@@ -540,4 +592,39 @@ main {
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+.landing-btn {
+  background: #8f8f8f;
+  background-image: -webkit-linear-gradient(top, #8f8f8f, #646464);
+  background-image: -moz-linear-gradient(top, #8f8f8f, #646464);
+  background-image: -ms-linear-gradient(top, #8f8f8f, #646464);
+  background-image: -o-linear-gradient(top, #8f8f8f, #646464);
+  background-image: linear-gradient(to bottom, #8f8f8f, #646464);
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 0 50px 0 0;
+  text-decoration: none;
+}
+
+.landing-btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 0 50px 0 0;
+  text-decoration: none;
 }
