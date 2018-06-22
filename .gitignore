@@ -34,3 +34,6 @@
 
 #Ignore cassette files
 /spec/fixtures/*
+
+# Ignore coverage
+/coverage/*
