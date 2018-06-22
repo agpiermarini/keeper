@@ -15,7 +15,7 @@ describe 'User' do
 
         expect(page).to have_content("Name:\n#{profile.name}")
         expect(page).to have_content("Username:\n#{profile.username}")
-        expect(page).to have_content("\nGenerated on:\n#{Date.parse(profile.created_at.to_s).strftime('%B%e, %Y')}")
+        expect(page).to have_content("\nGenerated on:\n#{Date.parse(profile.created_at.to_s).strftime('%B %e, %Y')}")
 
         user.reload
 
@@ -25,7 +25,7 @@ describe 'User' do
         expect(page).to have_content("Profile deleted successfully")
         expect(page).to_not have_content("Name:\n#{profile.name}")
         expect(page).to_not have_content("Username:\n#{profile.username}")
-        expect(page).to_not have_content("\nGenerated on:\n#{Date.parse(profile.created_at.to_s).strftime('%B%e, %Y')}")
+        expect(page).to_not have_content("\nGenerated on:\n#{Date.parse(profile.created_at.to_s).strftime('%B %e, %Y')}")
       end
     end
   end
@@ -50,7 +50,7 @@ describe 'User' do
         expect(page).to have_content("Profile deleted successfully")
         expect(page).to_not have_content("Name:\n#{profile.name}")
         expect(page).to_not have_content("Username:\n#{profile.username}")
-        expect(page).to_not have_content("\nGenerated on:\n#{Date.parse(profile.created_at.to_s).strftime('%B%e, %Y')}")
+        expect(page).to_not have_content("\nGenerated on:\n#{Date.parse(profile.created_at.to_s).strftime('%B %e, %Y')}")
       end
     end
   end

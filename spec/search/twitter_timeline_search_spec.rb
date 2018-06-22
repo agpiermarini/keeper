@@ -20,7 +20,7 @@ describe TwitterTimelineSearch do
       it 'returns a single string of tweets from user timeline' do
         VCR.use_cassette("twitter-timeline-search-to-string") do
           expect(subject.to_string).to be_a String
-          expect(subject.to_string.length).to eq(97415)
+          expect(subject.to_string.length).to eq(97340)
         end
       end
     end
@@ -29,7 +29,7 @@ describe TwitterTimelineSearch do
       it 'returns formatted date of newest tweet returned in the query' do
         VCR.use_cassette("twitter-timeline-search-newest-tweet") do
           expect(subject.newest_tweet).to be_a String
-          expect(subject.newest_tweet).to eq("Tue May 29 16:05:20 +0000 2018")
+          expect(subject.newest_tweet).to eq("Mon Jun 04 03:27:58 +0000 2018")
         end
       end
     end
