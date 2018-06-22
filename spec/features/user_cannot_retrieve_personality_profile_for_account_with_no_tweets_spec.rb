@@ -4,11 +4,11 @@ context 'User' do
   context 'navigates to user endpoint of private account and clicks button to retrieve profile' do
     it 'and is directed to profile page with error message but no profile information' do
       VCR.use_cassette("personality-profile-endpoint-no-tweets") do
-        visit '/agpiermarini'
+        visit '/asdjasdf'
 
         click_on 'Generate Personality Profile'
 
-        expect(current_path).to eq("/agpiermarini/personality-profile")
+        expect(current_path).to eq("/asdjasdf/personality-profile")
 
 
         expect(page).to have_content("Unable to retrieve user profile. No text provided.")
