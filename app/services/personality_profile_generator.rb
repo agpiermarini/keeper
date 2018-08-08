@@ -14,8 +14,8 @@ class PersonalityProfileGenerator
                                            total_tweets_analyzed:      timeline_data.total_tweets,
                                            newest_tweet_analyzed_date: timeline_data.newest_tweet,
                                            oldest_tweet_analyzed_date: timeline_data.oldest_tweet,
-                                           created_at:                 Date.today,
-                                           updated_at:                 Date.today
+                                           created_at:                 Time.now,
+                                           updated_at:                 Time.now
                                           )
 
       generate_dimensions!(profile.id)
@@ -24,8 +24,8 @@ class PersonalityProfileGenerator
     else
       PersonalityProfile.create!(username: username,
                                  error_message: personality_data[:error],
-                                 created_at: Date.today,
-                                 updated_at: Date.today)
+                                 created_at: Time.now,
+                                 updated_at: Time.now)
     end
   end
 
