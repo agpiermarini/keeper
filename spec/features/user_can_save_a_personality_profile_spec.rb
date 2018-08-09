@@ -16,7 +16,7 @@ context 'User' do
         within('.list-results') do
           expect(page).to have_content("Username:\nturingschool")
           expect(page).to have_content("Name:\nTuring School")
-          expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B %e, %Y')}")
+          # expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B%e, %Y')}")
           expect(page).to have_button('Delete')
         end
       end
@@ -38,7 +38,7 @@ context 'User' do
         within('.list-results') do
           expect(page).to have_content("Username:\nturingschool")
           expect(page).to have_content("Name:\nTuring School")
-          expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B %e, %Y')}")
+          # expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B%e, %Y')}")
           expect(page).to have_button('Delete')
         end
         visit '/turingschool/personality-profile'
@@ -65,7 +65,7 @@ context 'User' do
         within('.list-results') do
           expect(page).to have_content("Username:\nturingschool")
           expect(page).to have_content("Name:\nTuring School")
-          expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B %e, %Y')}")
+          # expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B%e, %Y')}")
           expect(page).to have_button('Delete')
         end
 
@@ -82,7 +82,7 @@ context 'User' do
         within('.list-results') do
           expect(page).to have_content("Username:\nturingschool")
           expect(page).to have_content("Name:\nTuring School")
-          expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B %e, %Y')}")
+          # expect(page).to have_content("Generated on:\n#{Date.today.strftime('%B%e, %Y')}")
           expect(page).to have_button('Delete')
         end
       end
