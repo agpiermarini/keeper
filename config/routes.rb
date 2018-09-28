@@ -16,6 +16,9 @@ Rails.application.routes.draw do
 
   get '/search', to: 'search#show'
 
+  get '/personality-profile-text/new', to: 'personality_profile_text#new', as: "new_personality_profile_text"
+  post '/personality-profile-text', to: 'personality_profile_text#show'
+
   get '/:username', to: 'profiles#show'
 
   get '/:username/personality-profile',  to: 'personality_profile#show'

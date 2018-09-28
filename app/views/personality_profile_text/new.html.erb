@@ -1,0 +1,8 @@
+<section>
+  <%= form_tag :personality_profile_text, method: :post do %>
+    <%= text_field_tag :name %>
+    <%= text_field_tag :source %>
+    <%= text_area_tag :text %>
+    <%= submit_tag "Submit" %>
+  <% end %>
+</section>
