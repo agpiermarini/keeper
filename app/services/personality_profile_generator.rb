@@ -25,7 +25,7 @@ class PersonalityProfileGenerator
     end
   end
 
-  def generate_from_text!
+  def from_text!
     profile = PersonalityProfile.create!(source:                     data[:source],
                                          name:                       data[:name],
                                          avatar_url:                 "https://robohash.org/n/#{data[:name]}",
