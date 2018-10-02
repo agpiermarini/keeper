@@ -2,8 +2,9 @@ class PersonalityProfileTextController < ApplicationController
   def new; end
 
   def show
-    PersonalityProfileGenerator.new(nil, profile_params).from_text!
-    @twitter_profile = TwitterProfileSearch.new(current_user.username).profile
+    new_profile_id = PersonalityProfileGenerator.new(nil, profile_params).from_text!
+    @personality_profile = PersonalityProfile.find(new_profile_id)
+    require 'pry'; binding.pry
   end
 
   private
