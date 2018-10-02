@@ -32,9 +32,12 @@ class PersonalityProfileGenerator
                                          word_count:                 personality_data[:word_count],
                                          warning_message:            personality_data[:word_count_message],
                                          error_message:              personality_data[:error])
-     generate_dimensions!(profile.id)
-     generate_needs!(profile.id)
-     generate_values!(profile.id)
+    if profile.error_message.nil?
+      generate_dimensions!(profile.id)
+      generate_needs!(profile.id)
+      generate_values!(profile.id)
+    end
+    profile.id
   end
 
   private
