@@ -4,7 +4,6 @@ class PersonalityProfileTextController < ApplicationController
   def show
     new_profile_id = PersonalityProfileGenerator.new(nil, profile_params).from_text!
     @personality_profile = PersonalityProfile.find(new_profile_id)
-    require 'pry'; binding.pry
   end
 
   private
