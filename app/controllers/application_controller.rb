@@ -11,6 +11,10 @@ class ApplicationController < ActionController::Base
   end
 
   def format_date(date)
-    DateTime.parse(date).strftime('%B %e, %Y')
+    if date.class == ActiveSupport::TimeWithZone
+      date.strftime('%B%e, %Y')
+    else
+      DateTime.parse(date).strftime('%B %e, %Y')
+    end
   end
 end
