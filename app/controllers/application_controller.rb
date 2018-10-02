@@ -2,7 +2,6 @@ class ApplicationController < ActionController::Base
   helper_method :current_user, :format_date
 
   def current_path
-    require 'pry'; binding.pry
     request.path
   end
 
