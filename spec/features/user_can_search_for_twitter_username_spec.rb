@@ -10,7 +10,7 @@ context 'User' do
         visit '/search'
 
         fill_in "username_query", with: 'turingschool'
-        click_on "Submit Search"
+        click_on "Search"
 
         expect(current_path).to eq('/search')
 

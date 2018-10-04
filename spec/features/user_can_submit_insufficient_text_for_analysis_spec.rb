@@ -21,7 +21,7 @@ context 'User' do
 
         expect(page).to have_content(name)
         expect(page).to have_content(source)
-        within(".source") do
+        within(".word-count") do
           expect(page).to have_content("N/A")
         end
         expect(page).to have_content("Unable to retrieve user profile. The number of words 3 is less than the minimum number of words required for analysis: 100.")

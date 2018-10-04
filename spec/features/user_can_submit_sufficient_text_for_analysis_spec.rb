@@ -21,7 +21,7 @@ context 'User' do
 
         expect(page).to have_content(name)
         expect(page).to have_content(source)
-        within(".source") do
+        within(".word-count") do
           expect(page).to have_content("1,503")
         end
         expect(page).to have_content("Dimensions and Facets of Personality")
