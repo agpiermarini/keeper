@@ -7,7 +7,6 @@
       <%= form_tag '/search', class: "search-form", method: :get do %>
       <%= text_field_tag :username_query, nil, placeholder: "Name or username...", required: true %>
       <%= submit_tag "Search", class: 'btn search-btn' %>
-      <!-- <%= link_to "Submit Text from a Non-Twitter Source", new_personality_profile_text_path, class: "btn search-btn" %> -->
       <% end %>
     </section>
     <% if @results %>
