@@ -24,11 +24,11 @@ class TwitterTimelineSearch
   end
 
   def to_string
-    user_timeline.map { | tweet | tweet[:text] }.join(" ")
+    user_timeline.map { | tweet | tweet[:text] }.join(" ") unless private_account?
   end
 
   def private_account?
-    return true if user_timeline.class == Hash && user_timeline[:error]
+    user_timeline.class == Hash && user_timeline[:error]
   end
 
   private
