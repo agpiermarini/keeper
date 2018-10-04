@@ -419,7 +419,7 @@ main {
           display: flex;
           flex-flow: column nowrap;
           margin: 0 15px 0 0;
-          min-width: 250px;
+          min-width: 300px;
 
           .name {
             display: flex;
@@ -427,7 +427,7 @@ main {
           }
         }
 
-        .generated {
+        .generated, .source {
           min-width: 250px;
         }
 
@@ -492,14 +492,14 @@ main {
     text-decoration: none;
   }
 
-.search-form {
+.search-form, .profile-text-form {
   margin: 25px 0 0 0;
   display: flex;
   align-items: center;
 
   .search-btn, .search-btn:hover {
     padding: 4px 8px 4px 8px;
-    font-size: 12px!important;
+    font-size: 15px!important;
   }
 
   #username_query {
@@ -507,6 +507,49 @@ main {
     margin: 0 10px 0 0;
     width: 300px;
     color: black;
+  }
+}
+
+.search-and-results {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center
+}
+
+.profile-text-form {
+  justify-content: center;
+  flex-flow: row nowrap;
+  width: 500px;
+
+  #name, #source, #text {
+    height: 35px;
+    width: 750px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    padding: 0 0 0 5px;
+  }
+
+  #text {
+    height: 500px;
+    padding: 5px 0 0 5px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    a.btn {
+      padding: 6px 0 0 0;
+      font-size: 15px!important;
+    }
+
+    .btn {
+      width: 99%;
+      height: 35px;
+      margin: 5px 0 0 0;
+      font-size: 15px!important;
+    }
   }
 }
 
@@ -533,6 +576,14 @@ main {
   width: 100%;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+
+  .page-header {
+    margin: 0 0 25px 0;
+  }
+}
 
 // popup descriptions
 .popup, .popup-primary {

@@ -1,0 +1,16 @@
+<section>
+  <section class="header">
+    <h4 class="page-header">Generate Personality Profile from Text Input</h4>
+  </section>
+  <section class="profile-text-form" fill-color="#8F8F8F">
+    <%= form_tag :personality_profile_text, method: :post, class: 'profil-text-form' do %>
+      <%= text_field_tag :name, nil, placeholder: "Candidate's Name", autocomplete: :off, required: true %>
+      <%= text_field_tag :source, nil, placeholder: "Text Source", autocomplete: :off, required: true %>
+      <%= text_area_tag :text, nil, placeholder: "Text for Analysis", autocomplete: :off, required: true %>
+      <div class="buttons">
+        <%= submit_tag "Submit", class: 'btn search-btn' %>
+        <%= link_to "Return to Dashboard", dashboard_path, class: 'btn search-btn' %>
+      </div>
+    <% end %>
+  </section>
+</section>

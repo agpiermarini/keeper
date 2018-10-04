@@ -24,11 +24,11 @@ class TwitterTimelineSearch
   end
 
   def to_string
-    user_timeline.map { | tweet | tweet[:text] }.join(" ")
+    user_timeline.map { | tweet | tweet[:text] }.join(" ") unless private_account?
   end
 
   def private_account?
-    return true if user_timeline.class == Hash && user_timeline[:error]
+    user_timeline.class == Hash && user_timeline[:error]
   end
 
   private
@@ -42,8 +42,7 @@ class TwitterTimelineSearch
       {screen_name: username,
        include_rts: false,
        exclude_replies: true,
-       count: 200
-      }
+       count: 200}
     end
 
     def fetch_tweets(tweets = [], params = timeline_params)
@@ -57,10 +56,10 @@ class TwitterTimelineSearch
 
     def generate_hash(statuses)
       statuses.map do | status |
-        {name: status[:user][:name],
+        {name:       status[:user][:name],
          avatar_url: status[:user][:profile_image_url_https],
-         date: status[:created_at],
-         text: status[:text]}
+         date:       status[:created_at],
+         text:       status[:text]}
       end
     end
 

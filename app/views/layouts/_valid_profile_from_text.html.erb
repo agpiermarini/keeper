@@ -1,0 +1,105 @@
+</section>
+<section class="profile-right">
+  <div class="user-stats">
+    <div class="counts">
+      <div class="user-stat">
+        <div class="icon">
+          <i class="far fa-comments"></i> Total Words Analyzed
+        </div>
+        <div class="stat analysis word-count">
+          <%= number_with_delimiter(@personality_profile.word_count, :delimiter => ',') %>
+        </div>
+      </div>
+      <div class="user-stat">
+        <div class="icon">
+          <i class="far fa-calendar-alt"></i> Source
+        </div>
+        <div class="stat analysis">
+          <%= @personality_profile.source %>
+        </div>
+      </div>
+      <div class="user-stat">
+        <div class="icon">
+          <i class="far fa-calendar-alt"></i> Date Submitted
+        </div>
+        <div class="stat analysis">
+          <%= format_date(@personality_profile.created_at) %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% if @personality_profile.warning_message %>
+  <section class="profile-alert">
+    <div class="warning-message">
+      <%= @personality_profile.warning_message %>.
+    </div>
+  </section>
+  <% end %>
+  <section class="personality-profile">
+    <div class="profile-header">
+      Dimensions and Facets of Personality
+    </div>
+    <% @personality_profile.dimensions.each do | dimension | %>
+    <div class="profile-section">
+      <div class="trait dimension popup-primary" id="<%=dimension.name%>1"  onclick="showInformation('<%= dimension.name %>', '<%= dimension.name %>1')">
+        <div class="trait-name">
+          <%= dimension.name %>
+        </div>
+        <div class="trait-percentile" percentile="#">
+          Percentile: <%= number_to_percentage(dimension.percentile * 100, precision: 0) %>
+        </div>
+        <span class="popuptext-primary" id="<%= dimension.name %>"> <%= dimension_description[dimension.name] %> </span>
+      </div>
+      <div class="trait-section-flex">
+        <% dimension.facets.each do | facet | %>
+        <div class="trait popup" onclick="showInformation('<%= facet.name %>')">
+          <div class="facet-name">
+            <%= facet.name %>
+          </div>
+          <div class="facet-percentile">
+            Percentile: <%= number_to_percentage(facet.percentile * 100, precision: 0) %>
+          </div>
+          <span class="popuptext" id="<%= facet.name %>"><%= facet_description[facet.name] %></span>
+        </div>
+        <% end %>
+      </div>
+    </div>
+    <% end %>
+    <div class="profile-header">
+      Needs
+    </div>
+    <div class="profile-section">
+      <div class="trait-section-flex">
+        <% @personality_profile.needs.each do | need | %>
+        <div class="trait popup" onclick="showInformation('<%= need.name %>')">
+          <div class="trait-name">
+            <%= need.name %>
+          </div>
+          <div class="trait-percentile">
+            Percentile: <%= number_to_percentage(need.percentile * 100, precision: 0) %>
+          </div>
+          <span class="popuptext" id="<%= need.name %>"><%= need_description[need.name] %></span>
+        </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="profile-header">
+      Values
+    </div>
+    <div class="profile-section">
+      <div class="trait-section-flex">
+        <% @personality_profile.values.each do | value | %>
+        <div class="trait popup" onclick="showInformation('<%= value.name %>')">
+          <div class="trait-name">
+            <%= value.name %>
+          </div>
+          <div class="trait-percentile">
+            Percentile: <%= number_to_percentage(value.percentile * 100, precision: 0) %>
+          </div>
+          <span class="popuptext" id="<%= value.name %>"><%= value_description[value.name] %></span>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </section>
+</section>

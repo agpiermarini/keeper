@@ -1,6 +1,7 @@
 <%= render partial: 'layouts/twitter_user_basic_info' %>
 <div class="sidepanel-buttons">
-  <%= link_to "Search for a User", search_path, class: "btn sidepanel-button-btn" %>
+  <%= link_to "Generate Profile from Twitter Data", search_path, class: "btn sidepanel-button-btn" %>
+  <%= link_to "Generate Profile from Text Input", new_personality_profile_text_path, class: "btn sidepanel-button-btn" %>
 </div>
 </section>
 <section class="profile-right">
@@ -29,8 +30,16 @@
                 Username:
               </div>
               <div class="content">
-                <%= saved.personality_profile.username %>
+                <%= saved.personality_profile.username || "N/A" %>
               </div>
+            </div>
+          </div>
+          <div class="source">
+            <div class="title">
+              Source:
+            </div>
+            <div class="content">
+              <%= saved.personality_profile.source %>
             </div>
           </div>
           <div class="generated">

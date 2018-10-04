@@ -2,7 +2,6 @@ class ApplicationController < ActionController::Base
   helper_method :current_user, :format_date
 
   def current_path
-    require 'pry'; binding.pry
     request.path
   end
 
@@ -11,6 +10,10 @@ class ApplicationController < ActionController::Base
   end
 
   def format_date(date)
-    DateTime.parse(date).strftime('%B %e, %Y')
+    if date.respond_to?(:strftime)
+      date.strftime('%B%e, %Y')
+    else
+      DateTime.parse(date).strftime('%B %e, %Y')
+    end
   end
 end

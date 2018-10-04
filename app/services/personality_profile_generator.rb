@@ -1,11 +1,13 @@
 class PersonalityProfileGenerator
-  def initialize(username)
+  def initialize(username, data = nil)
     @username = username
+    @data     = data
   end
 
   def generate!
     if personality_data[:error].nil?
-      profile = PersonalityProfile.create!(username:                   username,
+      profile = PersonalityProfile.create!(source:                     "Twitter",
+                                           username:                   username,
                                            name:                       timeline_data.name,
                                            avatar_url:                 timeline_data.avatar_url,
                                            word_count:                 personality_data[:word_count],
@@ -23,8 +25,23 @@ class PersonalityProfileGenerator
     end
   end
 
+  def from_text!
+    profile = PersonalityProfile.create!(source:                     data[:source],
+                                         name:                       data[:name],
+                                         avatar_url:                 "https://robohash.org/n/#{data[:name]}",
+                                         word_count:                 personality_data[:word_count],
+                                         warning_message:            personality_data[:word_count_message],
+                                         error_message:              personality_data[:error])
+    if profile.error_message.nil?
+      generate_dimensions!(profile.id)
+      generate_needs!(profile.id)
+      generate_values!(profile.id)
+    end
+    profile.id
+  end
+
   private
-    attr_reader :username
+    attr_reader :username, :data
 
     def generate_dimensions!(profile_id)
       personality_data[:personality].each do | dimension |
@@ -68,8 +85,9 @@ class PersonalityProfileGenerator
     end
 
     def personality_data
-      @personality_data = private_account_error if timeline_data.private_account?
-      @personality_data ||= PersonalityProfileSearch.new(timeline_data.to_string).profile_info
+      text ||= data ? data[:text] : timeline_data.to_string
+      @personality_data = private_account_error if username && timeline_data.private_account?
+      @personality_data ||= PersonalityProfileSearch.new(text).profile_info
     end
 
     def private_account_error

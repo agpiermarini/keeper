@@ -1,0 +1,17 @@
+<%= render partial: 'layouts/from_text_basic_info' %>
+<div class="sidepanel-buttons">
+  <% if @personality_profile.is_valid? %>
+    <%= link_to "Save Profile and Return to Dashboard", saved_profiles_path(personality_profile_id: @personality_profile.id), method: :post, class: "btn sidepanel-button-btn" %>
+  <% else %>
+    <%= link_to "Return to Dashboard", dashboard_path, class: "btn sidepanel-button-btn" %>
+  <% end %>
+  <%= link_to "Submit Text from Another Source", "/personality-profile-text/new", class: "btn sidepanel-button-btn" %>
+  <%= link_to "Search for a Twitter User", "/search", class: "btn sidepanel-button-btn" %>
+</div>
+<% if @personality_profile.is_valid? %>
+  <%= cache "personality-profile-#{@personality_profile.username}-#{@personality_profile.updated_at}" do %>
+    <%= render partial: 'layouts/valid_profile_from_text' %>
+  <% end %>
+<% else %>
+  <%= render partial: 'layouts/invalid_profile_from_text' %>
+<% end %>
