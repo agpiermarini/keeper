@@ -1,4 +1,21 @@
-<%= render partial: 'layouts/twitter_user_basic_info' %>
+
+<% if @personality_profile.username.nil? %>
+  <%= render partial: 'layouts/from_text_basic_info' %>
+  <div class="sidepanel-buttons">
+    <%= link_to "Return to Dashboard", dashboard_path, class: "btn sidepanel-button-btn" %>
+    <% unless @personality_profile.error_message %>
+      <%= link_to "Delete Profile and Return to Dashboard", "#{request.path}", method: :delete, class: "btn sidepanel-button-btn", data: {confirm: "Are you sure you want to delete this profile? You can generate a new profile for this Twitter user, but the data may have since changed."} %>
+    <% end %>
+  </div>
+  <% if @personality_profile.is_valid? %>
+    <%= cache "saved-personality-profile-#{@personality_profile.name.split(' ').join}-#{@personality_profile.updated_at}" do %>
+      <%= render partial: 'layouts/valid_profile_from_text' %>
+    <% end %>
+  <% else %>
+    <%= render partial: 'layouts/invalid_profile_from_text' %>
+  <% end %>
+<% else %>
+  <%= render partial: 'layouts/twitter_user_basic_info' %>
   <div class="sidepanel-buttons">
     <%= link_to "Return to Dashboard", dashboard_path, class: "btn sidepanel-button-btn" %>
     <% unless @personality_profile.error_message %>
@@ -12,3 +29,4 @@
   <% else %>
     <%= render partial: 'layouts/invalid_profile' %>
   <% end %>
+<% end %>
