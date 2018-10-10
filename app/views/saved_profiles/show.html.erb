@@ -4,7 +4,7 @@
   <div class="sidepanel-buttons">
     <%= link_to "Return to Dashboard", dashboard_path, class: "btn sidepanel-button-btn" %>
     <% unless @personality_profile.error_message %>
-      <%= link_to "Delete Profile and Return to Dashboard", "#{request.path}", method: :delete, class: "btn sidepanel-button-btn", data: {confirm: "Are you sure you want to delete this profile? You can generate a new profile for this Twitter user, but the data may have since changed."} %>
+      <%= link_to "Delete Profile and Return to Dashboard", "#{request.path}", method: :delete, class: "btn sidepanel-button-btn", data: {confirm: "Are you sure you want to delete this profile?"} %>
     <% end %>
   </div>
   <% if @personality_profile.is_valid? %>
